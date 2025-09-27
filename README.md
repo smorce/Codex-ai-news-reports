@@ -1,3 +1,5 @@
+https://github.com/smorce/Codex-ai-news-reports
+
 # Codex AI News Reports
 
 AIを活用したニュースレポート生成システム
