@@ -14,6 +14,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
+from .turso_push_report import push_daily_report
 
 class CodexDailyRunner:
     def __init__(self):
@@ -103,6 +104,14 @@ class CodexDailyRunner:
                 self.log(f"Markdown report saved to {md_path}")
             except Exception as e:
                 self.log(f"ERROR: Markdown conversion failed: {e}")
+                raise
+
+            # Turso へ PUSH（JSON + Markdown）
+            try:
+                report_id = push_daily_report(report_obj, md_content, date_dir)
+                self.log(f"Pushed report to Turso: {report_id}")
+            except Exception as e:
+                self.log(f"ERROR: Turso push failed: {e}")
                 raise
             
             # Git操作（ディレクトリごと追加して JSON/MD を含める）
