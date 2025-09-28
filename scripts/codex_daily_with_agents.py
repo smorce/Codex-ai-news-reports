@@ -14,7 +14,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
-from .turso_push_report import push_daily_report
+from turso_push_report import push_daily_report
 
 class CodexDailyRunner:
     def __init__(self):
@@ -159,14 +159,14 @@ class CodexDailyRunner:
         self.log(f"Using Codex CLI: {codex_cmd}")
         # リッチ表示: 実行概要をパネルで表示
         try:
-            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nMode: [cyan]exec --full-auto -c model_reasoning_effort=\"medium\" --search $@[/]", title="Codex Runner", border_style="blue"))
+            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nMode: [cyan]exec --full-auto -c model_reasoning_effort=\"medium\"[/]", title="Codex Runner", border_style="blue"))
         except Exception:
             pass
         
         try:
             # codex exec --full-auto コマンドを実行（ストリーミング表示）
             process = subprocess.Popen(
-                [codex_cmd, 'exec', '--full-auto', '-c', 'model_reasoning_effort="medium"', '--search', '$@'],
+                [codex_cmd, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
@@ -209,24 +209,47 @@ class CodexDailyRunner:
                 t_err.join(timeout=1)
 
             rc = process.returncode or 0
+            
+            # 実行結果の表示（成功・失敗問わず）
+            stdout_content = "\n".join(stdout_lines)
+            stderr_content = "\n".join(stderr_lines)
+            
+            self.log(f"Codex execution completed with return code: {rc}")
+            
+            # stdout の内容をログに出力
+            if stdout_content.strip():
+                self.log("=== Codex stdout output ===")
+                for line in stdout_lines:
+                    self.log(f"STDOUT: {line}")
+                self.log("=== End of stdout output ===")
+            else:
+                self.log("Codex stdout is empty")
+            
+            # stderr がある場合も表示
+            if stderr_content.strip():
+                self.log("=== Codex stderr output ===")
+                for line in stderr_lines:
+                    self.log(f"STDERR: {line}")
+                self.log("=== End of stderr output ===")
+            
             if rc != 0:
                 # エラーの場合、生の出力を保存
                 date_tag = datetime.now().strftime("%Y%m%d")
                 err_file = self.report_dir / f"codex_raw_output_{date_tag}.txt"
                 error_content = (
-                    "STDOUT:\n" + "\n".join(stdout_lines) +
-                    "\n\nSTDERR:\n" + "\n".join(stderr_lines) +
+                    "STDOUT:\n" + stdout_content +
+                    "\n\nSTDERR:\n" + stderr_content +
                     f"\n\nReturn code: {rc}"
                 )
                 err_file.write_text(error_content, encoding='utf-8')
                 self.log(f"Codex exited with code {rc}. Saving raw output for diagnosis.")
                 raise subprocess.CalledProcessError(
                     rc,
-                    [codex_cmd, 'exec', '--full-auto', '-c', 'model_reasoning_effort="medium"', '--search', '$@'],
+                    [codex_cmd, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                     f"Codex failed. See {err_file}"
                 )
 
-            return "\n".join(stdout_lines)
+            return stdout_content
             
         except subprocess.TimeoutExpired:
             error_msg = "Codex コマンドがタイムアウトしました（5分）"

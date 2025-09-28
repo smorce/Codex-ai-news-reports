@@ -1,5 +1,9 @@
 https://github.com/smorce/Codex-ai-news-reports
 
+
+uv run scripts/codex_daily_with_agents.py
+
+
 # Codex AI News Reports
 
 AIを活用したニュースレポート生成システム
