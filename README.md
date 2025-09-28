@@ -63,11 +63,6 @@ MIT License
 
 ## Generated Artifacts (2025-09-28)
 - reports/2025-09-28/data/sources.json
-- reports/2025-09-28/data/raw/agents_md_official.txt
-- reports/2025-09-28/data/raw/gihyo_agents_md.txt
-- reports/2025-09-28/data/raw/iwb_vscode_agents_md.txt
-- reports/2025-09-28/data/raw/biggo_standardization.txt
 - reports/2025-09-28/data/report.json
-- reports/2025-09-28/report/2025-09-28-agents-md.md
-- reports/2025-09-28/logs/run.log
+- reports/2025-09-28/report/2025-09-28-daily-ai-news-ai-news-dev.md
 - reports/2025-09-28/logs/turso_push.log

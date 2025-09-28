@@ -27,7 +27,7 @@
 ```powershell
 $REPORT_DATE = Get-Date -Format 'yyyy-MM-dd'
 $BASE = Join-Path 'reports' $REPORT_DATE
-New-Item -ItemType Directory -Force -Path $BASE, (Join-Path $BASE 'data'), (Join-Path $BASE 'figs'), (Join-Path $BASE 'imgs'), (Join-Path $BASE 'logs'), (Join-Path $BASE 'report') | Out-Null
+New-Item -ItemType Directory -Force -Path $BASE, (Join-Path $BASE 'data'), (Join-Path $BASE 'data\raw'), (Join-Path $BASE 'figs'), (Join-Path $BASE 'imgs'), (Join-Path $BASE 'logs'), (Join-Path $BASE 'report') | Out-Null
 ```
 
 ## 2) 調査計画（プランニング）
@@ -88,10 +88,11 @@ $BASE = Join-Path 'reports' $REPORT_DATE
 New-Item -ItemType Directory -Force -Path $BASE, (Join-Path $BASE 'data'), (Join-Path $BASE 'figs'), (Join-Path $BASE 'imgs'), (Join-Path $BASE 'logs'), (Join-Path $BASE 'report') | Out-Null
 
 # Turso へ PUSH（JSON 読み込み→DB UPSERT→MD 出力→ログ）
-uv run turso_push.py --date $REPORT_DATE
+$env:UV_LINK_MODE = "copy"
+uv run --link-mode=copy turso_push.py --date $REPORT_DATE
 
 # 任意: スキーマ/接続の単体確認（サンプルデータの作成・更新）
-uv run TURSO_script.py
+uv run --link-mode=copy TURSO_script.py
 ```
 
 - 生成物:
