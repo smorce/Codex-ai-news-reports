@@ -61,4 +61,5 @@ echo $env:UV_LINK_MODE
 ```
 uv add python-dotenv
 uv add libsql==0.1.11
+uv add rich
 ```
