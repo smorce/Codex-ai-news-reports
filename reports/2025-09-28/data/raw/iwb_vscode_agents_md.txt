@@ -1,2 +1,0 @@
-Source: https://iwb.jp/vscode-coding-ai-agents-md/?utm_source=openai
-Note: Placeholder raw text. Blog post with security notes and practice tips.
