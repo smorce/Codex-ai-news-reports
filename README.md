@@ -4,6 +4,21 @@ https://github.com/smorce/Codex-ai-news-reports
 uv run scripts/codex_daily_with_agents.py
 
 
+# Chrome DevTools MCP
+以下はうまくいったプロンプト:
+https://ai-news.dev/ を開いて安定まで待って。
+そこから最新の記事3件のURLを開いて各ページの要約を提示してください。                      
+
+
+========================================
+
+
+# Web検索ありで起動
+codex -m gpt-5-codex --yolo -c model_reasoning_effort="high" --search "$@"
+
+
+
+
 # Codex AI News Reports
 
 AIを活用したニュースレポート生成システム
