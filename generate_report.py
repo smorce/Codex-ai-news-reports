@@ -1,0 +1,68 @@
+﻿import json
+import os
+
+output = {
+    "generated_on": "2025-09-29",
+    "site": "ai-news.dev",
+    "articles": [
+        {
+            "title": "Write the damn code",
+            "url": "https://antonz.org/write-code/",
+            "publication_date": "2025-09-26",
+            "executive_summary": [
+                "著者は、AIに最適なプロンプトを求めて時間を費やすのではなく、自身の手でコードを書くことこそ本分だと強調している。",
+                "初版生成やレビューなど複数の協働パターンを使い分ければ、AIの助けを借りつつ品質と速度を両立できると述べる。",
+                "AIは敵ではないが全面委任は危険であり、開発者が主体的に手を動かすことで成果と満足度が高まると訴える。"
+            ],
+            "key_findings": [
+                {"text": "AIが初稿を作成した後に開発者がリファクタリングするなど、必ずコード作成プロセスへ関与すべきだとしている。[1]", "footnote": "[1]"},
+                {"text": "開発者自身が初期実装を書き、AIにレビューと改善を委ねるワークフローを推奨している。[1]", "footnote": "[1]"},
+                {"text": "重要な部分だけを人間が記述し、残りをAIが補完するパターンも有効だと示している。[1]", "footnote": "[1]"},
+                {"text": "コードのアウトラインを人間が定義し、AIが詳細を埋める協働を例示している。[1]", "footnote": "[1]"},
+                {"text": "終わりのないプロンプト微調整ではなく実装へ移ることで結果が向上すると警告している。[1]", "footnote": "[1]"}
+            ],
+            "references": [
+                {
+                    "id": "[1]",
+                    "title": "Write the damn code",
+                    "author": "Anton Zhiyanov",
+                    "url": "https://antonz.org/write-code/",
+                    "publisher": "Anton Zhiyanov",
+                    "accessed": "2025-09-29"
+                }
+            ]
+        },
+        {
+            "title": "Brave updates its AI-powered search with a detailed answers feature",
+            "url": "https://techcrunch.com/2025/09/29/brave-updates-its-ai-powered-search-with-a-detailed-answers-feature/",
+            "publication_date": "2025-09-29T09:00:00-07:00",
+            "executive_summary": [
+                "BraveはAsk Braveに詳細回答を返すAI機能を実装し、従来のAI Answersでは拾いきれない深掘りニーズに応えている。",
+                "ユーザーは通常検索から即座にAsk Braveへ切り替えられ、回答はChatGPTのようなレポート形式と対話体験を提供する。",
+                "同社は自社APIによる精度向上と、暗号化および24時間後削除によるプライバシー対応を差別化要素として強調した。"
+            ],
+            "key_findings": [
+                {"text": "BraveはAI検索機能Ask Braveに詳細回答を生成する新機能を追加し、質問内容に応じたリッチな応答を提供し始めた。[1]", "footnote": "[1]"},
+                {"text": "新機能は既存のAI Answersと併存し、同社によれば1日あたり1500万件超の回答需要に応えている。[1]", "footnote": "[1]"},
+                {"text": "Ask Braveは検索バー横のボタンや検索クエリへの「??」追加で起動でき、クエリの意図を自動判別する。[1]", "footnote": "[1]"},
+                {"text": "生成される回答はリンク・動画・画像カルーセルを含むレポート形式で、フォローアップ質問やフォーマット変換も可能だ。[1]", "footnote": "[1]"},
+                {"text": "Braveは自社APIによる結果のグラウンディングとディープリサーチを組み合わせ、チャット暗号化と24時間後削除でプライバシー保護を訴求している。[1]", "footnote": "[1]"}
+            ],
+            "references": [
+                {
+                    "id": "[1]",
+                    "title": "Brave updates its AI-powered search with a detailed answers feature",
+                    "author": "Ivan Mehta",
+                    "url": "https://techcrunch.com/2025/09/29/brave-updates-its-ai-powered-search-with-a-detailed-answers-feature/",
+                    "publisher": "TechCrunch",
+                    "published": "2025-09-29T09:00:00-07:00",
+                    "accessed": "2025-09-29"
+                }
+            ]
+        }
+    ]
+}
+
+os.makedirs("reports/2025-09-29", exist_ok=True)
+with open(os.path.join("reports/2025-09-29", "report.json"), "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
