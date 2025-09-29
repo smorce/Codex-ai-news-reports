@@ -6,8 +6,11 @@ uv run scripts/codex_daily_with_agents.py
 
 # Chrome DevTools MCP
 以下はうまくいったプロンプト:
+---
 https://ai-news.dev/ を開いて安定まで待って。
 そこから最新の記事3件のURLを開いて各ページの要約を提示してください。                      
+---
+これで特定のURLを指定してスクレイピングできる。
 
 
 ========================================
