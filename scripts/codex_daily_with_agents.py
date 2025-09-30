@@ -114,11 +114,19 @@ class CodexDailyRunner:
             # Codex実行
             self.log("Invoking codex exec...")
             # Codex 実行（Codex が report.json を生成する前提）
-            _ = self.run_codex(agents_content)
+            try:
+                _ = self.run_codex(agents_content)
+            except Exception as e:
+                # Codex が非ゼロ終了でも report.json が生成されていれば続行する
+                self.log(f"WARNING: Codex run failed: {e}")
+                if (report_file.exists() and report_file.stat().st_size > 0):
+                    self.log(f"report.json detected despite Codex error. Proceeding: {report_file}")
+                else:
+                    raise
 
             # Codex により生成された JSON を読み込み
-            if not report_file.exists():
-                raise FileNotFoundError(f"report.json not found: {report_file}")
+            if (not report_file.exists()) or (report_file.stat().st_size == 0):
+                raise FileNotFoundError(f"report.json not found or empty: {report_file}")
             with open(report_file, 'r', encoding='utf-8') as f:
                 report_obj = json.load(f)
             self.log(f"JSON report detected at {report_file}")
