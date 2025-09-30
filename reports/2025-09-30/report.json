@@ -1,0 +1,207 @@
+{
+  "generated_at": "2025-09-30T15:59:39.248880+09:00",
+  "site": "ai-news.dev",
+  "num_articles": 2,
+  "articles": [
+    {
+      "url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/",
+      "title": "California Governor Newsom signs landmark AI safety bill SB 53",
+      "published_at": "2025-09-29T14:57:03-07:00",
+      "executive_summary": [
+        "Newsom州知事がSB 53に署名し、AI大手への透明性義務を課す全米初の包括的安全法が成立した。",
+        "法律は安全プロトコル開示・内部告発保護・重大インシデント報告制度を通じてAIリスク監督を強化する。",
+        "Anthropicが支持する一方、MetaやOpenAIは反対し、AI規制を巡る政治献金が激化している。",
+        "SB 53は他州にも波及し得るとされ、Newsom知事はチャットボット規制案SB 243も検討中だ。"
+      ],
+      "key_findings": [
+        {
+          "finding": "SB 53は全米初のAI透明性法としてNewsom州知事の署名で成立した。",
+          "evidence": {
+            "quote": "California Gov. Gavin Newsom has signed SB 53, a first-in-the-nation bill that sets new transparency requirements on large AI companies.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(1)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "法律は大手AI研究所に安全プロトコルの開示を義務付ける。",
+          "evidence": {
+            "quote": "SB 53, which passed the state legislature two weeks ago, requires large AI labs to be transparent about safety protocols.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(2)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "同法は社員の内部告発保護も確保する。",
+          "evidence": {
+            "quote": "It also ensures whistleblower protections for employees at those companies.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(2)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "SB 53は重大な安全インシデントをカリフォルニア州緊急サービス局へ報告する枠組みを設けた。",
+          "evidence": {
+            "quote": "SB 53 creates a mechanism for AI companies and the public to report potential critical safety incidents to California's Office of Emergency Services.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(3)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "Anthropicは法案を支持した一方でMetaとOpenAIは反対し、OpenAIは署名阻止の公開書簡を出した。",
+          "evidence": {
+            "quote": "Anthropic endorsed the bill. Meta and OpenAI lobbied against it. OpenAI even wrote and published an open letter to Gov. Newsom.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(4)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "シリコンバレーのテックエリートはAI規制を緩める候補を支援するため数億ドル規模をスーパーPACに拠出している。",
+          "evidence": {
+            "quote": "Some of Silicon Valley's tech elite have poured hundreds of millions into super PACs to back candidates that support a light-touch approach to AI regulation.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(5)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "ニューヨーク州では類似法案が成立し、知事の署名待ちで他州にも波及する可能性がある。",
+          "evidence": {
+            "quote": "In New York, a similar bill was passed by state lawmakers and is awaiting Gov. Kathy Hochul's signature or veto.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(6)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "Newsom州知事は規制と産業成長の両立を強調し、信頼構築を掲げた。",
+          "evidence": {
+            "quote": "California has proven that we can establish regulations to protect our communities while also ensuring that the growing AI industry continues to thrive.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(7)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "知事はAIチャットボット規制案SB 243の是非も検討している。",
+          "evidence": {
+            "quote": "The governor is also weighing another bill -- SB 243 -- that passed both the State Assembly and Senate with bipartisan support this month.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(8)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "SB 53は昨年SB 1047が拒否された後のWiener上院議員による2度目のAI安全法案だ。",
+          "evidence": {
+            "quote": "SB 53 is Senator Scott Wiener's second attempt at an AI safety bill after Newsom vetoed his more sweeping SB 1047 last year.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(9)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        },
+        {
+          "finding": "Wiener議員は修正点を理解してもらうため主要AI企業への働きかけも行った。",
+          "evidence": {
+            "quote": "With this bill, Wiener reached out to major AI companies to attempt to help them understand the changes he made to the bill.",
+            "location_hint": ".wp-block-post-content p:nth-of-type(9)",
+            "citation_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "label": "TechCrunch - California Governor Newsom signs landmark AI safety bill SB 53",
+          "url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/"
+        }
+      ],
+      "retrieved_at": "2025-09-30T15:59:39.248880+09:00"
+    },
+    {
+      "url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/",
+      "title": "Anthropic Claude Sonnet 4.5 is in public preview for GitHub Copilot",
+      "published_at": "2025-09-29",
+      "executive_summary": [
+        "AnthropicのClaude Sonnet 4.5がGitHub CopilotのPro系プランにパブリックプレビューとして順次展開されている。",
+        "モデルはツールオーケストレーションや文脈編集などの能力を強化し、Copilot ChatやCLIのモデル切替で選択可能だ。",
+        "利用者は最新Copilot CLIへの更新やnpm経由の再インストール、/modelコマンドなど切替手順に従う必要がある。",
+        "段階的な提供の中で、組織管理者のポリシー有効化やBYOK対応、ドキュメントとコミュニティの案内が示されている。"
+      ],
+      "key_findings": [
+        {
+          "finding": "Claude Sonnet 4.5はCopilot Pro/Pro+/Business/Enterpriseに順次展開されている。",
+          "evidence": {
+            "quote": "Claude Sonnet 4.5 is now rolling out in GitHub Copilot to Copilot Pro, Pro+, Business, and Enterprise.",
+            "location_hint": "div.PostContent-main p:nth-of-type(1)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "モデルはツールオーケストレーションや文脈編集などの能力を大幅に強化している。",
+          "evidence": {
+            "quote": "The model brings major upgrades in tool orchestration, context editing, and domain-specific capabilities.",
+            "location_hint": "div.PostContent-main p:nth-of-type(1)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "Copilot ChatではVS Code、GitHub.com、モバイルアプリからモデルを選択できる。",
+          "evidence": {
+            "quote": "Visual Studio Code in chat, ask, edit, and agent mode. github.com. GitHub Mobile in iOS and Android.",
+            "location_hint": "div.PostContent-main li:nth-of-type(1-3)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "新モデルピッカーは最新のCopilot CLI v0.0.329で利用可能になった。",
+          "evidence": {
+            "quote": "the new model picker, available in the latest version of the Copilot CLI (v0.0.329).",
+            "location_hint": "div.PostContent-main p:nth-of-type(6)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "npm install -g @github/copilotと/modelコマンドでモデル切替を行う手順が示されている。",
+          "evidence": {
+            "quote": "To switch to Claude Sonnet 4.5, update to the latest version with npm install -g @github/copilot, then use the /model command.",
+            "location_hint": "div.PostContent-main p:nth-of-type(7)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "提供は段階的に進み、まだ表示されない場合は後日再確認が案内されている。",
+          "evidence": {
+            "quote": "For all use cases, rollout will be gradual, check back soon if you don't see it yet.",
+            "location_hint": "div.PostContent-main p:nth-of-type(8)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "EnterpriseとBusinessの管理者はCopilot設定でClaude Sonnet 4.5ポリシーを有効化する必要がある。",
+          "evidence": {
+            "quote": "Enterprise and Business plan administrators must enable the Claude Sonnet 4.5 policy in Copilot settings.",
+            "location_hint": "div.PostContent-main p:nth-of-type(9)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "Copilot Free/Pro/Pro+利用者もVS CodeでAnthropicキーを持ち込み設定できる。",
+          "evidence": {
+            "quote": "Copilot Free, Pro, and Pro+ users may also bring their own key in Visual Studio Code by selecting Manage Models.",
+            "location_hint": "div.PostContent-main p:nth-of-type(10)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        },
+        {
+          "finding": "GitHubはモデル一覧ドキュメントとコミュニティディスカッションへの参加を促している。",
+          "evidence": {
+            "quote": "To explore all models available in GitHub Copilot, see our documentation on models and get started with Copilot. Have feedback or questions? Join the community discussion to share your experiences and tips.",
+            "location_hint": "div.PostContent-main p:nth-of-type(11); div.PostContent-main p:nth-of-type(12)",
+            "citation_url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+          }
+        }
+      ],
+      "references": [
+        {
+          "label": "GitHub Changelog - Anthropic Claude Sonnet 4.5 is in public preview for GitHub Copilot",
+          "url": "https://github.blog/changelog/2025-09-29-anthropic-claude-sonnet-4-5-is-in-public-preview-for-github-copilot/"
+        }
+      ],
+      "retrieved_at": "2025-09-30T15:59:39.248880+09:00"
+    }
+  ]
+}

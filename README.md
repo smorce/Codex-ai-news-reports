@@ -5,6 +5,16 @@ uv run scripts/codex_daily_with_agents.py
 →tomlを読み込めてない気がする。それが原因でインターネットアクセスできていない気がする。
 
 
+Pythonの実行周りが冗長なので戦略を変更します。
+
+Pythonコマンドを実行したい場合、一時的に利用するスクリプトを生成して
+`powershell.exe -Command "uv run --link-mode=copy temp_build_report.py"`して
+`powershell.exe -Command 'Remove-Item temp_build_report.py'`
+で片付けするようにしてください。
+Python使うときはこのルールで強制したいので、該当箇所のプロンプトを最適化してください。
+
+
+
 
 full auto じゃなくて yolo か？
 →プロンプトが原因だった。

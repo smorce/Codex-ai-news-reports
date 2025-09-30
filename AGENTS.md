@@ -18,7 +18,7 @@ WAIT_STABLE_MS = 1500
    - 安定化条件: `network idle` 相当 + DOM 定常化 (下記 Web Search Requirements を参照)。
    - セレクタの優先例: タイトル `h1, meta[property="og:title"]`、公開日 `time[datetime], meta[property="article:published_time"]`、本文 `article, main, .post, .content`。
    - 代替: 主要本文が取れない場合は `readability`/`textContent` ベースで本文を再構成。
-4. Summarization: 日本語でエグゼクティブサマリー(3–7行)を作成。Key Findings を5–12項目作成し、各項目に対応する根拠(引用または要旨)、参照 URL、位置情報(セレクタ/XPath/段落番号等)を付す。
+4. Summarization: 日本語でエグゼクティブサマリー(3–7行)を作成。Key Findings を5–12項目作成し、各項目は主張(point)と根拠フットノート(footnote)で構成する。
 5. JSON Build: 下記 <JSON Schema> に準拠した JSON を構築する。空値は `null` を使用し、型の一貫性を守る。
 6. Write: 本日の日付(ローカルタイム)で `{YYYY-MM-DD}` を置換したディレクトリを作成し、 `{OUTPUT_DIR}/{OUTPUT_FILE}` に JSON を保存する。`write` ツールを優先使用。利用不可の場合は Python のファイル I/O を用いる。
    - 注記(Windows 互換): Windows PowerShell の既定では UTF-8(BOM 付き)や CRLF となることがあり、要件「UTF-8 + LF」を満たしづらい。従って shell 経由の保存は最終手段とし、可能であれば Python のファイル I/O（`encoding='utf-8'`, `newline='\n'`）を用いること。
@@ -53,10 +53,10 @@ WAIT_STABLE_MS = 1500
 
 <Extraction Heuristics>
 - タイトル: `h1` がなければ `meta[property='og:title']`/`meta[name='twitter:title']` を代替。
-- 公開日: `time[datetime]` → `meta[property='article:published_time']` → 日付らしき文字列の正規化(ISO8601)。
+- 公開日: `time[datetime]` → `meta[property='article:published_time']` → 日付らしき文字列の正規化(ISO8601)、フィールド名は`date`。
 - 本文: `article, main, .post, .content` から段落抽出。タグ装飾除去・改行正規化。
 - サマリー: 事実中心・固有名詞・数値を優先。曖昧表現を避ける。
-- キーファインディング: 1項目につき1つの主張 + 根拠(引用/要旨) + 出典 URL + 位置情報。
+- キーファインディング: 1項目につき1つの主張(point) + 根拠フットノート(footnote)の構造で記録。
 </Extraction Heuristics>
 
 <JSON Schema>
@@ -69,21 +69,15 @@ WAIT_STABLE_MS = 1500
     {
       "url": "string",
       "title": "string",
-      "published_at": "ISO-8601 string or null",
+      "date": "ISO-8601 string or null",
       "executive_summary": ["string", "string"],
       "key_findings": [
         {
-          "finding": "string",
-          "evidence": {
-            "quote": "string",
-            "location_hint": "css/xpath/paragraph-index",
-            "citation_url": "string"
-          }
+          "point": "string",
+          "footnote": "string"
         }
       ],
-      "references": [
-        { "label": "string", "url": "string" }
-      ],
+      "references": ["string"],
       "retrieved_at": "ISO-8601 string"
     }
   ]

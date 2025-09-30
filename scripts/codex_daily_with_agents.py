@@ -158,15 +158,16 @@ class CodexDailyRunner:
         
         self.log(f"Using Codex CLI: {codex_cmd}")
         # リッチ表示: 実行概要をパネルで表示
+        config_path = f'C:\\Users\\{os.environ.get("USERNAME", "")}\\\.codex\\config.toml'
         try:
-            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nMode: [cyan]exec --full-auto -c model_reasoning_effort=\"medium\"[/]", title="Codex Runner", border_style="blue"))
+            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nConfig: [yellow]{config_path}[/]\nMode: [cyan]exec --full-auto -c model_reasoning_effort=\"medium\"[/]", title="Codex Runner", border_style="blue"))
         except Exception:
             pass
         
         try:
             # codex exec --full-auto コマンドを実行（ストリーミング表示）
             process = subprocess.Popen(
-                [codex_cmd, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
+                [codex_cmd, '--config', config_path, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
@@ -245,7 +246,7 @@ class CodexDailyRunner:
                 self.log(f"Codex exited with code {rc}. Saving raw output for diagnosis.")
                 raise subprocess.CalledProcessError(
                     rc,
-                    [codex_cmd, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
+                    [codex_cmd, '--config', config_path, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                     f"Codex failed. See {err_file}"
                 )
 
