@@ -18,8 +18,12 @@ Python使うときはこのルールで強制したいので、該当箇所の�
 
 
 
-full auto じゃなくて yolo か？
-→プロンプトが原因だった。
+--full-auto じゃなくて yolo かも？
+→full-auto でもコマンドが承認待ちになった。
+
+codex --full-auto
+codex --yolo
+
 
 
 # Chrome DevTools MCP

@@ -55,10 +55,34 @@ class CodexDailyRunner:
         # コンソールにも出力
         print(f"[{timestamp}] {message}")
     
+    def cleanup_temp_files(self):
+        """一時ファイルを検索して削除する"""
+        self.log("Checking for temp_tasklist.md to clean up...")
+        deleted_count = 0
+        try:
+            for f in self.repo_path.rglob('temp_tasklist.md'):
+                try:
+                    if f.is_file():
+                        f.unlink()
+                        self.log(f"Deleted temporary file: {f}")
+                        deleted_count += 1
+                except Exception as e:
+                    self.log(f"Warning: Could not delete temporary file {f}: {e}")
+            
+            if deleted_count > 0:
+                self.log(f"Cleaned up {deleted_count} temporary file(s).")
+            else:
+                self.log("No temporary files found to clean up.")
+        except Exception as e:
+            self.log(f"Warning: An error occurred during temp file cleanup: {e}")
+
     def run(self):
         """メイン実行処理"""
         try:
             self.log("=== Start ===")
+            
+            # 一時ファイルのクリーンアップ
+            self.cleanup_temp_files()
             
             # パスの存在確認
             if not self.repo_path.exists():
@@ -160,14 +184,14 @@ class CodexDailyRunner:
         # リッチ表示: 実行概要をパネルで表示
         config_path = f'C:\\Users\\{os.environ.get("USERNAME", "")}\\\.codex\\config.toml'
         try:
-            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nConfig: [yellow]{config_path}[/]\nMode: [cyan]exec --full-auto -c model_reasoning_effort=\"medium\"[/]", title="Codex Runner", border_style="blue"))
+            self.console.print(Panel.fit(f"Codex CLI: [bold]{codex_cmd}[/]\nConfig: [yellow]{config_path}[/]\nMode: [cyan]exec --yolo -c model_reasoning_effort=\"medium\"[/]", title="Codex Runner", border_style="blue"))
         except Exception:
             pass
         
         try:
-            # codex exec --full-auto コマンドを実行（ストリーミング表示）
+            # codex exec --yolo コマンドを実行（ストリーミング表示）
             process = subprocess.Popen(
-                [codex_cmd, '--config', config_path, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
+                [codex_cmd, '--config', config_path, 'exec', '--yolo', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
@@ -205,7 +229,7 @@ class CodexDailyRunner:
                 while process.poll() is None:
                     if time.time() - start_ts > M:
                         process.kill()
-                        raise subprocess.TimeoutExpired('codex exec --full-auto', timeout=M)
+                        raise subprocess.TimeoutExpired('codex exec --yolo', timeout=M)
                     time.sleep(0.1)
                 t_out.join(timeout=1)
                 t_err.join(timeout=1)
@@ -247,7 +271,7 @@ class CodexDailyRunner:
                 self.log(f"Codex exited with code {rc}. Saving raw output for diagnosis.")
                 raise subprocess.CalledProcessError(
                     rc,
-                    [codex_cmd, '--config', config_path, 'exec', '--full-auto', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
+                    [codex_cmd, '--config', config_path, 'exec', '--yolo', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
                     f"Codex failed. See {err_file}"
                 )
 
