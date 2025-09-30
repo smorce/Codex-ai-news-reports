@@ -10,8 +10,8 @@ WAIT_STABLE_MS = 1500
 
 <Instructions>
 1. Planning:
-   - `update_plan` ツールで計画を作成・更新する。
-   - 計画で停止せず、直後に実行フロー（検索→抽出→要約→JSON生成→書き込み→検証）へ自動移行する。
+   - `update_plan` ツールを最初のアクションとして即時実行し、計画で停止せず直後に実行フロー（検索→抽出→要約→JSON生成→書き込み→検証）へ移行する。
+   - 禁止: 計画実行の代替として `chrome-devtools.evaluate_script` で自己言及メッセージ（「今から呼ぶ」等）を出すこと。
 
 2. Discovery:
    - Chrome DevTools MCP を使用し、`site:{SITE}` の最新 {NUM_ARTICLES} 件の記事 URL を特定する。
@@ -58,7 +58,7 @@ WAIT_STABLE_MS = 1500
 </Instructions>
 
 <Web Search Requirements>
-- Web検索時は既存のSearchツールではなく Chrome DevTools MCP を必ず使用する。
+- Chrome DevTools MCP は検索/抽出のためだけに使用し、計画や状態宣言・メタ操作には使用しない。
 - 新規ページは `chrome-devtools.new_page({"url": <URL>})` で開く。
 - ページ安定化:
   - `document.readyState === 'complete'` の後、`network idle` 相当まで待機し、さらに {WAIT_STABLE_MS}ms 静止。
