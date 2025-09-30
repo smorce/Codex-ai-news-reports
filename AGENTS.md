@@ -10,8 +10,7 @@ WAIT_STABLE_MS = 1500
 
 <Instructions>
 1. Planning:
-   - `update_plan` ツールを最初のアクションとして即時実行し、計画で停止せず直後に実行フロー（検索→抽出→要約→JSON生成→書き込み→検証）へ移行する。
-   - 禁止: 計画実行の代替として `chrome-devtools.evaluate_script` で自己言及メッセージ（「今から呼ぶ」等）を出すこと。
+   - SOWで実行計画を立てます。計画で停止せず直後に実行フロー（検索→抽出→要約→JSON生成→書き込み→検証）へ移行。
 
 2. Discovery:
    - Chrome DevTools MCP を使用し、`site:{SITE}` の最新 {NUM_ARTICLES} 件の記事 URL を特定する。
