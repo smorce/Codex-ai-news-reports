@@ -254,7 +254,7 @@ class CodexDailyRunner:
             return stdout_content
             
         except subprocess.TimeoutExpired:
-            error_msg = "Codex コマンドがタイムアウトしました（5分）"
+            error_msg = "Codex コマンドがタイムアウトしました（10分）"
             self.log(f"ERROR: {error_msg}")
             raise RuntimeError(error_msg)
         except Exception as e:
