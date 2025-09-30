@@ -57,17 +57,20 @@ class CodexDailyRunner:
     
     def cleanup_temp_files(self):
         """一時ファイルを検索して削除する"""
-        self.log("Checking for temp_tasklist.md to clean up...")
+        self.log("Checking for temporary files to clean up...")
         deleted_count = 0
+        temp_patterns = ['temp_tasklist.md', 'report.json']
+        
         try:
-            for f in self.repo_path.rglob('temp_tasklist.md'):
-                try:
-                    if f.is_file():
-                        f.unlink()
-                        self.log(f"Deleted temporary file: {f}")
-                        deleted_count += 1
-                except Exception as e:
-                    self.log(f"Warning: Could not delete temporary file {f}: {e}")
+            for pattern in temp_patterns:
+                for f in self.repo_path.rglob(pattern):
+                    try:
+                        if f.is_file():
+                            f.unlink()
+                            self.log(f"Deleted temporary file: {f}")
+                            deleted_count += 1
+                    except Exception as e:
+                        self.log(f"Warning: Could not delete temporary file {f}: {e}")
             
             if deleted_count > 0:
                 self.log(f"Cleaned up {deleted_count} temporary file(s).")
@@ -206,11 +209,16 @@ class CodexDailyRunner:
 
             stdout_lines: list[str] = []
             stderr_lines: list[str] = []
+            last_output_time = time.time()
+            output_lock = threading.Lock()
 
             def reader(stream, collector, tag, style):
+                nonlocal last_output_time
                 for line in iter(stream.readline, ''):
                     line = line.rstrip('\n')
                     collector.append(line)
+                    with output_lock:
+                        last_output_time = time.time()
                     try:
                         self.console.print(f"[{style}]{tag}[/]: {line}")
                     except Exception:
@@ -223,10 +231,33 @@ class CodexDailyRunner:
             with self.console.status("[bold green]Codex 実行中...[/]", spinner="dots"):
                 t_out.start()
                 t_err.start()
-                # タイムアウト監視（最大10分）
+                
+                # タイムアウト監視（最大10分、出力停止後60秒で終了）
                 M = 10 * 60
+                IDLE_TIMEOUT = 60
+                
                 try:
-                    process.wait(timeout=M)
+                    while process.poll() is None:
+                        current_time = time.time()
+                        with output_lock:
+                            time_since_output = current_time - last_output_time
+                        
+                        # 全体のタイムアウトチェック
+                        if current_time - last_output_time > M:
+                            process.kill()
+                            raise subprocess.TimeoutExpired('codex exec --yolo', timeout=M)
+                        
+                        # 出力が停止してから一定時間経過したら終了
+                        if time_since_output > IDLE_TIMEOUT and stdout_lines:
+                            self.log(f"No output for {IDLE_TIMEOUT}s, assuming completion")
+                            process.terminate()
+                            time.sleep(2)  # 終了処理を待つ
+                            if process.poll() is None:
+                                process.kill()
+                            break
+                        
+                        time.sleep(1)
+                        
                 except subprocess.TimeoutExpired:
                     process.kill()
                     # 念のためスレッドの終了を待つ
