@@ -2,6 +2,12 @@ https://github.com/smorce/Codex-ai-news-reports
 
 
 uv run scripts/codex_daily_with_agents.py
+→tomlを読み込めてない気がする。それが原因でインターネットアクセスできていない気がする。
+
+
+
+full auto じゃなくて yolo か？
+→プロンプトが原因だった。
 
 
 # Chrome DevTools MCP

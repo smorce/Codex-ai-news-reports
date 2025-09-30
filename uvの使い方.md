@@ -34,6 +34,7 @@ uv run hello.py
 uv run TURSO_script.py
 uv run pytest tests/
 uv run ruff check
+uv run python -c \"print('Hello from uv')\"
 ```
 
 - プロジェクト環境でCLIツールやシェルスクリプトも実行可能
