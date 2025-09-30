@@ -1,11 +1,11 @@
 ﻿<Variables>
-NUM_ARTICLES = 2
-SITE = "ai-news.dev"
-OUTPUT_DIR = "reports/{YYYY-MM-DD}"
-OUTPUT_FILE = "report.json"
-RETRY_MAX = 3
-REQUEST_TIMEOUT_SEC = 30
-WAIT_STABLE_MS = 1500
+- NUM_ARTICLES = 2
+- SITE = "ai-news.dev"
+- OUTPUT_DIR = "reports/{YYYY-MM-DD}"
+- OUTPUT_FILE = "report.json"
+- RETRY_MAX = 3
+- REQUEST_TIMEOUT_SEC = 30
+- WAIT_STABLE_MS = 1500
 </Variables>
 
 <Instructions>
