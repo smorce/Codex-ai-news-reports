@@ -200,11 +200,12 @@ class CodexDailyRunner:
             with self.console.status("[bold green]Codex 実行中...[/]", spinner="dots"):
                 t_out.start()
                 t_err.start()
-                # タイムアウト監視（最大5分）
+                # タイムアウト監視（最大10分）
+                M = 10 * 60
                 while process.poll() is None:
-                    if time.time() - start_ts > 300:
+                    if time.time() - start_ts > M:
                         process.kill()
-                        raise subprocess.TimeoutExpired('codex exec --full-auto', timeout=300)
+                        raise subprocess.TimeoutExpired('codex exec --full-auto', timeout=M)
                     time.sleep(0.1)
                 t_out.join(timeout=1)
                 t_err.join(timeout=1)
