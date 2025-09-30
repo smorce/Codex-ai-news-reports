@@ -62,9 +62,11 @@ WAIT_STABLE_MS = 1500
 - 新規ページは `chrome-devtools.new_page({"url": <URL>})` で開く。
 - ページ安定化:
   - `document.readyState === 'complete'` の後、`network idle` 相当まで待機し、さらに {WAIT_STABLE_MS}ms 静止。
-- 検索戦略:
-  - `https://www.google.com/search?q=site%3A{SITE}` を開き、上位候補から記事 URL を収集。
-  - 併せて `https://{SITE}/` を直アクセスし最新記事一覧を確認。
+
+- 検索戦略（条件分岐）:
+  - SITE が指定されている場合: 指定 SITE に直アクセスし、記事 SITE を収集する（`chrome-devtools.new_page({"url": <SITE>})`）。
+  - ユーザークエリがある場合: `https://www.google.com/search?q=site%3A{SITE}+{QUERY}` を開き、上位候補から記事 URL を収集する。
+
 - 抽出時の UI 待機:
   - 代表的要素（`h1`, `article`, `main`, `time[datetime]`）出現まで待機。
   - 遅延読み込み対策として段階スクロールでページ下部まで到達。
