@@ -220,21 +220,25 @@ class CodexDailyRunner:
             t_out = threading.Thread(target=reader, args=(process.stdout, stdout_lines, 'stdout', 'cyan'), daemon=True)
             t_err = threading.Thread(target=reader, args=(process.stderr, stderr_lines, 'stderr', 'red'), daemon=True)
 
-            start_ts = time.time()
             with self.console.status("[bold green]Codex 実行中...[/]", spinner="dots"):
                 t_out.start()
                 t_err.start()
                 # タイムアウト監視（最大10分）
                 M = 10 * 60
-                while process.poll() is None:
-                    if time.time() - start_ts > M:
-                        process.kill()
-                        raise subprocess.TimeoutExpired('codex exec --yolo', timeout=M)
-                    time.sleep(0.1)
-                t_out.join(timeout=1)
-                t_err.join(timeout=1)
+                try:
+                    process.wait(timeout=M)
+                except subprocess.TimeoutExpired:
+                    process.kill()
+                    # 念のためスレッドの終了を待つ
+                    t_out.join(timeout=5)
+                    t_err.join(timeout=5)
+                    raise subprocess.TimeoutExpired('codex exec --yolo', timeout=M)
 
-            rc = process.returncode or 0
+                # プロセス終了後、リーダーースレッドが完了するのを待つ
+                t_out.join(timeout=5)
+                t_err.join(timeout=5)
+
+            rc = process.returncode if process.returncode is not None else -1
             
             # 実行結果の表示（成功・失敗問わず）
             stdout_content = "\n".join(stdout_lines)
