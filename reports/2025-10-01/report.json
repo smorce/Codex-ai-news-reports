@@ -1,81 +1,88 @@
 {
-  "generated_at": "2025-10-01T07:47:35+09:00",
+  "generated_at": "2025-10-01T23:39:54.9648603+09:00",
   "site": "https://ai-news.dev/",
   "num_articles": 2,
   "articles": [
     {
-      "url": "https://gigazine.net/news/20250930-handy/",
-      "title": "無料で音声テキスト変換がオフラインで可能なオープンソースアプリ「Handy」",
-      "date": "2025-09-30T21:00:00+09:00",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03307/082700003/",
+      "title": "生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性",
+      "date": "2025-10-01",
       "executive_summary": [
-        "オープンソースの音声テキスト変換アプリ「Handy」が公開され、ローカルAIがオフラインで動作する。",
-        "Windows・macOS・Linuxに対応するインストーラーを用意し、マイク入力からリアルタイムで文字起こしできる。",
-        "標準のParakeet V3モデルに加えてOpenAI Whisper Largeを追加すれば日本語認識へ切り替えられる。",
-        "ショートカット制御や履歴閲覧に対応し、開発者CJ Pais氏が自身の負傷経験を契機に公開した。"
+        "生成AIは定番コードやシンプルなアプリを高精度に生成し、筆者の業務コードの約8割を担うまでに進化している。",
+        "それでも既存システムと整合させる設計作業などの本質的な業務は人間が担い続け、仕事全体の性質は大きく変わっていない。",
+        "責任追及の観点から生成AIだけでは最終判断を代替できず、コードの理解と承認責任を負う人材が不可欠だと指摘する。"
       ],
       "key_findings": [
         {
-          "point": "Handyは無料のオープンソースアプリとしてローカルAIで音声テキスト変換を実現し、ネット接続なしで利用できる。",
-          "footnote": "出典: GIGAZINE「無料で音声テキスト変換がオフラインで可能なオープンソースアプリ『Handy』」(2025年9月30日 21:00 JST)"
+          "point": "筆者は生成AIの活用で日々の業務コードのおよそ8割をAIに任せるところまで効率化している。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
         },
         {
-          "point": "Windows版インストーラーは約12.6MBのEXEファイルで提供され、macOSとLinux(x64)にも対応する。",
-          "footnote": "出典: 同上記事のインストーラー説明"
+          "point": "「GitHub Copilot」や「Devin」など複数のAIツールを組み合わせ、補完とエージェント支援を並行利用している。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
         },
         {
-          "point": "初期設定のParakeet V3は英語向けだが、ユーザーはWhisper Largeモデルをダウンロードして日本語入力に切り替えられる。",
-          "footnote": "出典: 同上記事のモデル切り替え手順"
+          "point": "既存システムとの折り合いを付ける設計業務が最も時間を要し、現状の生成AIでは全体設計を任せるには至らないと分析する。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
         },
         {
-          "point": "Ctrl+Spaceで録音を開始し、履歴タブから過去の音声と文字起こしを再確認できる。",
-          "footnote": "出典: 同上記事の操作手順・History機能説明"
+          "point": "単純なタイピングのみを担当するプログラマーの業務は自動化リスクが高い一方で、設計と判断を担う役割は当面存続すると見る。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
         },
         {
-          "point": "開発者CJ Pais氏は手の負傷をきっかけに拡張性のある文字起こしツールの必要性を感じてHandyを開発したと述べている。",
-          "footnote": "出典: 同上記事の開発背景"
+          "point": "生成AIは既存システム全体を理解して適切な設計を出力する段階にはなく、人間の統合的判断が必要と指摘する。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
+        },
+        {
+          "point": "責任主体になれないAIに対し、人間がコード内容を理解し責任を表明する役割が未来でも不可欠だと強調する。",
+          "footnote": "出典: 日経クロステック「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」（2025年10月1日）"
         }
       ],
       "references": [
-        "https://gigazine.net/news/20250930-handy/"
+        "日経クロステック（2025年10月1日）「生成AIの進歩でプログラマーは失業するか、新たな職業が生まれる可能性」, https://xtech.nikkei.com/atcl/nxt/column/18/03307/082700003/"
       ],
-      "retrieved_at": "2025-10-01T07:47:35+09:00"
+      "retrieved_at": "2025-10-01T23:39:54.9648603+09:00"
     },
     {
-      "url": "https://www.bloomberg.co.jp/news/articles/2025-09-30/T3DQWGGOYMTO00",
-      "title": "AI技能が出世の必須条件に､スズキは全役員に資格取得求める-27年目標",
-      "date": "2025-09-30T12:38:00+09:00",
+      "url": "https://techcrunch.com/2025/10/01/meta-plans-to-sell-targeted-ads-based-on-data-in-your-ai-chats/",
+      "title": "Meta plans to sell targeted ads based on data in your AI chats",
+      "date": "2025-10-01",
       "executive_summary": [
-        "スズキがDX戦略で2027年までに全役員がAI資格を取得する目標を発表した。",
-        "2030年までにAI資格を役職者の昇格要件へ組み込み、全従業員のデジタル技能を底上げする方針だ。",
-        "営業・設計・製造を含む各領域で業務の中心にAIを据え、四半期ごとに役員で進捗を共有する。",
-        "AI資格の例としてJDLAのG検定を挙げ、国内他社でも同様の動きが広がる可能性に言及した。"
+        "Metaは利用者とAIチャットの会話データを広告ターゲティングに転用する計画を明らかにした。",
+        "プライバシーポリシーは2025年12月16日までに改定され、韓国・英国・EU以外の地域で適用される。",
+        "Ray-Ban MetaスマートグラスやAI動画フィード「Vibes」など他のAI機能のデータも広告シグナルとして組み込み、ユーザーによるオプトアウト手段は提供されない。",
+        "センシティブな話題は広告に用いないとしつつ、AIプロダクトのマネタイズ競争が加速している流れを示している。"
       ],
       "key_findings": [
         {
-          "point": "スズキは2027年までに全役員がAI資格を取得するという数値目標をDX戦略に盛り込んだ。",
-          "footnote": "出典: Bloomberg「AI技能が出世の必須条件に､スズキは全役員に資格取得求める-27年目標」(2025年9月30日 12:38 JST)"
+          "point": "MetaはAIチャットの会話データを広告プロファイルに統合し、ターゲティング強化に活用する方針を公表した。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
         },
         {
-          "point": "2030年までに管理職昇格の要件としてAI資格を設定し、全従業員のデジタル理解を高める計画を掲げた。",
-          "footnote": "出典: 同上記事の昇格要件に関する記述"
+          "point": "同社は12月16日までにプライバシーポリシーを更新し、韓国・英国・EUを除く地域で新方針を適用すると説明した。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
         },
         {
-          "point": "営業・設計・製造など幅広い部門で業務の中心にAI活用を据え、四半期ごとに役員で進捗を共有するとしている。",
-          "footnote": "出典: 同上記事のAI活用範囲と進捗共有の説明"
+          "point": "月間10億人超がMeta AIと対話しているとされ、その詳細な会話履歴が新たな広告シグナルになる。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
         },
         {
-          "point": "AI資格の例として日本ディープラーニング協会のG検定を示し、2025年の合格率が70〜80%台と紹介された。",
-          "footnote": "出典: 同上記事の資格例と合格率データ"
+          "point": "Ray-Ban Metaスマートグラスの音声・画像データやAI動画フィード「Vibes」、画像生成「Imagine」から得たデータも再利用される。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
         },
         {
-          "point": "三菱商事も2027年度からAI資格を昇格要件にする計画が報じられ、国内企業への波及が指摘された。",
-          "footnote": "出典: 同上記事の他社事例への言及"
+          "point": "ユーザーが広告利用からオプトアウトする方法は用意されず、無料AIサービスがデータ活用と不可分になっている現状を示す。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
+        },
+        {
+          "point": "宗教や健康などセンシティブな話題は広告対象にしないとしながらも、AIデータを収益化する業界全体の動きが加速していると位置付けた。",
+          "footnote": "出典: TechCrunch「Meta plans to sell targeted ads based on data in your AI chats」（2025年10月1日）"
         }
       ],
       "references": [
-        "https://www.bloomberg.co.jp/news/articles/2025-09-30/T3DQWGGOYMTO00"
+        "TechCrunch（2025年10月1日）「Meta plans to sell targeted ads based on data in your AI chats」, https://techcrunch.com/2025/10/01/meta-plans-to-sell-targeted-ads-based-on-data-in-your-ai-chats/"
       ],
-      "retrieved_at": "2025-10-01T07:47:35+09:00"
+      "retrieved_at": "2025-10-01T23:39:54.9648603+09:00"
     }
   ]
 }
