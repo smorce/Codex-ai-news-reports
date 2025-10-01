@@ -117,12 +117,11 @@ class CodexDailyRunner:
             try:
                 _ = self.run_codex(agents_content)
             except Exception as e:
-                # Codex が非ゼロ終了でも report.json が生成されていれば続行する
-                self.log(f"WARNING: Codex run failed: {e}")
+                # Codex 実行が失敗した場合でも、report.json の有無でログレベルを分けて継続
                 if (report_file.exists() and report_file.stat().st_size > 0):
-                    self.log(f"report.json detected despite Codex error. Proceeding: {report_file}")
+                    self.log(f"SUCCESS: Codex returned non-zero but report.json exists. Proceeding: {report_file}")
                 else:
-                    raise
+                    self.log(f"WARNING: Codex failed and report.json not found yet. Continuing to validation. Error: {e}")
 
             # Codex により生成された JSON を読み込み
             if (not report_file.exists()) or (report_file.stat().st_size == 0):

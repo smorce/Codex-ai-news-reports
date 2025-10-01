@@ -28,7 +28,7 @@
 
 <Constraints>
 - Web検索は Chrome DevTools MCP で行う
-- ファイル操作は `apply_patch` で行う
+- ファイル操作は apply_patch で行う
 </Constraints>
 
 <JSONSchema>
