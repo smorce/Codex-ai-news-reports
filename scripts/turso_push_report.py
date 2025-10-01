@@ -61,7 +61,9 @@ def push_daily_report(report_obj: Dict[str, Any], markdown_content: Optional[str
     generated_at = report_obj.get("generated_at") or ""
     articles = report_obj.get("articles") or []
     num_articles = report_obj.get("num_articles") or (len(articles) if isinstance(articles, list) else 0)
-    report_id = f"ai-news-{report_date}"
+    # タイムスタンプを含めて新レコードとして追加
+    timestamp = int(time.time())
+    report_id = f"ai-news-{report_date}-{timestamp}"
     articles_text = json.dumps(articles, ensure_ascii=False)
     created_at = time.time()
     updated_at = created_at

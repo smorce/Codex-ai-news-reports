@@ -114,14 +114,18 @@ class CodexDailyRunner:
             # Codex実行
             self.log("Invoking codex exec...")
             # Codex 実行（Codex が report.json を生成する前提）
+            codex_success = False
             try:
                 _ = self.run_codex(agents_content)
+                codex_success = True
             except Exception as e:
                 # Codex 実行が失敗した場合でも、report.json の有無でログレベルを分けて継続
                 if (report_file.exists() and report_file.stat().st_size > 0):
                     self.log(f"SUCCESS: Codex returned non-zero but report.json exists. Proceeding: {report_file}")
+                    codex_success = True  # report.json があれば成功扱い
                 else:
                     self.log(f"WARNING: Codex failed and report.json not found yet. Continuing to validation. Error: {e}")
+                    # codex_success は False のまま
 
             # Codex により生成された JSON を読み込み
             if (not report_file.exists()) or (report_file.stat().st_size == 0):
@@ -180,6 +184,11 @@ class CodexDailyRunner:
 
     def run_codex(self, agents_content):
         """Codex CLIを実行"""
+        # 現在の日付で report.json パスを取得
+        date_dir = datetime.now().strftime("%Y-%m-%d")
+        output_dir = self.report_dir / date_dir
+        report_file = output_dir / "report.json"
+        
         # Codex コマンドのパスを検索
         codex_cmd = self.find_codex_command()
         
@@ -311,6 +320,13 @@ class CodexDailyRunner:
                 )
                 err_file.write_text(error_content, encoding='utf-8')
                 self.log(f"Codex exited with code {rc}. Saving raw output for diagnosis.")
+                
+                # report.json が存在する場合は成功扱いで終了
+                if (report_file.exists() and report_file.stat().st_size > 0):
+                    self.log(f"report.json found despite non-zero exit. Treating as success: {report_file}")
+                    return stdout_content
+                
+                # report.json がない場合のみ例外を投げる
                 raise subprocess.CalledProcessError(
                     rc,
                     [codex_cmd, '--config', config_path, 'exec', '--yolo', '-m', 'gpt-5-codex', '-c', 'model_reasoning_effort="medium"'],
