@@ -224,7 +224,7 @@ class CodexDailyRunner:
         # Codex 実行
         self.log("Invoking codex exec...")
         try:
-            _ = self.run_codex(agents_content)
+            _ = self.run_codex(agents_content, expected_report_path=temp_json)
         except Exception as e:
             # 非ゼロ終了でも temp_json が存在すれば続行
             if not (temp_json.exists() and temp_json.stat().st_size > 0):
@@ -287,12 +287,15 @@ class CodexDailyRunner:
         
         return None
 
-    def run_codex(self, agents_content):
+    def run_codex(self, agents_content, expected_report_path: Path | None = None):
         """Codex CLIを実行"""
-        # 現在の日付で report.json パスを取得
-        date_dir = datetime.now().strftime("%Y-%m-%d")
-        output_dir = self.report_dir / date_dir
-        report_file = output_dir / "report.json"
+        # 期待する report.json の場所（呼び出し元から明示的に受け取り、日付ずれを防止）
+        if expected_report_path is not None:
+            report_file = Path(expected_report_path)
+        else:
+            date_dir = datetime.now().strftime("%Y-%m-%d")
+            output_dir = self.report_dir / date_dir
+            report_file = output_dir / "report.json"
         
         # Codex コマンドのパスを検索
         codex_cmd = self.find_codex_command()
@@ -356,6 +359,7 @@ class CodexDailyRunner:
                 # タイムアウト監視（最大10分、出力停止後60秒で終了）
                 M = 10 * 60
                 IDLE_TIMEOUT = 60
+                idle_termination_detected = False
                 
                 try:
                     while process.poll() is None:
@@ -375,6 +379,7 @@ class CodexDailyRunner:
                             time.sleep(2)  # 終了処理を待つ
                             if process.poll() is None:
                                 process.kill()
+                            idle_termination_detected = True
                             break
                         
                         time.sleep(1)
@@ -395,6 +400,17 @@ class CodexDailyRunner:
             # 実行結果の表示（成功・失敗問わず）
             stdout_content = "\n".join(stdout_lines)
             stderr_content = "\n".join(stderr_lines)
+
+            # アイドルタイムアウトで強制終了したが report.json が生成済みなら成功扱い
+            if idle_termination_detected:
+                # ファイルフラッシュ待ちの短いリトライ
+                for _ in range(4):
+                    if report_file.exists() and report_file.stat().st_size > 0:
+                        break
+                    time.sleep(0.5)
+                if report_file.exists() and report_file.stat().st_size > 0:
+                    self.log(f"Idle timeout reached; report found at {report_file}. Treating as success.")
+                    return stdout_content
             
             self.log(f"Codex execution completed with return code: {rc}")
             
