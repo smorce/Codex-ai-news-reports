@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
 from turso_push_report import push_daily_report
+from github_trending import collect_github_trending_report
+from tech_feed import collect_tech_feed_report, collect_rss_sources
 
 class CodexDailyRunner:
     def __init__(self):
@@ -37,6 +39,8 @@ class CodexDailyRunner:
         self.logs_dir = self.repo_path / "logs"
         self.log_file = self.logs_dir / "codex_daily_with_agents.log"
         self.agents_file = self.repo_path / "AGENTS.md"
+        self.agents_reddit_file = self.repo_path / "AGENTS_Reddit.md"
+        self.agents_rss_file = self.repo_path / "AGENTS_rss.md"
         
         # ディレクトリ作成
         self.report_dir.mkdir(exist_ok=True)
@@ -80,86 +84,187 @@ class CodexDailyRunner:
             self.log(f"Warning: An error occurred during temp file cleanup: {e}")
 
     def run(self):
-        """メイン実行処理"""
+        """メイン実行処理（AGENTS.md → AGENTS_Reddit.md の順で2本実行）"""
         try:
             self.log("=== Start ===")
-            
+
             # 一時ファイルのクリーンアップ
             self.cleanup_temp_files()
-            
+
             # パスの存在確認
             if not self.repo_path.exists():
                 raise FileNotFoundError(f"Repo not found: {self.repo_path}")
-            
             if not self.agents_file.exists():
                 raise FileNotFoundError(f"AGENTS.md not found: {self.agents_file}")
-            
-            # 日付と出力ディレクトリ/ファイルの設定（AGENTS.mdの仕様に準拠）
+            if not self.agents_reddit_file.exists():
+                raise FileNotFoundError(f"AGENTS_Reddit.md not found: {self.agents_reddit_file}")
+            if not self.agents_rss_file.exists():
+                raise FileNotFoundError(f"AGENTS_rss.md not found: {self.agents_rss_file}")
+
+            # 日付と出力ディレクトリ
             date_dir = datetime.now().strftime("%Y-%m-%d")
             output_dir = self.report_dir / date_dir
             output_dir.mkdir(parents=True, exist_ok=True)
-            report_file = output_dir / "report.json"
-            utc_now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-            
-            # AGENTS.md を読み込んでUTCタイムスタンプを置き換え
-            agents_content = self.agents_file.read_text(encoding='utf-8')
-            agents_content = agents_content.replace('{utc_timestamp}', utc_now)
-            
-            # 一時プロンプトファイル（デバッグや履歴のために残す）
-            temp_prompt_file = Path(tempfile.gettempdir()) / f"codex_prompt_{date_dir}.md"
-            temp_prompt_file.write_text(agents_content, encoding='utf-8')
-            
-            self.log(f"AGENTS.md content written to {temp_prompt_file} (length {temp_prompt_file.stat().st_size} bytes)")
-            
-            # Codex実行
-            self.log("Invoking codex exec...")
-            # Codex 実行（Codex が report.json を生成する前提）
-            codex_success = False
-            try:
-                _ = self.run_codex(agents_content)
-                codex_success = True
-            except Exception as e:
-                # Codex 実行が失敗した場合でも、report.json の有無でログレベルを分けて継続
-                if (report_file.exists() and report_file.stat().st_size > 0):
-                    self.log(f"SUCCESS: Codex returned non-zero but report.json exists. Proceeding: {report_file}")
-                    codex_success = True  # report.json があれば成功扱い
-                else:
-                    self.log(f"WARNING: Codex failed and report.json not found yet. Continuing to validation. Error: {e}")
-                    # codex_success は False のまま
 
-            # Codex により生成された JSON を読み込み
-            if (not report_file.exists()) or (report_file.stat().st_size == 0):
-                raise FileNotFoundError(f"report.json not found or empty: {report_file}")
-            with open(report_file, 'r', encoding='utf-8') as f:
-                report_obj = json.load(f)
-            self.log(f"JSON report detected at {report_file}")
+            # 1) 通常の AGENTS.md を処理（AI Devニュース）
+            self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
+            ai_report_obj, ai_md_content = self.process_agents(
+                agents_path=self.agents_file,
+                json_output_name="report_ai.json",
+                md_output_name="report_ai.md",
+            )
 
-            # JSON -> Markdown 変換と保存
+            # 2) Reddit 版 AGENTS_Reddit.md を処理
+            self.log("Processing AGENTS_Reddit.md → report_reddit.json / report_reddit.md ...")
+            reddit_report_obj, reddit_md_content = self.process_agents(
+                agents_path=self.agents_reddit_file,
+                json_output_name="report_reddit.json",
+                md_output_name="report_reddit.md",
+            )
+
+            # 3) GitHub Trending を収集して保存・PUSH
             try:
-                md_path = output_dir / "report.md"
-                md_content = self._convert_report_json_to_markdown(report_obj)
-                md_path.write_text(md_content, encoding='utf-8')
-                self.log(f"Markdown report saved to {md_path}")
+                self.log("Processing GitHub Trending → report_github_trending.json / report_github_trending.md ...")
+                languages_file = Path(__file__).parent / "languages.toml"
+                trending_report_obj = collect_github_trending_report(
+                    languages_file=languages_file,
+                    general_limit=10,
+                    specific_limit=5,
+                )
+
+                # 保存（JSON）
+                final_tr_json = output_dir / "report_github_trending.json"
+                with open(final_tr_json, 'w', encoding='utf-8') as f:
+                    json.dump(trending_report_obj, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved JSON to {final_tr_json}")
+
+                # Markdown 生成・保存
+                tr_md_content = self._convert_report_json_to_markdown(trending_report_obj)
+                final_tr_md = output_dir / "report_github_trending.md"
+                final_tr_md.write_text(tr_md_content, encoding='utf-8')
+                self.log(f"Markdown report saved to {final_tr_md}")
+
+                # Turso へ PUSH
+                try:
+                    report_id = push_daily_report(trending_report_obj, tr_md_content, date_dir)
+                    self.log(f"Pushed GitHub Trending report to Turso: {report_id}")
+                except Exception as e:
+                    self.log(f"ERROR: Turso push failed for GitHub Trending: {e}")
+                    raise
             except Exception as e:
-                self.log(f"ERROR: Markdown conversion failed: {e}")
+                self.log(f"ERROR: GitHub Trending processing failed: {e}")
                 raise
 
-            # Turso へ PUSH（JSON + Markdown）
+            # 4) RSS ソースを機械的に収集・保存（LLMなし）
             try:
-                report_id = push_daily_report(report_obj, md_content, date_dir)
-                self.log(f"Pushed report to Turso: {report_id}")
+                self.log("Collecting RSS sources (mechanical) → rss_sources.json ...")
+                feed_file = Path(__file__).parent / "feed.toml"
+                rss_sources_obj = collect_rss_sources(
+                    feed_file=feed_file,
+                    days=1,
+                    limit_per_feed=NUM_FEED_LIMIT if 'NUM_FEED_LIMIT' in globals() else 3,
+                )
+                rss_sources_path = output_dir / "rss_sources.json"
+                with open(rss_sources_path, 'w', encoding='utf-8') as f:
+                    json.dump(rss_sources_obj, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved RSS sources to {rss_sources_path}")
             except Exception as e:
-                self.log(f"ERROR: Turso push failed: {e}")
+                self.log(f"ERROR: RSS sources collection failed: {e}")
                 raise
-            
-            # Git操作（ディレクトリごと追加して JSON/MD を含める）
+
+            # 5) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
+            self.log("Processing AGENTS_rss.md → report_rss.json / report_rss.md ...")
+            rss_report_obj, rss_md_content = self.process_agents(
+                agents_path=self.agents_rss_file,
+                json_output_name="report_rss.json",
+                md_output_name="report_rss.md",
+            )
+
+            # Git操作（出力物と新規/更新された scripts もコミット）
             self.git_operations(output_dir, date_dir)
-            
+            try:
+                self.git_operations(self.repo_path / "scripts", date_dir)
+            except Exception as e:
+                self.log(f"WARNING: git add for scripts failed: {e}")
+
             self.log("=== Finished ===")
-            
+
         except Exception as e:
             self.log(f"ERROR: {e}")
             raise
+
+    def process_agents(self, agents_path: Path, json_output_name: str, md_output_name: str):
+        """指定の AGENTS ファイルを使って Codex を実行し、所定のファイル名で保存して返す。"""
+        # 出力基準パス
+        date_dir = datetime.now().strftime("%Y-%m-%d")
+        output_dir = self.report_dir / date_dir
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Codex が生成する一時ファイル（固定名）
+        temp_json = output_dir / "report.json"
+
+        # タイムスタンプの埋め込み
+        utc_now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        agents_content = agents_path.read_text(encoding='utf-8')
+        agents_content = agents_content.replace('{utc_timestamp}', utc_now)
+
+        # 直前実行の残骸を削除
+        if temp_json.exists():
+            try:
+                temp_json.unlink()
+            except Exception:
+                pass
+
+        # 一時プロンプトファイル（デバッグや履歴のために残す）
+        safe_name = agents_path.stem
+        temp_prompt_file = Path(tempfile.gettempdir()) / f"codex_prompt_{safe_name}_{date_dir}.md"
+        temp_prompt_file.write_text(agents_content, encoding='utf-8')
+        self.log(f"{agents_path.name} content written to {temp_prompt_file} (length {temp_prompt_file.stat().st_size} bytes)")
+
+        # Codex 実行
+        self.log("Invoking codex exec...")
+        try:
+            _ = self.run_codex(agents_content)
+        except Exception as e:
+            # 非ゼロ終了でも temp_json が存在すれば続行
+            if not (temp_json.exists() and temp_json.stat().st_size > 0):
+                raise
+
+        # 生成された JSON を読み込み
+        if (not temp_json.exists()) or (temp_json.stat().st_size == 0):
+            raise FileNotFoundError(f"report.json not found or empty: {temp_json}")
+        with open(temp_json, 'r', encoding='utf-8') as f:
+            report_obj = json.load(f)
+        self.log(f"JSON report detected at {temp_json}")
+
+        # 所定のファイル名に保存（JSON）
+        final_json_path = output_dir / json_output_name
+        with open(final_json_path, 'w', encoding='utf-8') as f:
+            json.dump(report_obj, f, ensure_ascii=False, indent=2)
+        self.log(f"Saved JSON to {final_json_path}")
+
+        # JSON -> Markdown 変換と保存（所定名）
+        md_content = self._convert_report_json_to_markdown(report_obj)
+        final_md_path = output_dir / md_output_name
+        final_md_path.write_text(md_content, encoding='utf-8')
+        self.log(f"Markdown report saved to {final_md_path}")
+
+        # Turso へ PUSH（JSON + Markdown）
+        try:
+            report_id = push_daily_report(report_obj, md_content, date_dir)
+            self.log(f"Pushed report to Turso: {report_id}")
+        except Exception as e:
+            self.log(f"ERROR: Turso push failed: {e}")
+            raise
+
+        # 一時の report.json は混乱の元なので削除
+        try:
+            if temp_json.exists():
+                temp_json.unlink()
+        except Exception:
+            pass
+
+        return report_obj, md_content
     
     
     def find_codex_command(self):

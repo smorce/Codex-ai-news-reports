@@ -10,4 +10,8 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "rich>=14.1.0",
     "uvicorn==0.25.0",
+    "requests>=2.31.0",
+    "chardet==5.2.0",
+    "beautifulsoup4>=4.12.0",
+    "feedparser>=6.0.11",
 ]
