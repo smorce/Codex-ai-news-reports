@@ -117,12 +117,17 @@ class CodexDailyRunner:
             output_dir.mkdir(parents=True, exist_ok=True)
 
             # 1) 通常の AGENTS.md を処理（AI Devニュース）
-            self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
-            ai_report_obj, ai_md_content = self.process_agents(
-                agents_path=self.agents_file,
-                json_output_name="report_ai.json",
-                md_output_name="report_ai.md",
-            )
+            # DEBUG: 一旦スキップ
+            try:
+                self.log("Processing AGENTS.md → report_ai.json / report_ai.md ... (DEBUG: SKIPPED)")
+                # ai_report_obj, ai_md_content = self.process_agents(
+                #     agents_path=self.agents_file,
+                #     json_output_name="report_ai.json",
+                #     md_output_name="report_ai.md",
+                # )
+                self.log("AI News processing skipped for debugging")
+            except Exception as e:
+                self.log(f"WARNING: AI News processing skipped: {e}")
 
             # 2) Reddit 版 AGENTS_Reddit.md を処理
             self.log("Processing AGENTS_Reddit.md → report_reddit.json / report_reddit.md ...")
