@@ -63,7 +63,17 @@ class CodexDailyRunner:
         """一時ファイルを検索して削除する"""
         self.log("Checking for temporary files to clean up...")
         deleted_count = 0
-        temp_patterns = ['temp_tasklist.md', 'report.json']
+        temp_patterns = [
+            'temp_tasklist.md',           # Codexタスクリスト
+            'report.json',                # Codex生成の一時JSON
+            'report_ai.json',             # AI News成果物
+            'report_reddit.json',         # Reddit成果物
+            'report_github_trending.json',# GitHub Trending成果物
+            'report_rss.json',            # RSS成果物
+            'rss_sources.json',           # RSSソース収集結果
+            'codex_raw_output_*.txt',     # Codexエラーログ
+            'codex_prompt_*.md',          # 一時プロンプトファイル
+        ]
         
         try:
             for pattern in temp_patterns:
