@@ -442,6 +442,12 @@ class CodexDailyRunner:
                 err_file.write_text(error_content, encoding='utf-8')
                 self.log(f"Codex exited with code {rc}. Saving raw output for diagnosis.")
                 
+                # 少し待って report.json が現れるか再確認（遅延フラッシュ対策）
+                for _ in range(6):
+                    if report_file.exists() and report_file.stat().st_size > 0:
+                        break
+                    time.sleep(0.5)
+
                 # report.json が存在する場合は成功扱いで終了
                 if (report_file.exists() and report_file.stat().st_size > 0):
                     self.log(f"report.json found despite non-zero exit. Treating as success: {report_file}")
@@ -457,10 +463,35 @@ class CodexDailyRunner:
             return stdout_content
             
         except subprocess.TimeoutExpired:
+            # タイムアウトでも report.json が存在すれば成功扱い
+            for _ in range(6):
+                if report_file.exists() and report_file.stat().st_size > 0:
+                    break
+                time.sleep(0.5)
+            if report_file.exists() and report_file.stat().st_size > 0:
+                self.log(f"Timeout occurred but report found at {report_file}. Treating as success.")
+                return ""
             error_msg = "Codex コマンドがタイムアウトしました（10分）"
             self.log(f"ERROR: {error_msg}")
             raise RuntimeError(error_msg)
+        except subprocess.CalledProcessError:
+            # CalledProcessError は既に上で処理済みなので再送出
+            raise
         except Exception as e:
+            # その他の例外でも report.json が存在すれば成功扱い
+            for _ in range(6):
+                try:
+                    if report_file.exists() and report_file.stat().st_size > 0:
+                        break
+                except Exception:
+                    pass
+                time.sleep(0.5)
+            try:
+                if report_file.exists() and report_file.stat().st_size > 0:
+                    self.log(f"Exception occurred but report found at {report_file}. Treating as success.")
+                    return ""
+            except Exception:
+                pass
             error_msg = f"Codex コマンドの実行に失敗しました: {e}"
             self.log(f"ERROR: {error_msg}")
             raise RuntimeError(error_msg)

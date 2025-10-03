@@ -1,0 +1,108 @@
+# AI News Report (https://reddit.com/)
+
+- Generated at: 2025-10-03T00:36:54.897801+00:00
+- Articles: 4
+
+## Google is blocking AI searches for Trump and dementia
+- Date: 2025-10-02T17:31:02+00:00
+
+### Executive Summary
+- Techグループで注目を集めた r/artificial の投稿「Google is blocking AI searches for Trump and dementia」。
+- スコアは 239、コメントは 29 件に達しコミュニティで議論が活発化。
+- リンク先は theverge.com を指し示し、日次トップの技術ニュースとして共有された。
+
+### Key Findings
+- Techグループのトップ投稿として「Google is blocking AI searches for Trump and dementia」が日次ランキングに浮上。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- 投稿スコアは 239 で、多数のアップボートを獲得。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- コメントは 29 件寄せられ、コミュニティ反応が継続。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- 投稿者 u/esporx が r/artificial に共有し、専門家コミュニティの議題となった。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- 投稿は 2025-10-02T17:31:02+00:00 に作成され、現時点でも上位に表示されている。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- リンク先の追加情報が議論の背景を補強。 [^]
+  - Footnote: https://www.theverge.com/news/789152/google-ai-searches-blocking-trump-dementia-biden
+
+### References
+- https://reddit.com/r/artificial/comments/1nwa8aq/google_is_blocking_ai_searches_for_trump_and/
+- https://www.theverge.com/news/789152/google-ai-searches-blocking-trump-dementia-biden
+
+## GG everyone
+- Date: 2025-10-02T08:46:17+00:00
+
+### Executive Summary
+- Techグループで注目を集めた r/artificial の投稿「GG everyone」。
+- スコアは 168、コメントは 61 件に達しコミュニティで議論が活発化。
+- リンク先は i.redd.it を指し示し、日次トップの技術ニュースとして共有された。
+
+### Key Findings
+- Techグループのトップ投稿として「GG everyone」が日次ランキングに浮上。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- 投稿スコアは 168 で、多数のアップボートを獲得。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- コメントは 61 件寄せられ、コミュニティ反応が継続。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- 投稿者 u/MetaKnowing が r/artificial に共有し、専門家コミュニティの議題となった。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- 投稿は 2025-10-02T08:46:17+00:00 に作成され、現時点でも上位に表示されている。 [^]
+  - Footnote: https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- リンク先の追加情報が議論の背景を補強。 [^]
+  - Footnote: https://i.redd.it/xuwkszgyvnsf1.png
+
+### References
+- https://reddit.com/r/artificial/comments/1nvyg9k/gg_everyone/
+- https://i.redd.it/xuwkszgyvnsf1.png
+
+## Government workers say their out-of-office replies were forcibly changed to blame Democrats for shutdown
+- Date: 2025-10-02T20:40:05+00:00
+
+### Executive Summary
+- Newsグループで注目を集めた r/technology の投稿「Government workers say their out-of-office replies were forcibly changed to blame Democrats for shutdown」。
+- スコアは 29,237、コメントは 870 件に達しコミュニティで議論が活発化。
+- リンク先は wired.com を指し示し、日次トップの技術ニュースとして共有された。
+
+### Key Findings
+- Newsグループのトップ投稿として「Government workers say their out-of-office replies were forcibly changed to blame Democrats for shutdown」が日次ランキングに浮上。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- 投稿スコアは 29,237 で、多数のアップボートを獲得。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- コメントは 870 件寄せられ、コミュニティ反応が継続。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- 投稿者 u/BreakfastTop6899 が r/technology に共有し、専門家コミュニティの議題となった。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- 投稿は 2025-10-02T20:40:05+00:00 に作成され、現時点でも上位に表示されている。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- リンク先の追加情報が議論の背景を補強。 [^]
+  - Footnote: https://www.wired.com/story/government-workers-say-their-out-of-office-replies-were-forcibly-changed-to-blame-democrats-for-shutdown/
+
+### References
+- https://reddit.com/r/technology/comments/1nwfce5/government_workers_say_their_outofoffice_replies/
+- https://www.wired.com/story/government-workers-say-their-out-of-office-replies-were-forcibly-changed-to-blame-democrats-for-shutdown/
+
+## Federal Agencies Use Official Websites to Blame Democrats for Shutdown
+- Date: 2025-10-02T05:49:57+00:00
+
+### Executive Summary
+- Newsグループで注目を集めた r/technology の投稿「Federal Agencies Use Official Websites to Blame Democrats for Shutdown」。
+- スコアは 20,352、コメントは 652 件に達しコミュニティで議論が活発化。
+- リンク先は nytimes.com を指し示し、日次トップの技術ニュースとして共有された。
+
+### Key Findings
+- Newsグループのトップ投稿として「Federal Agencies Use Official Websites to Blame Democrats for Shutdown」が日次ランキングに浮上。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- 投稿スコアは 20,352 で、多数のアップボートを獲得。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- コメントは 652 件寄せられ、コミュニティ反応が継続。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- 投稿者 u/esporx が r/technology に共有し、専門家コミュニティの議題となった。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- 投稿は 2025-10-02T05:49:57+00:00 に作成され、現時点でも上位に表示されている。 [^]
+  - Footnote: https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- リンク先の追加情報が議論の背景を補強。 [^]
+  - Footnote: https://www.nytimes.com/2025/10/01/us/politics/furlough-small-business-administration-emails.html
+
+### References
+- https://reddit.com/r/technology/comments/1nvvnbz/federal_agencies_use_official_websites_to_blame/
+- https://www.nytimes.com/2025/10/01/us/politics/furlough-small-business-administration-emails.html

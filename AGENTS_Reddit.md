@@ -24,7 +24,7 @@
 
 1. `temp_tasklist.md` をチェックリスト形式で作成してください。各ステップが終了するごとにチェックボックスを埋めてください。
 
-2. Reddit のトップ投稿ページを `chrome-devtools.new_page({"url": <URL>})` で開き、安定するまで待ってください（`WAIT_STABLE_MS` 準拠）。
+2. Reddit のトップ投稿ページを `chrome-devtools.new_page({"url": <URL>})` で開き、安定するまで待ってください。
    - tech グループ（複合ビュー）: `https://www.reddit.com/r/artificial+compsci+coding/top/?t=day`
    - news グループ（複合ビュー）: `https://www.reddit.com/r/technology+Futurology/top/?t=day`
 
