@@ -9,7 +9,8 @@
 </Variables>
 
 <CurrentEnvironment>
-- PowerShell
+- AI実行環境: Codex
+- システムシェル: PowerShell (シェルコマンド実行時のみ使用)
 </CurrentEnvironment>
 
 <Instructions>
@@ -29,7 +30,8 @@
 </Instructions>
 
 <Constraints>
-- ファイル操作は apply_patch で行う
+- ファイル操作: Codexの標準ツール apply_patch を使用
+- 注意: ファイル読み書きは必ずCodexのツールを使用し、エラーが頻発する場合はPowerShellのecho/cat/heredoc等を使用すること
 - Webアクセスやブラウジングは不要（ローカルの `rss_sources.json` のみを使用）
 </Constraints>
 
@@ -69,5 +71,3 @@
 - Python を使用する場合は簡単なタスクでも必ず一時スクリプトを作成する（実行後に片付け）
 - スクリプトを実行する場合は `uv run temp_script.py`
 </Runtime>
-
-

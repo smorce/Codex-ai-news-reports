@@ -16,7 +16,8 @@
 </Variables>
 
 <CurrentEnvironment>
-- PowerShell
+- AI実行環境: Codex
+- システムシェル: PowerShell (シェルコマンド実行時のみ使用)
 </CurrentEnvironment>
 
 <Instructions>
@@ -46,8 +47,9 @@
 </Instructions>
 
 <Constraints>
-- Web検索は Chrome DevTools MCP で行う
-- ファイル操作は apply_patch で行う
+- Web検索: Chrome DevTools MCPサーバーを使用
+- ファイル操作: Codexの標準ツール apply_patch を使用
+- 注意: ファイル読み書きは必ずCodexのツールを使用し、エラーが頻発する場合はPowerShellのecho/cat/heredoc等を使用すること
 </Constraints>
 
 <JSONSchema>
