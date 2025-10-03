@@ -41,6 +41,7 @@ class CodexDailyRunner:
         self.agents_file = self.repo_path / "AGENTS.md"
         self.agents_reddit_file = self.repo_path / "AGENTS_Reddit.md"
         self.agents_rss_file = self.repo_path / "AGENTS_rss.md"
+        self.agents_github_trending_file = self.repo_path / "AGENTS_github_trending.md"
         
         # ディレクトリ作成
         self.report_dir.mkdir(exist_ok=True)
@@ -64,15 +65,16 @@ class CodexDailyRunner:
         self.log("Checking for temporary files to clean up...")
         deleted_count = 0
         temp_patterns = [
-            'temp_tasklist.md',           # Codexタスクリスト
-            'report.json',                # Codex生成の一時JSON
-            'report_ai.json',             # AI News成果物
-            'report_reddit.json',         # Reddit成果物
-            'report_github_trending.json',# GitHub Trending成果物
-            'report_rss.json',            # RSS成果物
-            'rss_sources.json',           # RSSソース収集結果
-            'codex_raw_output_*.txt',     # Codexエラーログ
-            'codex_prompt_*.md',          # 一時プロンプトファイル
+            'temp_tasklist.md',                 # Codexタスクリスト
+            'report.json',                      # Codex生成の一時JSON
+            'report_ai.json',                   # AI News成果物
+            'report_reddit.json',               # Reddit成果物
+            'report_github_trending.json',      # GitHub Trending成果物
+            'report_github_trending_raw.json',  # GitHub Trending生データ（Codex処理前）
+            'report_rss.json',                  # RSS成果物
+            'rss_sources.json',                 # RSSソース収集結果
+            'codex_raw_output_*.txt',           # Codexエラーログ
+            'codex_prompt_*.md',                # 一時プロンプトファイル
         ]
         
         try:
@@ -110,6 +112,8 @@ class CodexDailyRunner:
                 raise FileNotFoundError(f"AGENTS_Reddit.md not found: {self.agents_reddit_file}")
             if not self.agents_rss_file.exists():
                 raise FileNotFoundError(f"AGENTS_rss.md not found: {self.agents_rss_file}")
+            if not self.agents_github_trending_file.exists():
+                raise FileNotFoundError(f"AGENTS_github_trending.md not found: {self.agents_github_trending_file}")
 
             # 日付と出力ディレクトリ
             date_dir = datetime.now().strftime("%Y-%m-%d")
@@ -117,17 +121,12 @@ class CodexDailyRunner:
             output_dir.mkdir(parents=True, exist_ok=True)
 
             # 1) 通常の AGENTS.md を処理（AI Devニュース）
-            # DEBUG: 一旦スキップ
-            try:
-                self.log("Processing AGENTS.md → report_ai.json / report_ai.md ... (DEBUG: SKIPPED)")
-                # ai_report_obj, ai_md_content = self.process_agents(
-                #     agents_path=self.agents_file,
-                #     json_output_name="report_ai.json",
-                #     md_output_name="report_ai.md",
-                # )
-                self.log("AI News processing skipped for debugging")
-            except Exception as e:
-                self.log(f"WARNING: AI News processing skipped: {e}")
+            self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
+            ai_report_obj, ai_md_content = self.process_agents(
+                agents_path=self.agents_file,
+                json_output_name="report_ai.json",
+                md_output_name="report_ai.md",
+            )
 
             # 2) Reddit 版 AGENTS_Reddit.md を処理
             self.log("Processing AGENTS_Reddit.md → report_reddit.json / report_reddit.md ...")
@@ -137,40 +136,34 @@ class CodexDailyRunner:
                 md_output_name="report_reddit.md",
             )
 
-            # 3) GitHub Trending を収集して保存・PUSH
+            # 3) GitHub Trending を収集（機械的な生データ収集）
             try:
-                self.log("Processing GitHub Trending → report_github_trending.json / report_github_trending.md ...")
+                self.log("Collecting GitHub Trending raw data → report_github_trending_raw.json ...")
                 languages_file = Path(__file__).parent / "languages.toml"
-                trending_report_obj = collect_github_trending_report(
+                trending_raw_obj = collect_github_trending_report(
                     languages_file=languages_file,
                     general_limit=10,
                     specific_limit=5,
                 )
 
-                # 保存（JSON）
-                final_tr_json = output_dir / "report_github_trending.json"
-                with open(final_tr_json, 'w', encoding='utf-8') as f:
-                    json.dump(trending_report_obj, f, ensure_ascii=False, indent=2)
-                self.log(f"Saved JSON to {final_tr_json}")
-
-                # Markdown 生成・保存
-                tr_md_content = self._convert_report_json_to_markdown(trending_report_obj)
-                final_tr_md = output_dir / "report_github_trending.md"
-                final_tr_md.write_text(tr_md_content, encoding='utf-8')
-                self.log(f"Markdown report saved to {final_tr_md}")
-
-                # Turso へ PUSH
-                try:
-                    report_id = push_daily_report(trending_report_obj, tr_md_content, date_dir)
-                    self.log(f"Pushed GitHub Trending report to Turso: {report_id}")
-                except Exception as e:
-                    self.log(f"ERROR: Turso push failed for GitHub Trending: {e}")
-                    raise
+                # 生データを一時保存（Codexが読み込む用）
+                raw_json_path = output_dir / "report_github_trending_raw.json"
+                with open(raw_json_path, 'w', encoding='utf-8') as f:
+                    json.dump(trending_raw_obj, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved raw GitHub Trending data to {raw_json_path}")
             except Exception as e:
-                self.log(f"ERROR: GitHub Trending processing failed: {e}")
+                self.log(f"ERROR: GitHub Trending raw data collection failed: {e}")
                 raise
 
-            # 4) RSS ソースを機械的に収集・保存（LLMなし）
+            # 4) GitHub Trending を Codex で要約・分析
+            self.log("Processing GitHub Trending with Codex → report_github_trending.json / report_github_trending.md ...")
+            trending_report_obj, trending_md_content = self.process_agents(
+                agents_path=self.agents_github_trending_file,
+                json_output_name="report_github_trending.json",
+                md_output_name="report_github_trending.md",
+            )
+
+            # 5) RSS ソースを機械的に収集・保存（LLMなし）
             try:
                 self.log("Collecting RSS sources (mechanical) → rss_sources.json ...")
                 feed_file = Path(__file__).parent / "feed.toml"
@@ -187,7 +180,7 @@ class CodexDailyRunner:
                 self.log(f"ERROR: RSS sources collection failed: {e}")
                 raise
 
-            # 5) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
+            # 6) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
             self.log("Processing AGENTS_rss.md → report_rss.json / report_rss.md ...")
             rss_report_obj, rss_md_content = self.process_agents(
                 agents_path=self.agents_rss_file,
