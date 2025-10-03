@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # scripts/github_trending.py
 
+import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -17,6 +18,8 @@ class Repository:
     description: Optional[str]
     link: str
     stars: int
+    stars_today: int  # 今日獲得したスター数
+    stars_period: str  # "today" or "this week"
 
 
 def _read_languages_config(languages_file: Path) -> Dict[str, List[str]]:
@@ -71,9 +74,8 @@ def _retrieve_repositories(language: str, limit: int) -> List[Repository]:
         desc_el = article.select_one("p")
         description = desc_el.text.strip() if desc_el and desc_el.text else None
 
-        # Stars
+        # Stars (累積スター数)
         stars = 0
-        # Common selector for stargazers link
         star_link = article.select_one("a[href$='/stargazers']")
         if star_link and star_link.text:
             digits = star_link.text.strip().replace(",", "").replace(".", "")
@@ -88,8 +90,43 @@ def _retrieve_repositories(language: str, limit: int) -> List[Repository]:
                     stars = int(txt)
                     break
 
+        # Stars today/this week (トレンドスター数) - これが重要！
+        stars_today = 0
+        stars_period = "today"
+        
+        # 複数のセレクタを試す（GitHubのHTML構造は変わることがある）
+        trend_selectors = [
+            "span.d-inline-block.float-sm-right",
+            "span.float-sm-right",
+            "span[class*='float']",
+            "div.f6.color-fg-muted.mt-2 span:last-child",
+        ]
+        
+        trend_text = ""
+        for selector in trend_selectors:
+            trend_el = article.select_one(selector)
+            if trend_el:
+                trend_text = trend_el.get_text(" ", strip=True)
+                if "star" in trend_text.lower():
+                    break
+        
+        # "123 stars today" or "1,234 stars this week" のパターンをマッチ
+        if trend_text:
+            # 数字とカンマを含むパターン: "1,234 stars today"
+            match = re.search(r'([\d,]+)\s+stars?\s+(today|this\s+week)', trend_text, re.IGNORECASE)
+            if match:
+                stars_today = int(match.group(1).replace(",", ""))
+                stars_period = "today" if "today" in match.group(2).lower() else "this week"
+
         repositories.append(
-            Repository(name=name, description=description, link=link, stars=stars)
+            Repository(
+                name=name,
+                description=description,
+                link=link,
+                stars=stars,
+                stars_today=stars_today,
+                stars_period=stars_period,
+            )
         )
 
     return repositories
@@ -103,8 +140,11 @@ def _dedupe_repositories(repos_by_lang: List[Tuple[str, List[Repository]]]) -> L
             if r.link not in seen:
                 seen[r.link] = r
             else:
-                # Prefer higher star count if duplicate appears
-                if r.stars > seen[r.link].stars:
+                # Prefer higher stars_today (今日のスター数) if duplicate appears
+                if r.stars_today > seen[r.link].stars_today:
+                    seen[r.link] = r
+                elif r.stars_today == seen[r.link].stars_today and r.stars > seen[r.link].stars:
+                    # 同じ今日のスター数なら、累積スター数が多い方を優先
                     seen[r.link] = r
     return list(seen.values())
 
@@ -126,8 +166,9 @@ def collect_github_trending_report(
         repos_by_language.append((language, _retrieve_repositories(language, specific_limit)))
 
     deduped = _dedupe_repositories(repos_by_language)
-    # Sort by stars desc
-    deduped.sort(key=lambda r: r.stars, reverse=True)
+    # Sort by stars_today desc (今日のスター数でソート - これが重要！)
+    # 次に累積スター数でソート
+    deduped.sort(key=lambda r: (r.stars_today, r.stars), reverse=True)
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     now_local = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
@@ -137,7 +178,19 @@ def collect_github_trending_report(
         executive_summary: List[str] = []
         if r.description:
             executive_summary.append(r.description)
-        executive_summary.append(f"スター数: {r.stars}")
+        
+        # トレンド情報を強調（今日のスター数がある場合）
+        if r.stars_today > 0:
+            executive_summary.append(f"🔥 {r.stars_today:,} stars {r.stars_period}")
+        executive_summary.append(f"⭐ 累積スター数: {r.stars:,}")
+
+        # key_findingsにもトレンド情報を追加
+        key_findings = []
+        if r.stars_today > 0:
+            key_findings.append({
+                "point": f"トレンド: {r.stars_today:,} stars {r.stars_period}",
+                "footnote": "GitHubトレンディングページから取得"
+            })
 
         articles.append(
             {
@@ -145,7 +198,7 @@ def collect_github_trending_report(
                 "title": r.name,
                 "date": None,
                 "executive_summary": executive_summary,
-                "key_findings": [],
+                "key_findings": key_findings,
                 "references": [r.link],
                 "retrieved_at": now_utc,
             }
