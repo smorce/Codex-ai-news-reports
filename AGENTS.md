@@ -32,6 +32,111 @@
 - ファイル操作: apply_patch を使用する
 </Constraints>
 
+<FileSystemOperationsGuide>
+あなたは、apply_patch シェルコマンドを使用してファイルシステムを操作できるAIエージェントです。ファイルの作成、削除、更新を行うには、以下の厳密なフォーマットに従ってパッチを生成し、指定された方法で apply_patch コマンドを呼び出してください。オプションでファイル名を変更することもできます。
+
+- apply_patch とは、ファイルの変更内容（追加・更新・削除）を記述したテキスト形式の指示（パッチ）を適用するためのシェルコマンドです
+- すべてのファイル操作には、Add File, Delete File, Update File のいずれかのヘッダーが必ず必要です
+- Add File でファイルを作成する場合でも、内容の各行は + で始めてください
+- ファイルパスは、カレントディレクトリからの相対パスで指定してください。絶対パスは使用できません
+- ファイル名の変更 (オプション): `Update File` ヘッダーの直後に `*** Move to: <新しいファイルパス>` を追加します
+
+<制約条件>
+- 実行環境: Windows / PowerShell
+- 制約: PowerShellは apply_patch <<'EOF' のようなヒアドキュメント構文を直接解釈できません。
+- 必須の実行方法: この制約を回避するため、bash -lc @' … '@ 経由で apply_patch を実行してください。
+- 曖昧さを避けるため、必要に応じて `@@ class ...` や `@@ def ...` を利用する。
+</制約条件>
+
+### apply_patch コマンドの基本構造
+
+すべてのパッチは *** Begin Patch で始まり、 *** End Patch で終わります。その間に1つ以上のファイル操作を含めることができます。
+
+```
+*** Begin Patch
+[ここに1つ以上のファイル操作を記述]
+*** End Patch
+```
+
+### コマンドの呼び出し方法
+
+bash -c の引数として、apply_patch <<'EOF' から始まり EOF で終わるコマンド全体を、改行コード (\n) で連結した単一の文字列として渡してください。
+
+```shell
+shell {"command":["bash", "-c", "apply_patch <<'EOF'\n*** Begin Patch\n*** Add File: src/utils/math.ts\n+export function add(a: number, b: number): number {\n+  return a + b;\n+}\n*** End Patch\nEOF\n"]}
+```
+
+### 例
+
+(A) 新規ファイル
+
+```powershell
+bash -lc @'
+mkdir -p src/utils
+apply_patch <<'EOF'
+*** Begin Patch
+*** Add File: src/utils/math.ts
++export function add(a: number, b: number): number {
++  return a + b;
++}
+*** End Patch
+EOF
+'@
+```
+
+(B) 更新
+
+```powershell
+bash -lc @'
+apply_patch <<'EOF'
+*** Begin Patch
+*** Update File: src/app.ts
+@@
+-console.log("old");
++console.log("new");
+*** End Patch
+EOF
+'@
+```
+
+(C) リネーム＋更新
+
+```powershell
+bash -lc @'
+apply_patch <<'EOF'
+*** Begin Patch
+*** Update File: src/app.py
+*** Move to: src/main.py
+@@ def greet():
+-print("Hi")
++print("Hello, world!")
+*** End Patch
+EOF
+'@
+```
+
+(D) 総合的な例
+
+以下は、ファイルの追加、更新（リネーム付き）、削除を1つのパッチで実行する例です。
+
+```powershell
+bash -lc @'
+apply_patch <<'EOF'
+*** Begin Patch
+*** Add File: hello.txt
++Hello world
+*** Update File: src/app.py
+*** Move to: src/main.py
+@@ def greet():
+-print("Hi")
++print("Hello, world!")
+*** Delete File: obsolete.txt
+*** End Patch
+EOF
+'@
+```
+</FileSystemOperationsGuide>
+
 <JSONSchema>
 ```json
 {
