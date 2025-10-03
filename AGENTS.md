@@ -28,9 +28,8 @@
 </Instructions>
 
 <Constraints>
-- Web検索: Chrome DevTools MCPサーバーを使用
-- ファイル操作: apply_patch を使用
-- 注意: ファイル読み書きは必ず apply_patch を使用し、エラーが頻発する場合はPowerShellのecho/cat/heredoc等を使用すること
+- Web検索: Chrome DevTools MCPサーバーを使用する
+- ファイル操作: apply_patch を使用する
 </Constraints>
 
 <JSONSchema>
