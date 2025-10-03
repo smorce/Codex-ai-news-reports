@@ -39,7 +39,7 @@ class CodexDailyRunner:
         self.logs_dir = self.repo_path / "logs"
         self.log_file = self.logs_dir / "codex_daily_with_agents.log"
         self.agents_file = self.repo_path / "AGENTS.md"
-        self.agents_reddit_file = self.repo_path / "AGENTS_Reddit.md"
+        self.agents_reddit_file = self.repo_path / "AGENTS_Reddit_Simple.md"
         self.agents_rss_file = self.repo_path / "AGENTS_rss.md"
         self.agents_github_trending_file = self.repo_path / "AGENTS_github_trending.md"
         
@@ -109,7 +109,7 @@ class CodexDailyRunner:
             if not self.agents_file.exists():
                 raise FileNotFoundError(f"AGENTS.md not found: {self.agents_file}")
             if not self.agents_reddit_file.exists():
-                raise FileNotFoundError(f"AGENTS_Reddit.md not found: {self.agents_reddit_file}")
+                raise FileNotFoundError(f"AGENTS_Reddit_Simple.md not found: {self.agents_reddit_file}")
             if not self.agents_rss_file.exists():
                 raise FileNotFoundError(f"AGENTS_rss.md not found: {self.agents_rss_file}")
             if not self.agents_github_trending_file.exists():
@@ -128,8 +128,8 @@ class CodexDailyRunner:
                 md_output_name="report_ai.md",
             )
 
-            # 2) Reddit 版 AGENTS_Reddit.md を処理
-            self.log("Processing AGENTS_Reddit.md → report_reddit.json / report_reddit.md ...")
+            # 2) Reddit 版 AGENTS_Reddit_Simple.md を処理
+            self.log("Processing AGENTS_Reddit_Simple.md → report_reddit.json / report_reddit.md ...")
             reddit_report_obj, reddit_md_content = self.process_agents(
                 agents_path=self.agents_reddit_file,
                 json_output_name="report_reddit.json",
