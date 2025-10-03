@@ -1,0 +1,79 @@
+{
+  "generated_at": "2025-10-03T01:44:22Z",
+  "site": "tech-blogs/rss",
+  "num_articles": 2,
+  "articles": [
+    {
+      "url": "https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976",
+      "title": "AIコーディングエージェントベンチマーク、実装のすべて【実装編】",
+      "date": "2025-10-03T01:32:24Z",
+      "executive_summary": [
+        "企画編で設計したAIコーディングエージェント向けベンチマークを実装視点で解説する。",
+        "Codex・Claude Code・OpenCodeを公平に比較する評価システムのコード化プロセスを共有する。",
+        "実装手順の紹介に留まらず、設計判断の背景や意図も併せて整理している。"
+      ],
+      "key_findings": [
+        {
+          "point": "企画編で策定した公平性重視の評価設計を具体的なコードへ落とし込む工程を詳説する。",
+          "footnote": "出典: https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+        },
+        {
+          "point": "Codex・Claude Code・OpenCodeの3エージェントを同一基準で比較できる実装構成を採用している。",
+          "footnote": "出典: https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+        },
+        {
+          "point": "単なる手順羅列ではなく各実装判断の理由を明示し読者の再現性向上を狙う。",
+          "footnote": "出典: https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+        },
+        {
+          "point": "ベンチマーク基盤を段階的に組み上げる流れを通して設計と実装のギャップを埋めている。",
+          "footnote": "出典: https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+        },
+        {
+          "point": "フェアな比較を実現するための工夫がコード例と共に解説されている。",
+          "footnote": "出典: https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+        }
+      ],
+      "references": [
+        "https://qiita.com/nogataka/items/2303f9b3a2eeab9dc976"
+      ],
+      "retrieved_at": "2025-10-03T01:44:22Z"
+    },
+    {
+      "url": "https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a",
+      "title": "OpenCode ─ ベンチマークでトップを獲得した理由と魅力を徹底解説",
+      "date": "2025-10-03T01:25:40Z",
+      "executive_summary": [
+        "TypeScriptエージェントの最新ベンチマークでOpenCodeが好成績を収めた要因を分析する。",
+        "Claudeなど競合エージェントとの比較を交えながらOpenCodeの強みを整理する。",
+        "開発現場でのAIエージェント活用拡大を背景にOpenCodeの導入価値を解説する。"
+      ],
+      "key_findings": [
+        {
+          "point": "TypeScriptエージェントベンチマークでOpenCodeが1位・3位・7位を獲得した事実を紹介する。",
+          "footnote": "出典: https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+        },
+        {
+          "point": "競合としてClaudeなど主要エージェントを挙げ性能差を検証している。",
+          "footnote": "出典: https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+        },
+        {
+          "point": "OpenCodeの優位性を開発現場の具体的ニーズと結び付けて説明する。",
+          "footnote": "出典: https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+        },
+        {
+          "point": "評価結果の背景にある設計思想や運用ポイントを掘り下げている。",
+          "footnote": "出典: https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+        },
+        {
+          "point": "AIコーディングエージェントの重要性が増す中でOpenCode導入のメリットを整理する。",
+          "footnote": "出典: https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+        }
+      ],
+      "references": [
+        "https://qiita.com/nogataka/items/87bc09f33dd4ac105b9a"
+      ],
+      "retrieved_at": "2025-10-03T01:44:22Z"
+    }
+  ]
+}

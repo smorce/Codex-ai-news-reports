@@ -1,6 +1,6 @@
 # AI News Report (github-trending)
 
-- Generated at: 2025-10-03T00:38:04Z
+- Generated at: 2025-10-03T01:42:20Z
 - Articles: 114
 
 ## flutter/flutter
@@ -34,7 +34,7 @@
 
 ### Executive Summary
 - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions
-- スター数: 79052
+- スター数: 79055
 
 ### References
 - https://github.com/bregman-arie/devops-exercises
@@ -43,7 +43,7 @@
 
 ### Executive Summary
 - High performance self-hosted photo and video management solution.
-- スター数: 78889
+- スター数: 78907
 
 ### References
 - https://github.com/immich-app/immich
@@ -61,7 +61,7 @@
 
 ### Executive Summary
 - Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
-- スター数: 74806
+- スター数: 74807
 
 ### References
 - https://github.com/hoppscotch/hoppscotch
@@ -79,7 +79,7 @@
 
 ### Executive Summary
 - Tesseract Open Source OCR Engine (main repository)
-- スター数: 70035
+- スター数: 70036
 
 ### References
 - https://github.com/tesseract-ocr/tesseract
@@ -88,7 +88,7 @@
 
 ### Executive Summary
 - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.
-- スター数: 69796
+- スター数: 69797
 
 ### References
 - https://github.com/strapi/strapi
@@ -106,7 +106,7 @@
 
 ### Executive Summary
 - An extremely fast Python package and project manager, written in Rust.
-- スター数: 68923
+- スター数: 68928
 
 ### References
 - https://github.com/astral-sh/uv
@@ -115,7 +115,7 @@
 
 ### Executive Summary
 - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-- スター数: 66587
+- スター数: 66589
 
 ### References
 - https://github.com/zed-industries/zed
@@ -124,7 +124,7 @@
 
 ### Executive Summary
 - 📜 33 JavaScript concepts every developer should know.
-- スター数: 65699
+- スター数: 65700
 
 ### References
 - https://github.com/leonardomso/33-js-concepts
@@ -133,7 +133,7 @@
 
 ### Executive Summary
 - JavaScript animation engine
-- スター数: 64512
+- スター数: 64514
 
 ### References
 - https://github.com/juliangarnier/anime
@@ -160,7 +160,7 @@
 
 ### Executive Summary
 - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
-- スター数: 45870
+- スター数: 45873
 
 ### References
 - https://github.com/coollabsio/coolify
@@ -169,7 +169,7 @@
 
 ### Executive Summary
 - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- スター数: 45475
+- スター数: 45477
 
 ### References
 - https://github.com/harry0703/MoneyPrinterTurbo
@@ -196,7 +196,7 @@
 
 ### Executive Summary
 - A refreshingly simple data-driven game engine built in Rust
-- スター数: 42482
+- スター数: 42484
 
 ### References
 - https://github.com/bevyengine/bevy
@@ -241,7 +241,7 @@
 
 ### Executive Summary
 - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-- スター数: 35296
+- スター数: 35306
 
 ### References
 - https://github.com/anthropics/claude-code
@@ -250,7 +250,7 @@
 
 ### Executive Summary
 - An open source payments switch written in Rust to make payments fast, reliable and affordable
-- スター数: 34880
+- スター数: 34884
 
 ### References
 - https://github.com/juspay/hyperswitch
@@ -259,7 +259,7 @@
 
 ### Executive Summary
 - ☁️ Nextcloud server, a safe home for all your data
-- スター数: 32237
+- スター数: 32263
 
 ### References
 - https://github.com/nextcloud/server
@@ -277,7 +277,7 @@
 
 ### Executive Summary
 - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
-- スター数: 31188
+- スター数: 31190
 
 ### References
 - https://github.com/gkd-kit/gkd
@@ -286,7 +286,7 @@
 
 ### Executive Summary
 - The user-friendly command line shell.
-- スター数: 31087
+- スター数: 31086
 
 ### References
 - https://github.com/fish-shell/fish-shell
@@ -322,7 +322,7 @@
 
 ### Executive Summary
 - Build system optimized for JavaScript and TypeScript, written in Rust
-- スター数: 28780
+- スター数: 28779
 
 ### References
 - https://github.com/vercel/turborepo
@@ -349,7 +349,7 @@
 
 ### Executive Summary
 - Create business apps and automate workflows in minutes. Supports PostgreSQL, MySQL, MariaDB, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀 No code / Low code platform..
-- スター数: 27036
+- スター数: 27037
 
 ### References
 - https://github.com/Budibase/budibase
@@ -358,7 +358,7 @@
 
 ### Executive Summary
 - Asynchronous image downloader with cache support as a UIImageView category
-- スター数: 25700
+- スター数: 25701
 
 ### References
 - https://github.com/SDWebImage/SDWebImage
@@ -385,7 +385,7 @@
 
 ### Executive Summary
 - Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
-- スター数: 23533
+- スター数: 23534
 
 ### References
 - https://github.com/hiddify/hiddify-app
@@ -439,7 +439,7 @@
 
 ### Executive Summary
 - Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.
-- スター数: 21529
+- スター数: 21537
 
 ### References
 - https://github.com/kestra-io/kestra
@@ -448,7 +448,7 @@
 
 ### Executive Summary
 - Declarative Continuous Deployment for Kubernetes
-- スター数: 20810
+- スター数: 20811
 
 ### References
 - https://github.com/argoproj/argo-cd
@@ -493,7 +493,7 @@
 
 ### Executive Summary
 - Open-source platform to build and deploy AI agent workflows.
-- スター数: 16079
+- スター数: 16085
 
 ### References
 - https://github.com/simstudioai/sim
@@ -511,7 +511,7 @@
 
 ### Executive Summary
 - Quarkus: Supersonic Subatomic Java.
-- スター数: 15051
+- スター数: 15052
 
 ### References
 - https://github.com/quarkusio/quarkus
@@ -529,7 +529,7 @@
 
 ### Executive Summary
 - Turso Database is a project to build the next evolution of SQLite.
-- スター数: 13815
+- スター数: 13817
 
 ### References
 - https://github.com/tursodatabase/turso
@@ -619,7 +619,7 @@
 
 ### Executive Summary
 - A Download Manager that speeds up your downloads
-- スター数: 9622
+- スター数: 9625
 
 ### References
 - https://github.com/amir1376/ab-download-manager
@@ -628,7 +628,7 @@
 
 ### Executive Summary
 - Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility
-- スター数: 9600
+- スター数: 9602
 
 ### References
 - https://github.com/MudBlazor/MudBlazor
@@ -646,7 +646,7 @@
 
 ### Executive Summary
 - Building event-driven applications the easy way in Go.
-- スター数: 9039
+- スター数: 9042
 
 ### References
 - https://github.com/ThreeDotsLabs/watermill
@@ -655,7 +655,7 @@
 
 ### Executive Summary
 - Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.
-- スター数: 8954
+- スター数: 8955
 
 ### References
 - https://github.com/github/awesome-copilot
@@ -673,7 +673,7 @@
 
 ### Executive Summary
 - Official repository for LTX-Video
-- スター数: 8192
+- スター数: 8196
 
 ### References
 - https://github.com/Lightricks/LTX-Video
@@ -691,7 +691,7 @@
 
 ### Executive Summary
 - 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版
-- スター数: 7782
+- スター数: 7799
 
 ### References
 - https://github.com/hsliuping/TradingAgents-CN
@@ -745,7 +745,7 @@
 
 ### Executive Summary
 - A collaborative list of public APIs for developers
-- スター数: 5810
+- スター数: 5811
 
 ### References
 - https://github.com/marcelscruz/public-apis
@@ -754,7 +754,7 @@
 
 ### Executive Summary
 - A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.
-- スター数: 5786
+- スター数: 5787
 
 ### References
 - https://github.com/raphamorim/rio
@@ -790,7 +790,7 @@
 
 ### Executive Summary
 - Performance-portable, length-agnostic SIMD with runtime dispatch
-- スター数: 5051
+- スター数: 5052
 
 ### References
 - https://github.com/google/highway
@@ -826,7 +826,7 @@
 
 ### Executive Summary
 - A Unity MCP server that allows MCP clients like Claude Desktop or Cursor to perform Unity Editor actions.
-- スター数: 3351
+- スター数: 3352
 
 ### References
 - https://github.com/CoplayDev/unity-mcp
@@ -853,7 +853,7 @@
 
 ### Executive Summary
 - Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels
-- スター数: 3028
+- スター数: 3030
 
 ### References
 - https://github.com/tile-ai/tilelang
@@ -862,7 +862,7 @@
 
 ### Executive Summary
 - Media Downloader is a Qt/C++ front end to yt-dlp, youtube-dl, gallery-dl, lux, you-get, svtplay-dl, aria2c, wget and safari books..
-- スター数: 3019
+- スター数: 3022
 
 ### References
 - https://github.com/mhogomchungu/media-downloader
@@ -871,7 +871,7 @@
 
 ### Executive Summary
 - 使用ai生成多章节的长篇小说，自动衔接上下文、伏笔
-- スター数: 2311
+- スター数: 2314
 
 ### References
 - https://github.com/YILING0013/AI_NovelGenerator
@@ -889,7 +889,7 @@
 
 ### Executive Summary
 - A Weather app for android 🌦🌞☔
-- スター数: 2051
+- スター数: 2052
 
 ### References
 - https://github.com/PranshulGG/WeatherMaster
@@ -898,7 +898,7 @@
 
 ### Executive Summary
 - World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.
-- スター数: 1990
+- スター数: 1992
 
 ### References
 - https://github.com/apache/gravitino
@@ -906,7 +906,7 @@
 ## anthropics/claude-agent-sdk-python
 
 ### Executive Summary
-- スター数: 1982
+- スター数: 1990
 
 ### References
 - https://github.com/anthropics/claude-agent-sdk-python
@@ -924,7 +924,7 @@
 
 ### Executive Summary
 - A free, open source, and extensible speech-to-text application that works completely offline.
-- スター数: 1562
+- スター数: 1575
 
 ### References
 - https://github.com/cjpais/Handy
@@ -933,7 +933,7 @@
 
 ### Executive Summary
 - Easily launch a Claude Code session that is connected to a swarm of Claude Code Agents
-- スター数: 1264
+- スター数: 1265
 
 ### References
 - https://github.com/parruda/claude-swarm
@@ -969,7 +969,7 @@
 
 ### Executive Summary
 - 📖 Runbooks that run
-- スター数: 957
+- スター数: 968
 
 ### References
 - https://github.com/atuinsh/desktop
@@ -978,7 +978,7 @@
 
 ### Executive Summary
 - A JAX-native LLM Post-Training Library
-- スター数: 889
+- スター数: 929
 
 ### References
 - https://github.com/google/tunix
@@ -1004,7 +1004,7 @@
 
 ### Executive Summary
 - The official Ruby SDK for the Model Context Protocol. Maintained in collaboration with Shopify.
-- スター数: 524
+- スター数: 525
 
 ### References
 - https://github.com/modelcontextprotocol/ruby-sdk
