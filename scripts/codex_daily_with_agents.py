@@ -16,7 +16,7 @@ from rich.console import Console
 from rich.panel import Panel
 from turso_push_report import push_daily_report
 from github_trending import collect_github_trending_report
-from tech_feed import collect_tech_feed_report, collect_rss_sources
+from tech_feed import collect_rss_sources
 
 class CodexDailyRunner:
     def __init__(self):

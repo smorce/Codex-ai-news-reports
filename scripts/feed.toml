@@ -17,6 +17,7 @@ ai_ml = [
     "https://huggingface.co/blog/feed.xml",
     "https://ai-news.dev/feeds/",
     "https://rss.beehiiv.com/feeds/GcFiF2T4I5.xml",
+    "https://gihyo.jp/feed/rss1",
     "https://thinkingmachines.ai/index.xml",
 ]
 
