@@ -50,6 +50,11 @@ shell {"command":["apply_patch","*** Begin Patch\n*** Delete File: temp_tasklist
 - Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）。
 </OpsConstraints>
 
+
+<SafetyAndChecks>
+- 前提チェック: apply_patch シェルコマンドでダミーテキストファイルを作成し削除する 
+</SafetyAndChecks>
+
 <OutputSchema>
 JSONSchema に厳密準拠してください：
 
