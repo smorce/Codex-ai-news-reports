@@ -52,7 +52,7 @@ class CodexDailyRunner:
     
     def log(self, message):
         """ログメッセージを記録"""
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         log_entry = f"{timestamp}\t{message}\n"
         
         # ログファイルに追記
@@ -118,7 +118,7 @@ class CodexDailyRunner:
             # GitHub Trending は Codex を使用しないため存在チェックは不要
 
             # 日付と出力ディレクトリ
-            date_dir = datetime.now().strftime("%Y-%m-%d")
+            date_dir = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             output_dir = self.report_dir / date_dir
             output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -248,7 +248,7 @@ class CodexDailyRunner:
     def process_agents(self, agents_path: Path, json_output_name: str, md_output_name: str):
         """指定の AGENTS ファイルを使って Codex を実行し、所定のファイル名で保存して返す。"""
         # 出力基準パス
-        date_dir = datetime.now().strftime("%Y-%m-%d")
+        date_dir = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         output_dir = self.report_dir / date_dir
         output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -345,7 +345,7 @@ class CodexDailyRunner:
         if expected_report_path is not None:
             report_file = Path(expected_report_path)
         else:
-            date_dir = datetime.now().strftime("%Y-%m-%d")
+            date_dir = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             output_dir = self.report_dir / date_dir
             report_file = output_dir / "report.json"
         
@@ -484,7 +484,7 @@ class CodexDailyRunner:
             
             if rc != 0:
                 # エラーの場合、生の出力を保存
-                date_tag = datetime.now().strftime("%Y%m%d")
+                date_tag = datetime.now(timezone.utc).strftime("%Y%m%d")
                 err_file = self.report_dir / f"codex_raw_output_{date_tag}.txt"
                 error_content = (
                     "STDOUT:\n" + stdout_content +
