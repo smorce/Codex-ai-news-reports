@@ -1,32 +1,8 @@
 {
-  "generated_at": "2025-10-05T16:38:49Z",
+  "generated_at": "2025-10-05T17:16:57Z",
   "site": "tech-blogs/rss-sources",
-  "num_articles": 18,
+  "num_articles": 15,
   "sources": [
-    {
-      "feed_name": "English (US)",
-      "category": "tech_blogs",
-      "title": "Twitter's Recommendation Algorithm",
-      "url": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
-      "date": null,
-      "text": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline."
-    },
-    {
-      "feed_name": "English (US)",
-      "category": "tech_blogs",
-      "title": "How we scaled Reads On the Twitter Users Database",
-      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
-      "date": null,
-      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
-    },
-    {
-      "feed_name": "English (US)",
-      "category": "tech_blogs",
-      "title": "Kerberizing Hadoop Clusters at Twitter",
-      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
-      "date": null,
-      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
-    },
     {
       "feed_name": "AI News",
       "category": "ai_ml",
@@ -52,7 +28,7 @@
       "text": "cc- sddで要件定義から検証まで対話型で進めた。 日本語対応で段階的な設計と検証の納得感が高まる。 課題は圧縮による精度低下とナレッジと仕様の分離の難しさ。 zenn.dev/canly/articles/c77bf9f7a67582 🖊️約2,500文字, ✨🚀📚"
     },
     {
-      "feed_name": "Zennの「AI駆動開発」のフィード",
+      "feed_name": "Zennの「Cursor」のフィード",
       "category": "zenn",
       "title": "CursorのV1.7とBrowser Automationについて調査したんじゃ",
       "url": "https://zenn.dev/omegamaster/articles/cursor-update-v-1_7",

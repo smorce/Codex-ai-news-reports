@@ -1,6 +1,6 @@
 # AI News Report (github-trending)
 
-- Generated at: 2025-10-05T16:38:39Z
+- Generated at: 2025-10-05T17:16:46Z
 - Articles: 116
 
 ## juspay/hyperswitch
@@ -8,7 +8,7 @@
 ### Executive Summary
 - An open source payments switch written in Rust to make payments fast, reliable and affordable
 - 今日の獲得スター数: 829
-- 累積スター数: 35,944
+- 累積スター数: 35,947
 
 ### References
 - https://github.com/juspay/hyperswitch
@@ -18,7 +18,7 @@
 ### Executive Summary
 - Meshery, the cloud native manager
 - 今日の獲得スター数: 459
-- 累積スター数: 8,502
+- 累積スター数: 8,503
 
 ### References
 - https://github.com/meshery/meshery
@@ -28,7 +28,7 @@
 ### Executive Summary
 - Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.
 - 今日の獲得スター数: 308
-- 累積スター数: 44,895
+- 累積スター数: 44,912
 
 ### References
 - https://github.com/pathwaycom/pathway
@@ -38,7 +38,7 @@
 ### Executive Summary
 - High performance self-hosted photo and video management solution.
 - 今日の獲得スター数: 304
-- 累積スター数: 79,985
+- 累積スター数: 79,994
 
 ### References
 - https://github.com/immich-app/immich
@@ -48,7 +48,7 @@
 ### Executive Summary
 - A Download Manager that speeds up your downloads
 - 今日の獲得スター数: 248
-- 累積スター数: 10,138
+- 累積スター数: 10,143
 
 ### References
 - https://github.com/amir1376/ab-download-manager
@@ -58,7 +58,7 @@
 ### Executive Summary
 - Desktop App for downloading Videos and Audios from hundreds of sites
 - 今日の獲得スター数: 239
-- 累積スター数: 2,137
+- 累積スター数: 2,150
 
 ### References
 - https://github.com/aandrew-me/ytDownloader
@@ -68,7 +68,7 @@
 ### Executive Summary
 - Stremio - Freedom to Stream
 - 今日の獲得スター数: 226
-- 累積スター数: 2,038
+- 累積スター数: 2,043
 
 ### References
 - https://github.com/Stremio/stremio-web
@@ -78,7 +78,7 @@
 ### Executive Summary
 - Official inference framework for 1-bit LLMs
 - 今日の獲得スター数: 218
-- 累積スター数: 22,931
+- 累積スター数: 22,957
 
 ### References
 - https://github.com/microsoft/BitNet
@@ -88,7 +88,7 @@
 ### Executive Summary
 - 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版
 - 今日の獲得スター数: 192
-- 累積スター数: 9,215
+- 累積スター数: 9,220
 
 ### References
 - https://github.com/hsliuping/TradingAgents-CN
@@ -98,7 +98,7 @@
 ### Executive Summary
 - An extensible and keyboard-focused web browser
 - 今日の獲得スター数: 185
-- 累積スター数: 661
+- 累積スター数: 664
 
 ### References
 - https://github.com/glide-browser/glide
@@ -108,7 +108,7 @@
 ### Executive Summary
 - Run Windows apps on 🐧 Linux with ✨ seamless integration
 - 今日の獲得スター数: 184
-- 累積スター数: 5,927
+- 累積スター数: 5,932
 
 ### References
 - https://github.com/TibixDev/winboat
@@ -118,7 +118,7 @@
 ### Executive Summary
 - Airweave lets agents search any app
 - 今日の獲得スター数: 180
-- 累積スター数: 3,945
+- 累積スター数: 3,951
 
 ### References
 - https://github.com/airweave-ai/airweave
@@ -128,7 +128,7 @@
 ### Executive Summary
 - Infisical is the open-source platform for secrets management, PKI, and SSH access.
 - 今日の獲得スター数: 175
-- 累積スター数: 20,575
+- 累積スター数: 20,583
 
 ### References
 - https://github.com/Infisical/infisical
@@ -138,7 +138,7 @@
 ### Executive Summary
 - Audio Editor
 - 今日の獲得スター数: 165
-- 累積スター数: 14,627
+- 累積スター数: 14,638
 
 ### References
 - https://github.com/audacity/audacity
@@ -148,7 +148,7 @@
 ### Executive Summary
 - Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.
 - 今日の獲得スター数: 159
-- 累積スター数: 21,951
+- 累積スター数: 21,963
 
 ### References
 - https://github.com/kestra-io/kestra
@@ -158,7 +158,7 @@
 ### Executive Summary
 - A scrollable-tiling Wayland compositor.
 - 今日の獲得スター数: 135
-- 累積スター数: 12,622
+- 累積スター数: 12,627
 
 ### References
 - https://github.com/YaLTeR/niri
@@ -178,7 +178,7 @@
 ### Executive Summary
 - API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
 - 今日の獲得スター数: 132
-- 累積スター数: 11,484
+- 累積スター数: 11,491
 
 ### References
 - https://github.com/keploy/keploy
@@ -188,7 +188,7 @@
 ### Executive Summary
 - 📚 Freely available programming books
 - 今日の獲得スター数: 117
-- 累積スター数: 371,535
+- 累積スター数: 371,538
 
 ### References
 - https://github.com/EbookFoundation/free-programming-books
@@ -198,7 +198,7 @@
 ### Executive Summary
 - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
 - 今日の獲得スター数: 105
-- 累積スター数: 95,998
+- 累積スター数: 96,002
 
 ### References
 - https://github.com/shadcn-ui/ui
@@ -217,7 +217,7 @@
 
 ### Executive Summary
 - 今日の獲得スター数: 65
-- 累積スター数: 16,678
+- 累積スター数: 16,687
 
 ### References
 - https://github.com/Flowseal/zapret-discord-youtube
@@ -227,7 +227,7 @@
 ### Executive Summary
 - Virtual whiteboard for sketching hand-drawn like diagrams
 - 今日の獲得スター数: 56
-- 累積スター数: 108,018
+- 累積スター数: 108,019
 
 ### References
 - https://github.com/excalidraw/excalidraw
@@ -237,7 +237,7 @@
 ### Executive Summary
 - Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.
 - 今日の獲得スター数: 52
-- 累積スター数: 153,557
+- 累積スター数: 153,558
 
 ### References
 - https://github.com/ollama/ollama
@@ -247,7 +247,7 @@
 ### Executive Summary
 - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 - 今日の獲得スター数: 51
-- 累積スター数: 90,082
+- 累積スター数: 90,087
 
 ### References
 - https://github.com/comfyanonymous/ComfyUI
@@ -267,7 +267,7 @@
 ### Executive Summary
 - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
 - 今日の獲得スター数: 48
-- 累積スター数: 20,936
+- 累積スター数: 20,942
 
 ### References
 - https://github.com/apple/container
@@ -277,7 +277,7 @@
 ### Executive Summary
 - Self-hosted game stream host for Moonlight.
 - 今日の獲得スター数: 47
-- 累積スター数: 29,687
+- 累積スター数: 29,688
 
 ### References
 - https://github.com/LizardByte/Sunshine
@@ -317,7 +317,7 @@
 ### Executive Summary
 - 🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets.
 - 今日の獲得スター数: 38
-- 累積スター数: 22,065
+- 累積スター数: 22,066
 
 ### References
 - https://github.com/ente-io/ente
@@ -327,7 +327,7 @@
 ### Executive Summary
 - 小猫影视 🐈
 - 今日の獲得スター数: 38
-- 累積スター数: 971
+- 累積スター数: 973
 
 ### References
 - https://github.com/waifu-project/movie
@@ -337,7 +337,7 @@
 ### Executive Summary
 - Display and control your Android device
 - 今日の獲得スター数: 37
-- 累積スター数: 129,297
+- 累積スター数: 129,298
 
 ### References
 - https://github.com/Genymobile/scrcpy
@@ -347,7 +347,7 @@
 ### Executive Summary
 - 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。
 - 今日の獲得スター数: 35
-- 累積スター数: 16,564
+- 累積スター数: 16,566
 
 ### References
 - https://github.com/Predidit/Kazumi
@@ -367,7 +367,7 @@
 ### Executive Summary
 - Termux - a terminal emulator application for Android OS extendible by variety of packages.
 - 今日の獲得スター数: 34
-- 累積スター数: 45,645
+- 累積スター数: 45,648
 
 ### References
 - https://github.com/termux/termux-app
@@ -377,7 +377,7 @@
 ### Executive Summary
 - LLM Frontend for Power Users.
 - 今日の獲得スター数: 30
-- 累積スター数: 18,933
+- 累積スター数: 18,934
 
 ### References
 - https://github.com/SillyTavern/SillyTavern
@@ -387,7 +387,7 @@
 ### Executive Summary
 - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 - 今日の獲得スター数: 27
-- 累積スター数: 106,257
+- 累積スター数: 106,258
 
 ### References
 - https://github.com/microsoft/TypeScript
@@ -397,7 +397,7 @@
 ### Executive Summary
 - Stable Diffusion web UI
 - 今日の獲得スター数: 25
-- 累積スター数: 157,059
+- 累積スター数: 157,061
 
 ### References
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -407,7 +407,7 @@
 ### Executive Summary
 - Free, open source crypto trading bot
 - 今日の獲得スター数: 25
-- 累積スター数: 43,316
+- 累積スター数: 43,317
 
 ### References
 - https://github.com/freqtrade/freqtrade
@@ -417,7 +417,7 @@
 ### Executive Summary
 - ⚛️ The Stremio Core: types, addon system, UI models, core logic
 - 今日の獲得スター数: 25
-- 累積スター数: 1,489
+- 累積スター数: 1,490
 
 ### References
 - https://github.com/Stremio/stremio-core
@@ -427,7 +427,7 @@
 ### Executive Summary
 - AeroSpace is an i3-like tiling window manager for macOS
 - 今日の獲得スター数: 24
-- 累積スター数: 15,921
+- 累積スター数: 15,922
 
 ### References
 - https://github.com/nikitabobko/AeroSpace
@@ -437,7 +437,7 @@
 ### Executive Summary
 - the elegant TypeScript UI framework
 - 今日の獲得スター数: 24
-- 累積スター数: 5,531
+- 累積スター数: 5,532
 
 ### References
 - https://github.com/trueadm/ripple
@@ -447,7 +447,7 @@
 ### Executive Summary
 - The official firmware for Meshtastic, an open-source, off-grid mesh communication system.
 - 今日の獲得スター数: 22
-- 累積スター数: 5,759
+- 累積スター数: 5,767
 
 ### References
 - https://github.com/meshtastic/firmware
@@ -457,7 +457,7 @@
 ### Executive Summary
 - Build like a team of hundreds_
 - 今日の獲得スター数: 21
-- 累積スター数: 52,965
+- 累積スター数: 52,966
 
 ### References
 - https://github.com/appwrite/appwrite
@@ -467,7 +467,7 @@
 ### Executive Summary
 - 🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference
 - 今日の獲得スター数: 21
-- 累積スター数: 35,630
+- 累積スター数: 35,631
 
 ### References
 - https://github.com/mudler/LocalAI
@@ -477,7 +477,7 @@
 ### Executive Summary
 - qBittorrent BitTorrent client
 - 今日の獲得スター数: 20
-- 累積スター数: 33,202
+- 累積スター数: 33,204
 
 ### References
 - https://github.com/qbittorrent/qBittorrent
@@ -507,7 +507,7 @@
 ### Executive Summary
 - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
 - 今日の獲得スター数: 18
-- 累積スター数: 18,749
+- 累積スター数: 18,750
 
 ### References
 - https://github.com/netbirdio/netbird
@@ -517,7 +517,7 @@
 ### Executive Summary
 - Android application for running Windows applications with Wine and Box86/Box64
 - 今日の獲得スター数: 18
-- 累積スター数: 14,769
+- 累積スター数: 14,768
 
 ### References
 - https://github.com/brunodev85/winlator
@@ -527,7 +527,7 @@
 ### Executive Summary
 - solar charging ☀️🚘
 - 今日の獲得スター数: 18
-- 累積スター数: 5,402
+- 累積スター数: 5,403
 
 ### References
 - https://github.com/evcc-io/evcc
@@ -537,7 +537,7 @@
 ### Executive Summary
 - Hacktoberfest 2025 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE - Don't forget to spread love and if you like give us a ⭐️
 - 今日の獲得スター数: 17
-- 累積スター数: 148
+- 累積スター数: 149
 
 ### References
 - https://github.com/DhanushNehru/Hacktoberfest2025
@@ -557,7 +557,7 @@
 ### Executive Summary
 - The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 - 今日の獲得スター数: 15
-- 累積スター数: 65,226
+- 累積スター数: 65,227
 
 ### References
 - https://github.com/xtekky/gpt4free
@@ -567,7 +567,7 @@
 ### Executive Summary
 - A free, self-hostable news aggregator…
 - 今日の獲得スター数: 15
-- 累積スター数: 12,615
+- 累積スター数: 12,616
 
 ### References
 - https://github.com/FreshRSS/FreshRSS
@@ -577,7 +577,7 @@
 ### Executive Summary
 - Source Code for Sigma Web Development Course
 - 今日の獲得スター数: 15
-- 累積スター数: 10,282
+- 累積スター数: 10,281
 
 ### References
 - https://github.com/CodeWithHarry/Sigma-Web-Dev-Course
@@ -587,7 +587,7 @@
 ### Executive Summary
 - Fullstack app framework for web, desktop, and mobile.
 - 今日の獲得スター数: 14
-- 累積スター数: 30,732
+- 累積スター数: 30,734
 
 ### References
 - https://github.com/DioxusLabs/dioxus
@@ -607,7 +607,7 @@
 ### Executive Summary
 - Pretty fancy and modern terminal file manager
 - 今日の獲得スター数: 13
-- 累積スター数: 15,299
+- 累積スター数: 15,300
 
 ### References
 - https://github.com/yorukot/superfile
@@ -637,7 +637,7 @@
 ### Executive Summary
 - 📜 33 JavaScript concepts every developer should know.
 - 今日の獲得スター数: 12
-- 累積スター数: 65,714
+- 累積スター数: 65,715
 
 ### References
 - https://github.com/leonardomso/33-js-concepts
@@ -667,7 +667,7 @@
 ### Executive Summary
 - Fast, unopinionated, minimalist web framework for node.
 - 今日の獲得スター数: 11
-- 累積スター数: 67,831
+- 累積スター数: 67,832
 
 ### References
 - https://github.com/expressjs/express
@@ -681,16 +681,6 @@
 
 ### References
 - https://github.com/doitsujin/dxvk
-
-## Jackett/Jackett
-
-### Executive Summary
-- API Support for your favorite torrent trackers
-- 今日の獲得スター数: 11
-- 累積スター数: 14,088
-
-### References
-- https://github.com/Jackett/Jackett
 
 ## nautechsystems/nautilus_trader
 
@@ -747,7 +737,7 @@
 ### Executive Summary
 - Affordable WiFi hacking platform for testing and learning
 - 今日の獲得スター数: 9
-- 累積スター数: 14,361
+- 累積スター数: 14,363
 
 ### References
 - https://github.com/SpacehuhnTech/esp8266_deauther
@@ -757,7 +747,7 @@
 ### Executive Summary
 - a free and opensource app that lets you gain an unfair advantage
 - 今日の獲得スター数: 9
-- 累積スター数: 4,453
+- 累積スター数: 4,454
 
 ### References
 - https://github.com/sohzm/cheating-daddy
@@ -817,7 +807,7 @@
 ### Executive Summary
 - Predatory ESP32 Firmware
 - 今日の獲得スター数: 8
-- 累積スター数: 3,735
+- 累積スター数: 3,737
 
 ### References
 - https://github.com/pr3y/Bruce
@@ -867,7 +857,7 @@
 ### Executive Summary
 - Cross-platform music production software
 - 今日の獲得スター数: 7
-- 累積スター数: 9,129
+- 累積スター数: 9,130
 
 ### References
 - https://github.com/LMMS/lmms
@@ -912,6 +902,16 @@
 ### References
 - https://github.com/sundowndev/phoneinfoga
 
+## Jackett/Jackett
+
+### Executive Summary
+- API Support for your favorite torrent trackers
+- 今日の獲得スター数: 6
+- 累積スター数: 14,089
+
+### References
+- https://github.com/Jackett/Jackett
+
 ## TelegramMessenger/Telegram-iOS
 
 ### Executive Summary
@@ -927,7 +927,7 @@
 ### Executive Summary
 - Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.
 - 今日の獲得スター数: 6
-- 累積スター数: 7,184
+- 累積スター数: 7,185
 
 ### References
 - https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
@@ -967,7 +967,7 @@
 ### Executive Summary
 - Ebitengine - A dead simple 2D game engine for Go
 - 今日の獲得スター数: 4
-- 累積スター数: 12,497
+- 累積スター数: 12,498
 
 ### References
 - https://github.com/hajimehoshi/ebiten
@@ -1057,7 +1057,7 @@
 ### Executive Summary
 - Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages
 - 今日の獲得スター数: 2
-- 累積スター数: 4,938
+- 累積スター数: 4,939
 
 ### References
 - https://github.com/PyO3/maturin
@@ -1077,7 +1077,7 @@
 ### Executive Summary
 - SDR Rx/Tx software for Airspy, Airspy HF+, BladeRF, HackRF, LimeSDR, PlutoSDR, RTL-SDR, SDRplay and FunCube
 - 今日の獲得スター数: 2
-- 累積スター数: 3,419
+- 累積スター数: 3,420
 
 ### References
 - https://github.com/f4exb/sdrangel
@@ -1097,7 +1097,7 @@
 ### Executive Summary
 - .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!
 - 今日の獲得スター数: 1
-- 累積スター数: 23,751
+- 累積スター数: 23,752
 
 ### References
 - https://github.com/icsharpcode/ILSpy

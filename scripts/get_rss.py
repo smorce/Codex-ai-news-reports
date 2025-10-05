@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import re
-import random
 from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -133,10 +132,11 @@ def collect_rss_sources(
 
         processed_entries: list[tuple[str, object]] = [(feed_name, e) for dt, feed_name, e in category_entries]
 
-        # 量が多いのでZenn と Qiita はランダムに1件に絞る
+        # 量が多いのでZenn と Qiita は最新1件に絞る
         if category.lower() in ["zenn", "qiita"]:
             if processed_entries:
-                processed_entries = random.sample(processed_entries, 1)
+                # category_entries は新しい順にソート済み → 先頭を採用
+                processed_entries = processed_entries[:1]
 
         for feed_name, e in processed_entries:
             url = getattr(e, "link", None)

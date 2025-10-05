@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-05T16:38:39Z",
+  "generated_at": "2025-10-05T17:16:46Z",
   "site": "github-trending",
   "num_articles": 116,
   "articles": [
@@ -10,13 +10,13 @@
       "executive_summary": [
         "An open source payments switch written in Rust to make payments fast, reliable and affordable",
         "今日の獲得スター数: 829",
-        "累積スター数: 35,944"
+        "累積スター数: 35,947"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/juspay/hyperswitch"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/meshery/meshery",
@@ -25,13 +25,13 @@
       "executive_summary": [
         "Meshery, the cloud native manager",
         "今日の獲得スター数: 459",
-        "累積スター数: 8,502"
+        "累積スター数: 8,503"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/meshery/meshery"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/pathwaycom/pathway",
@@ -40,13 +40,13 @@
       "executive_summary": [
         "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
         "今日の獲得スター数: 308",
-        "累積スター数: 44,895"
+        "累積スター数: 44,912"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/pathwaycom/pathway"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/immich-app/immich",
@@ -55,13 +55,13 @@
       "executive_summary": [
         "High performance self-hosted photo and video management solution.",
         "今日の獲得スター数: 304",
-        "累積スター数: 79,985"
+        "累積スター数: 79,994"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/immich-app/immich"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/amir1376/ab-download-manager",
@@ -70,13 +70,13 @@
       "executive_summary": [
         "A Download Manager that speeds up your downloads",
         "今日の獲得スター数: 248",
-        "累積スター数: 10,138"
+        "累積スター数: 10,143"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/amir1376/ab-download-manager"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/aandrew-me/ytDownloader",
@@ -85,13 +85,13 @@
       "executive_summary": [
         "Desktop App for downloading Videos and Audios from hundreds of sites",
         "今日の獲得スター数: 239",
-        "累積スター数: 2,137"
+        "累積スター数: 2,150"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/aandrew-me/ytDownloader"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Stremio/stremio-web",
@@ -100,13 +100,13 @@
       "executive_summary": [
         "Stremio - Freedom to Stream",
         "今日の獲得スター数: 226",
-        "累積スター数: 2,038"
+        "累積スター数: 2,043"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Stremio/stremio-web"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/microsoft/BitNet",
@@ -115,13 +115,13 @@
       "executive_summary": [
         "Official inference framework for 1-bit LLMs",
         "今日の獲得スター数: 218",
-        "累積スター数: 22,931"
+        "累積スター数: 22,957"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/microsoft/BitNet"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/hsliuping/TradingAgents-CN",
@@ -130,13 +130,13 @@
       "executive_summary": [
         "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
         "今日の獲得スター数: 192",
-        "累積スター数: 9,215"
+        "累積スター数: 9,220"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/hsliuping/TradingAgents-CN"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/glide-browser/glide",
@@ -145,13 +145,13 @@
       "executive_summary": [
         "An extensible and keyboard-focused web browser",
         "今日の獲得スター数: 185",
-        "累積スター数: 661"
+        "累積スター数: 664"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/glide-browser/glide"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/TibixDev/winboat",
@@ -160,13 +160,13 @@
       "executive_summary": [
         "Run Windows apps on 🐧 Linux with ✨ seamless integration",
         "今日の獲得スター数: 184",
-        "累積スター数: 5,927"
+        "累積スター数: 5,932"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/TibixDev/winboat"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/airweave-ai/airweave",
@@ -175,13 +175,13 @@
       "executive_summary": [
         "Airweave lets agents search any app",
         "今日の獲得スター数: 180",
-        "累積スター数: 3,945"
+        "累積スター数: 3,951"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/airweave-ai/airweave"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Infisical/infisical",
@@ -190,13 +190,13 @@
       "executive_summary": [
         "Infisical is the open-source platform for secrets management, PKI, and SSH access.",
         "今日の獲得スター数: 175",
-        "累積スター数: 20,575"
+        "累積スター数: 20,583"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Infisical/infisical"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/audacity/audacity",
@@ -205,13 +205,13 @@
       "executive_summary": [
         "Audio Editor",
         "今日の獲得スター数: 165",
-        "累積スター数: 14,627"
+        "累積スター数: 14,638"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/audacity/audacity"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/kestra-io/kestra",
@@ -220,13 +220,13 @@
       "executive_summary": [
         "Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.",
         "今日の獲得スター数: 159",
-        "累積スター数: 21,951"
+        "累積スター数: 21,963"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/kestra-io/kestra"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/YaLTeR/niri",
@@ -235,13 +235,13 @@
       "executive_summary": [
         "A scrollable-tiling Wayland compositor.",
         "今日の獲得スター数: 135",
-        "累積スター数: 12,622"
+        "累積スター数: 12,627"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/YaLTeR/niri"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/MotiaDev/motia",
@@ -256,7 +256,7 @@
       "references": [
         "https://github.com/MotiaDev/motia"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/keploy/keploy",
@@ -265,13 +265,13 @@
       "executive_summary": [
         "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
         "今日の獲得スター数: 132",
-        "累積スター数: 11,484"
+        "累積スター数: 11,491"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/keploy/keploy"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/EbookFoundation/free-programming-books",
@@ -280,13 +280,13 @@
       "executive_summary": [
         "📚 Freely available programming books",
         "今日の獲得スター数: 117",
-        "累積スター数: 371,535"
+        "累積スター数: 371,538"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/EbookFoundation/free-programming-books"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/shadcn-ui/ui",
@@ -295,13 +295,13 @@
       "executive_summary": [
         "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
         "今日の獲得スター数: 105",
-        "累積スター数: 95,998"
+        "累積スター数: 96,002"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/shadcn-ui/ui"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/signalapp/libsignal",
@@ -316,7 +316,7 @@
       "references": [
         "https://github.com/signalapp/libsignal"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Flowseal/zapret-discord-youtube",
@@ -324,13 +324,13 @@
       "date": null,
       "executive_summary": [
         "今日の獲得スター数: 65",
-        "累積スター数: 16,678"
+        "累積スター数: 16,687"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Flowseal/zapret-discord-youtube"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/excalidraw/excalidraw",
@@ -339,13 +339,13 @@
       "executive_summary": [
         "Virtual whiteboard for sketching hand-drawn like diagrams",
         "今日の獲得スター数: 56",
-        "累積スター数: 108,018"
+        "累積スター数: 108,019"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/excalidraw/excalidraw"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/ollama/ollama",
@@ -354,13 +354,13 @@
       "executive_summary": [
         "Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.",
         "今日の獲得スター数: 52",
-        "累積スター数: 153,557"
+        "累積スター数: 153,558"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/ollama/ollama"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/comfyanonymous/ComfyUI",
@@ -369,13 +369,13 @@
       "executive_summary": [
         "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
         "今日の獲得スター数: 51",
-        "累積スター数: 90,082"
+        "累積スター数: 90,087"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/comfyanonymous/ComfyUI"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/stalwartlabs/stalwart",
@@ -390,7 +390,7 @@
       "references": [
         "https://github.com/stalwartlabs/stalwart"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/apple/container",
@@ -399,13 +399,13 @@
       "executive_summary": [
         "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
         "今日の獲得スター数: 48",
-        "累積スター数: 20,936"
+        "累積スター数: 20,942"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/apple/container"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/LizardByte/Sunshine",
@@ -414,13 +414,13 @@
       "executive_summary": [
         "Self-hosted game stream host for Moonlight.",
         "今日の獲得スター数: 47",
-        "累積スター数: 29,687"
+        "累積スター数: 29,688"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/LizardByte/Sunshine"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/symfony/symfony",
@@ -435,7 +435,7 @@
       "references": [
         "https://github.com/symfony/symfony"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Alvin9999/new-pac",
@@ -450,7 +450,7 @@
       "references": [
         "https://github.com/Alvin9999/new-pac"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/G-Ray/pikatorrent",
@@ -465,7 +465,7 @@
       "references": [
         "https://github.com/G-Ray/pikatorrent"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/ente-io/ente",
@@ -474,13 +474,13 @@
       "executive_summary": [
         "🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets.",
         "今日の獲得スター数: 38",
-        "累積スター数: 22,065"
+        "累積スター数: 22,066"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/ente-io/ente"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/waifu-project/movie",
@@ -489,13 +489,13 @@
       "executive_summary": [
         "小猫影视 🐈",
         "今日の獲得スター数: 38",
-        "累積スター数: 971"
+        "累積スター数: 973"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/waifu-project/movie"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Genymobile/scrcpy",
@@ -504,13 +504,13 @@
       "executive_summary": [
         "Display and control your Android device",
         "今日の獲得スター数: 37",
-        "累積スター数: 129,297"
+        "累積スター数: 129,298"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Genymobile/scrcpy"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Predidit/Kazumi",
@@ -519,13 +519,13 @@
       "executive_summary": [
         "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
         "今日の獲得スター数: 35",
-        "累積スター数: 16,564"
+        "累積スター数: 16,566"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Predidit/Kazumi"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/TheAlgorithms/Java",
@@ -540,7 +540,7 @@
       "references": [
         "https://github.com/TheAlgorithms/Java"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/termux/termux-app",
@@ -549,13 +549,13 @@
       "executive_summary": [
         "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
         "今日の獲得スター数: 34",
-        "累積スター数: 45,645"
+        "累積スター数: 45,648"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/termux/termux-app"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/SillyTavern/SillyTavern",
@@ -564,13 +564,13 @@
       "executive_summary": [
         "LLM Frontend for Power Users.",
         "今日の獲得スター数: 30",
-        "累積スター数: 18,933"
+        "累積スター数: 18,934"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/SillyTavern/SillyTavern"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/microsoft/TypeScript",
@@ -579,13 +579,13 @@
       "executive_summary": [
         "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
         "今日の獲得スター数: 27",
-        "累積スター数: 106,257"
+        "累積スター数: 106,258"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/microsoft/TypeScript"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
@@ -594,13 +594,13 @@
       "executive_summary": [
         "Stable Diffusion web UI",
         "今日の獲得スター数: 25",
-        "累積スター数: 157,059"
+        "累積スター数: 157,061"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/freqtrade/freqtrade",
@@ -609,13 +609,13 @@
       "executive_summary": [
         "Free, open source crypto trading bot",
         "今日の獲得スター数: 25",
-        "累積スター数: 43,316"
+        "累積スター数: 43,317"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/freqtrade/freqtrade"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Stremio/stremio-core",
@@ -624,13 +624,13 @@
       "executive_summary": [
         "⚛️ The Stremio Core: types, addon system, UI models, core logic",
         "今日の獲得スター数: 25",
-        "累積スター数: 1,489"
+        "累積スター数: 1,490"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/Stremio/stremio-core"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/nikitabobko/AeroSpace",
@@ -639,13 +639,13 @@
       "executive_summary": [
         "AeroSpace is an i3-like tiling window manager for macOS",
         "今日の獲得スター数: 24",
-        "累積スター数: 15,921"
+        "累積スター数: 15,922"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/nikitabobko/AeroSpace"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/trueadm/ripple",
@@ -654,13 +654,13 @@
       "executive_summary": [
         "the elegant TypeScript UI framework",
         "今日の獲得スター数: 24",
-        "累積スター数: 5,531"
+        "累積スター数: 5,532"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/trueadm/ripple"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/meshtastic/firmware",
@@ -669,13 +669,13 @@
       "executive_summary": [
         "The official firmware for Meshtastic, an open-source, off-grid mesh communication system.",
         "今日の獲得スター数: 22",
-        "累積スター数: 5,759"
+        "累積スター数: 5,767"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/meshtastic/firmware"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/appwrite/appwrite",
@@ -684,13 +684,13 @@
       "executive_summary": [
         "Build like a team of hundreds_",
         "今日の獲得スター数: 21",
-        "累積スター数: 52,965"
+        "累積スター数: 52,966"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/appwrite/appwrite"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/mudler/LocalAI",
@@ -699,13 +699,13 @@
       "executive_summary": [
         "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
         "今日の獲得スター数: 21",
-        "累積スター数: 35,630"
+        "累積スター数: 35,631"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/mudler/LocalAI"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/qbittorrent/qBittorrent",
@@ -714,13 +714,13 @@
       "executive_summary": [
         "qBittorrent BitTorrent client",
         "今日の獲得スター数: 20",
-        "累積スター数: 33,202"
+        "累積スター数: 33,204"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/qbittorrent/qBittorrent"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/TeamNewPipe/NewPipe",
@@ -735,7 +735,7 @@
       "references": [
         "https://github.com/TeamNewPipe/NewPipe"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/get-convex/convex-backend",
@@ -750,7 +750,7 @@
       "references": [
         "https://github.com/get-convex/convex-backend"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/netbirdio/netbird",
@@ -759,13 +759,13 @@
       "executive_summary": [
         "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
         "今日の獲得スター数: 18",
-        "累積スター数: 18,749"
+        "累積スター数: 18,750"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/netbirdio/netbird"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/brunodev85/winlator",
@@ -774,13 +774,13 @@
       "executive_summary": [
         "Android application for running Windows applications with Wine and Box86/Box64",
         "今日の獲得スター数: 18",
-        "累積スター数: 14,769"
+        "累積スター数: 14,768"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/brunodev85/winlator"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/evcc-io/evcc",
@@ -789,13 +789,13 @@
       "executive_summary": [
         "solar charging ☀️🚘",
         "今日の獲得スター数: 18",
-        "累積スター数: 5,402"
+        "累積スター数: 5,403"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/evcc-io/evcc"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/DhanushNehru/Hacktoberfest2025",
@@ -804,13 +804,13 @@
       "executive_summary": [
         "Hacktoberfest 2025 OPEN FIRST Pull Request - SUPPORT OPEN SOURCE - Don't forget to spread love and if you like give us a ⭐️",
         "今日の獲得スター数: 17",
-        "累積スター数: 148"
+        "累積スター数: 149"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/DhanushNehru/Hacktoberfest2025"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/filamentphp/filament",
@@ -825,7 +825,7 @@
       "references": [
         "https://github.com/filamentphp/filament"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/xtekky/gpt4free",
@@ -834,13 +834,13 @@
       "executive_summary": [
         "The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5",
         "今日の獲得スター数: 15",
-        "累積スター数: 65,226"
+        "累積スター数: 65,227"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/xtekky/gpt4free"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/FreshRSS/FreshRSS",
@@ -849,13 +849,13 @@
       "executive_summary": [
         "A free, self-hostable news aggregator…",
         "今日の獲得スター数: 15",
-        "累積スター数: 12,615"
+        "累積スター数: 12,616"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/FreshRSS/FreshRSS"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/CodeWithHarry/Sigma-Web-Dev-Course",
@@ -864,13 +864,13 @@
       "executive_summary": [
         "Source Code for Sigma Web Development Course",
         "今日の獲得スター数: 15",
-        "累積スター数: 10,282"
+        "累積スター数: 10,281"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/CodeWithHarry/Sigma-Web-Dev-Course"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/DioxusLabs/dioxus",
@@ -879,13 +879,13 @@
       "executive_summary": [
         "Fullstack app framework for web, desktop, and mobile.",
         "今日の獲得スター数: 14",
-        "累積スター数: 30,732"
+        "累積スター数: 30,734"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/DioxusLabs/dioxus"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/signalapp/Signal-Android",
@@ -900,7 +900,7 @@
       "references": [
         "https://github.com/signalapp/Signal-Android"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/yorukot/superfile",
@@ -909,13 +909,13 @@
       "executive_summary": [
         "Pretty fancy and modern terminal file manager",
         "今日の獲得スター数: 13",
-        "累積スター数: 15,299"
+        "累積スター数: 15,300"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/yorukot/superfile"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/apache/doris",
@@ -930,7 +930,7 @@
       "references": [
         "https://github.com/apache/doris"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/bol-van/zapret",
@@ -945,7 +945,7 @@
       "references": [
         "https://github.com/bol-van/zapret"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/leonardomso/33-js-concepts",
@@ -954,13 +954,13 @@
       "executive_summary": [
         "📜 33 JavaScript concepts every developer should know.",
         "今日の獲得スター数: 12",
-        "累積スター数: 65,714"
+        "累積スター数: 65,715"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/leonardomso/33-js-concepts"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/JuliaLang/julia",
@@ -975,7 +975,7 @@
       "references": [
         "https://github.com/JuliaLang/julia"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/blackmatrix7/ios_rule_script",
@@ -990,7 +990,7 @@
       "references": [
         "https://github.com/blackmatrix7/ios_rule_script"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/expressjs/express",
@@ -999,13 +999,13 @@
       "executive_summary": [
         "Fast, unopinionated, minimalist web framework for node.",
         "今日の獲得スター数: 11",
-        "累積スター数: 67,831"
+        "累積スター数: 67,832"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/expressjs/express"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/doitsujin/dxvk",
@@ -1020,22 +1020,7 @@
       "references": [
         "https://github.com/doitsujin/dxvk"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
-    },
-    {
-      "url": "https://github.com/Jackett/Jackett",
-      "title": "Jackett/Jackett",
-      "date": null,
-      "executive_summary": [
-        "API Support for your favorite torrent trackers",
-        "今日の獲得スター数: 11",
-        "累積スター数: 14,088"
-      ],
-      "key_findings": null,
-      "references": [
-        "https://github.com/Jackett/Jackett"
-      ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/nautechsystems/nautilus_trader",
@@ -1050,7 +1035,7 @@
       "references": [
         "https://github.com/nautechsystems/nautilus_trader"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/musescore/MuseScore",
@@ -1065,7 +1050,7 @@
       "references": [
         "https://github.com/musescore/MuseScore"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/nextcloud/all-in-one",
@@ -1080,7 +1065,7 @@
       "references": [
         "https://github.com/nextcloud/all-in-one"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/inngest/inngest",
@@ -1095,7 +1080,7 @@
       "references": [
         "https://github.com/inngest/inngest"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/micropython/micropython",
@@ -1110,7 +1095,7 @@
       "references": [
         "https://github.com/micropython/micropython"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/SpacehuhnTech/esp8266_deauther",
@@ -1119,13 +1104,13 @@
       "executive_summary": [
         "Affordable WiFi hacking platform for testing and learning",
         "今日の獲得スター数: 9",
-        "累積スター数: 14,361"
+        "累積スター数: 14,363"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/SpacehuhnTech/esp8266_deauther"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/sohzm/cheating-daddy",
@@ -1134,13 +1119,13 @@
       "executive_summary": [
         "a free and opensource app that lets you gain an unfair advantage",
         "今日の獲得スター数: 9",
-        "累積スター数: 4,453"
+        "累積スター数: 4,454"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/sohzm/cheating-daddy"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/aseprite/aseprite",
@@ -1155,7 +1140,7 @@
       "references": [
         "https://github.com/aseprite/aseprite"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/libsdl-org/SDL",
@@ -1170,7 +1155,7 @@
       "references": [
         "https://github.com/libsdl-org/SDL"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/tiann/KernelSU",
@@ -1185,7 +1170,7 @@
       "references": [
         "https://github.com/tiann/KernelSU"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/BasedHardware/omi",
@@ -1200,7 +1185,7 @@
       "references": [
         "https://github.com/BasedHardware/omi"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/dovecoteescapee/ByeDPIAndroid",
@@ -1215,7 +1200,7 @@
       "references": [
         "https://github.com/dovecoteescapee/ByeDPIAndroid"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/pr3y/Bruce",
@@ -1224,13 +1209,13 @@
       "executive_summary": [
         "Predatory ESP32 Firmware",
         "今日の獲得スター数: 8",
-        "累積スター数: 3,735"
+        "累積スター数: 3,737"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/pr3y/Bruce"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/JetBrains/kotlin",
@@ -1245,7 +1230,7 @@
       "references": [
         "https://github.com/JetBrains/kotlin"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/photoprism/photoprism",
@@ -1260,7 +1245,7 @@
       "references": [
         "https://github.com/photoprism/photoprism"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/hashicorp/vagrant",
@@ -1275,7 +1260,7 @@
       "references": [
         "https://github.com/hashicorp/vagrant"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/altstoreio/AltStore",
@@ -1290,7 +1275,7 @@
       "references": [
         "https://github.com/altstoreio/AltStore"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/LMMS/lmms",
@@ -1299,13 +1284,13 @@
       "executive_summary": [
         "Cross-platform music production software",
         "今日の獲得スター数: 7",
-        "累積スター数: 9,129"
+        "累積スター数: 9,130"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/LMMS/lmms"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/tianocore/edk2",
@@ -1320,7 +1305,7 @@
       "references": [
         "https://github.com/tianocore/edk2"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/symfony/ai",
@@ -1335,7 +1320,7 @@
       "references": [
         "https://github.com/symfony/ai"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/gabime/spdlog",
@@ -1350,7 +1335,7 @@
       "references": [
         "https://github.com/gabime/spdlog"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/sundowndev/phoneinfoga",
@@ -1365,7 +1350,22 @@
       "references": [
         "https://github.com/sundowndev/phoneinfoga"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
+    },
+    {
+      "url": "https://github.com/Jackett/Jackett",
+      "title": "Jackett/Jackett",
+      "date": null,
+      "executive_summary": [
+        "API Support for your favorite torrent trackers",
+        "今日の獲得スター数: 6",
+        "累積スター数: 14,089"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Jackett/Jackett"
+      ],
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/TelegramMessenger/Telegram-iOS",
@@ -1380,7 +1380,7 @@
       "references": [
         "https://github.com/TelegramMessenger/Telegram-iOS"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
@@ -1389,13 +1389,13 @@
       "executive_summary": [
         "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.",
         "今日の獲得スター数: 6",
-        "累積スター数: 7,184"
+        "累積スター数: 7,185"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/ppy/osu",
@@ -1410,7 +1410,7 @@
       "references": [
         "https://github.com/ppy/osu"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/tModLoader/tModLoader",
@@ -1425,7 +1425,7 @@
       "references": [
         "https://github.com/tModLoader/tModLoader"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/google/guava",
@@ -1440,7 +1440,7 @@
       "references": [
         "https://github.com/google/guava"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/hajimehoshi/ebiten",
@@ -1449,13 +1449,13 @@
       "executive_summary": [
         "Ebitengine - A dead simple 2D game engine for Go",
         "今日の獲得スター数: 4",
-        "累積スター数: 12,497"
+        "累積スター数: 12,498"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/hajimehoshi/ebiten"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/MetaMask/metamask-mobile",
@@ -1470,7 +1470,7 @@
       "references": [
         "https://github.com/MetaMask/metamask-mobile"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/apache/flink",
@@ -1485,7 +1485,7 @@
       "references": [
         "https://github.com/apache/flink"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/forem/forem",
@@ -1500,7 +1500,7 @@
       "references": [
         "https://github.com/forem/forem"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/github-linguist/linguist",
@@ -1515,7 +1515,7 @@
       "references": [
         "https://github.com/github-linguist/linguist"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/AntennaPod/AntennaPod",
@@ -1530,7 +1530,7 @@
       "references": [
         "https://github.com/AntennaPod/AntennaPod"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/apache/arrow-rs",
@@ -1545,7 +1545,7 @@
       "references": [
         "https://github.com/apache/arrow-rs"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/spree/spree",
@@ -1560,7 +1560,7 @@
       "references": [
         "https://github.com/spree/spree"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/aircrack-ng/aircrack-ng",
@@ -1575,7 +1575,7 @@
       "references": [
         "https://github.com/aircrack-ng/aircrack-ng"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/PyO3/maturin",
@@ -1584,13 +1584,13 @@
       "executive_summary": [
         "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
         "今日の獲得スター数: 2",
-        "累積スター数: 4,938"
+        "累積スター数: 4,939"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/PyO3/maturin"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/apache/maven",
@@ -1605,7 +1605,7 @@
       "references": [
         "https://github.com/apache/maven"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/f4exb/sdrangel",
@@ -1614,13 +1614,13 @@
       "executive_summary": [
         "SDR Rx/Tx software for Airspy, Airspy HF+, BladeRF, HackRF, LimeSDR, PlutoSDR, RTL-SDR, SDRplay and FunCube",
         "今日の獲得スター数: 2",
-        "累積スター数: 3,419"
+        "累積スター数: 3,420"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/f4exb/sdrangel"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/vapor/vapor",
@@ -1635,7 +1635,7 @@
       "references": [
         "https://github.com/vapor/vapor"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/icsharpcode/ILSpy",
@@ -1644,13 +1644,13 @@
       "executive_summary": [
         ".NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!",
         "今日の獲得スター数: 1",
-        "累積スター数: 23,751"
+        "累積スター数: 23,752"
       ],
       "key_findings": null,
       "references": [
         "https://github.com/icsharpcode/ILSpy"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/Homebrew/homebrew-core",
@@ -1665,7 +1665,7 @@
       "references": [
         "https://github.com/Homebrew/homebrew-core"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/cake-tech/cake_wallet",
@@ -1680,7 +1680,7 @@
       "references": [
         "https://github.com/cake-tech/cake_wallet"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/CliMA/Oceananigans.jl",
@@ -1695,7 +1695,7 @@
       "references": [
         "https://github.com/CliMA/Oceananigans.jl"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/JuliaRegistries/General",
@@ -1710,7 +1710,7 @@
       "references": [
         "https://github.com/JuliaRegistries/General"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/CliMA/ClimaAtmos.jl",
@@ -1725,7 +1725,7 @@
       "references": [
         "https://github.com/CliMA/ClimaAtmos.jl"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     },
     {
       "url": "https://github.com/CliMA/ClimaOcean.jl",
@@ -1740,7 +1740,7 @@
       "references": [
         "https://github.com/CliMA/ClimaOcean.jl"
       ],
-      "retrieved_at": "2025-10-05T16:38:39Z"
+      "retrieved_at": "2025-10-05T17:16:46Z"
     }
   ]
 }
