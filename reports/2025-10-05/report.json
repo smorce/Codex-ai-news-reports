@@ -1,0 +1,81 @@
+{
+  "generated_at": "2025-10-05T13:48:04Z",
+  "site": "tech-blogs/rss",
+  "num_articles": 2,
+  "articles": [
+    {
+      "url": "https://note.com/genkaijokyo/n/n0af419d15334",
+      "title": "AIを最強の「壁打ちパートナー」に変える研究職のためのプロンプト案 genkAIjokyo | ChatGPT/Claudeで論文作成と科研費申請",
+      "date": "2025-10-05T13:21:51",
+      "executive_summary": [
+        "研究職がAIを壁打ちパートナーとして活用するためのプロンプト設計を紹介。",
+        "準備・仮説検証・査読観点の三段階で段階的に使える指示文を提示。",
+        "壁打ち前に前提条件を固め、迎合を避ける運用ルールを詳述。",
+        "GPT-5 ThinkingとWeb検索機能を併用する推奨構成を提案。"
+      ],
+      "key_findings": [
+        {
+          "point": "研究向け壁打ちパートナーのための具体的プロンプト案を公開。",
+          "footnote": "「研究向けの壁打ちパートナー用プロンプト案を提示」"
+        },
+        {
+          "point": "対話をフェーズ1〜3に分けて課題を深掘りする進行を推奨。",
+          "footnote": "「フェーズ1〜3の三段階で具体的なプロンプトを提示」"
+        },
+        {
+          "point": "壁打ち前の前提設定や目的共有を忘れないよう注意喚起。",
+          "footnote": "「壁打ち前の設定も忘れずに」"
+        },
+        {
+          "point": "迎合を避け、仮説強化や査読視点を含めた批判的思考を促す。",
+          "footnote": "「迎合を避け、仮説強調・設定・査読視点を網羅」"
+        },
+        {
+          "point": "使用モデルはGPT-5 ThinkingとWeb検索ONの組み合わせを推奨。",
+          "footnote": "「推奨はGPT-5ThinkingとWeb検索ON」"
+        }
+      ],
+      "references": [
+        "https://note.com/genkaijokyo/n/n0af419d15334"
+      ],
+      "retrieved_at": "2025-10-05T13:50:21Z"
+    },
+    {
+      "url": "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec",
+      "title": "Chrome DevTools MCP経由でWebSocketを試してみる！",
+      "date": "2025-10-05T12:58:23",
+      "executive_summary": [
+        "Chrome DevTools MCP経由でWebSocket接続を試行する手順を共有。",
+        "Claude Codeクライアント側のログ取得から検証プロセスを解説。",
+        "chrome-devtoolsコマンドを起動して外部ツール連携を確かめる。",
+        "ブラウザのページ一覧から対象タブを選んで操作するポイントを記録。"
+      ],
+      "key_findings": [
+        {
+          "point": "Chrome DevTools MCPを用いたWebSocket検証の実践記録。",
+          "footnote": "「Chrome DevTools MCPでWebSocketを試してみました」"
+        },
+        {
+          "point": "Claude Codeクライアントのログを確認し接続状況を把握。",
+          "footnote": "「クライアントのログ(Claude Code)」"
+        },
+        {
+          "point": "chrome-devtoolsコマンドでMCPを起動する手順を示す。",
+          "footnote": "「> chrome-devtoolsを開始して下さい」"
+        },
+        {
+          "point": "ブラウザのページ一覧から対象セッションを選択して操作する。",
+          "footnote": "「Chrome DevToolsを開始するには、まずブラウザのページ一覧」"
+        },
+        {
+          "point": "MCP経由のWebSocket検証で気づいた運用上のポイントを共有。",
+          "footnote": "「Chrome DevTools MCP経由でWebSocketを試してみる！」"
+        }
+      ],
+      "references": [
+        "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec"
+      ],
+      "retrieved_at": "2025-10-05T13:50:21Z"
+    }
+  ]
+}

@@ -1,106 +1,104 @@
 # AI News Report (https://reddit.com/)
 
-- Generated at: 2025-10-05T10:57:35Z
+- Generated at: 2025-10-05T13:44:04Z
 - Articles: 4
 
-## The Unitree G1 robot secretly sends data to China
-- Date: 2025-10-04T12:48:30+00:00
+## OpenAI appears to be walking back its Sora copyright policy
+- Date: 2025-10-04T21:42:16+00:00
 
 ### Executive Summary
-- Unitree製G1ロボットが秘匿的に中国へデータを送っているとの疑惑が提示された。
-- 投稿者MetaKnowingがr/artificialでセキュリティリスクを共有した。
-- 添付画像で証拠を示し、コミュニティの議論が活発化している。
+- Business InsiderはSoraの著作権ポリシー後退の兆しを報じ、OpenAIの姿勢変化を伝えている。
+- 著作権侵害への懸念が再燃し、クリエイターの権利保護策に注目が集まった。
+- reddit上では限定的ながら議論が起き、コミュニティの警戒感がうかがえる。
+- 政策の再調整がオプトアウト手段と信頼性に影響するとの問題提起がなされた。
 
 ### Key Findings
-- 投稿タイトルがThe Unitree G1 robot secretly sends data to Chinaで疑惑の内容が明示された。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxt3kz/the_unitree_g1_robot_secretly_sends_data_to_china/
-- 投稿はサブレディットr/artificialで共有され、AI分野の読者に警鐘を鳴らした。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxt3kz/the_unitree_g1_robot_secretly_sends_data_to_china/
-- 投稿者MetaKnowingが添付画像を用いて具体的な証拠を提示した。 [^]
-  - Footnote: https://i.redd.it/e9piq33wc3tf1.png
-- スコア279を獲得し、一定の支持が集まった。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxt3kz/the_unitree_g1_robot_secretly_sends_data_to_china/
-- 124件のコメントが寄せられ、活発な意見交換が行われている。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxt3kz/the_unitree_g1_robot_secretly_sends_data_to_china/
+- Business InsiderがOpenAIのSora著作権ポリシー再調整を報じた。 [^]
+  - Footnote: https://www.businessinsider.com/sora-openai-sam-altman-walks-back-copyright-opt-out-policy-2025-10
+- 記事タイトルはオプトアウト方針が後退することを強調している。 [^]
+  - Footnote: https://www.businessinsider.com/sora-openai-sam-altman-walks-back-copyright-opt-out-policy-2025-10
+- 投稿はAI特化コミュニティr/artificialで共有された。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1ny6f4g/openai_appears_to_be_walking_back_its_sora/
+- 投稿スコアは21で、コメントは1件だった。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1ny6f4g/openai_appears_to_be_walking_back_its_sora/
+- 共有は2025-10-04T21:42:16+00:00に行われ、最新動向として扱われた。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1ny6f4g/openai_appears_to_be_walking_back_its_sora/
 
 ### References
-- https://reddit.com/r/artificial/comments/1nxt3kz/the_unitree_g1_robot_secretly_sends_data_to_china/
-- https://i.redd.it/e9piq33wc3tf1.png
+- https://www.businessinsider.com/sora-openai-sam-altman-walks-back-copyright-opt-out-policy-2025-10
+- https://www.reddit.com/r/artificial/comments/1ny6f4g/openai_appears_to_be_walking_back_its_sora/
 
-## AI 2027's predictions have been accurate so far
-- Date: 2025-10-04T13:03:39+00:00
+## Here's JPMorgan Chase's blueprint to become the world's first fully AI-powered megabank
+- Date: 2025-10-05T01:42:59+00:00
 
 ### Executive Summary
-- AI 2027の予測が現時点で高い的中率を示したと報告された。
-- 投稿者MetaKnowingがr/artificialで継続的な検証結果を共有した。
-- 添付画像で予測実績の裏付けを示し、信頼性を訴求している。
+- CNBCはJPモルガンがAI駆動型メガバンクを目指す青写真を詳述した。
+- 業務効率化とリスク管理をAIで統合する構想が中心に据えられている。
+- redditでは21ポイントの支持と複数コメントが集まり関心が示された。
+- 実現にはガバナンスと規制対応の継続的な調整が求められると議論された。
 
 ### Key Findings
-- 投稿はAI 2027の予測がここまで正確だったという主張を中心に据えている。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- 共有先はサブレディットr/artificialであり、AI予測技術への関心層に届いている。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- 投稿者MetaKnowingが継続的な情報提供者として信頼を築いている。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- スコア53で一定の注目を獲得した。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- コメント数32件が集まり、コミュニティの反応が確認できる。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- 画像リンクで予測結果の実例が補足されている。 [^]
-  - Footnote: https://i.redd.it/vj2r26enf3tf1.png
+- JPモルガンが完全AI駆動メガバンクを目指す青写真を提示した。 [^]
+  - Footnote: https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
+- CNBCの記事は2025年9月30日付で戦略概要を紹介した。 [^]
+  - Footnote: https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
+- 投稿はコミュニティr/artificialで共有された。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
+- 投稿スコアは21で、コメントは6件集まった。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
+- 共有は2025-10-05T01:42:59+00:00に行われた。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
 
 ### References
-- https://reddit.com/r/artificial/comments/1nxtfwm/ai_2027s_predictions_have_been_accurate_so_far/
-- https://i.redd.it/vj2r26enf3tf1.png
+- https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
+- https://www.reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
 
 ## White House told only way to move Discovery is to chop it up. Smithsonian warns that dismantling orbiter for relocation is history in the wrecking
 - Date: 2025-10-04T20:00:34+00:00
 
 ### Executive Summary
-- スペースシャトルDiscovery移設には機体分解が唯一の手段だと伝えられたとの報道が共有された。
-- スミソニアンは分解が歴史的価値の損失につながると警告している。
-- r/technologyで大規模な反響を呼び、保存と移転のあり方を巡る議論が沸騰した。
+- The Registerはスペースシャトル・ディスカバリー移送には解体が必要と報じた。
+- スミソニアンが解体は歴史を損なうと警告し保存の重要性を訴えた。
+- redditでは3万超の支持と千件以上の議論が発生した。
+- 文化財保護とインフラ整備の両立が課題として浮き彫りになった。
 
 ### Key Findings
-- 投稿タイトルがDiscoveryを移動するには分解しかないとの評価を伝えている。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- スミソニアンが分解は歴史に対する破壊だと警鐘を鳴らした点が強調されている。 [^]
+- The Registerがディスカバリー移送には解体が唯一の手段と伝えた。 [^]
   - Footnote: https://www.theregister.com/2025/10/02/dismantling_discovery/
-- 投稿者esporxがr/technologyで情報を共有し、注目を集めた。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- スコア30727で極めて大きな反響となった。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- コメント数1039件が寄せられ、議論の活発さが示された。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- 参照元はThe Registerの記事で詳細な状況が説明されている。 [^]
+- スミソニアンが解体は歴史破壊だと警鐘を鳴らしたと報じられた。 [^]
   - Footnote: https://www.theregister.com/2025/10/02/dismantling_discovery/
+- 投稿はテクノロジーコミュニティr/technologyで共有された。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- 投稿スコアは32220で、コメントは1082件に達した。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- 共有は2025-10-04T20:00:34+00:00に行われた。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
 
 ### References
-- https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
 - https://www.theregister.com/2025/10/02/dismantling_discovery/
+- https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
 
-## Why Conservatives Are Attacking ‘Wokepedia’
-- Date: 2025-10-04T10:58:43+00:00
+## Amazon's Ring plans to scan everyone's face at the door
+- Date: 2025-10-04T15:12:18+00:00
 
 ### Executive Summary
-- 保守派がWokepediaを批判する理由を解説するWSJ記事が紹介された。
-- r/technologyで情報の公平性や編集方針を巡る議論が展開された。
-- 高いスコアが示す通り、文化論争への関心が強い。
+- MSNはAmazonのRingが訪問者全員の顔スキャン機能を検討していると報じた。
+- プライバシー侵害への懸念が高まり、監視技術の是非が問われている。
+- redditでは数千件の支持と活発な議論が起きた。
+- 規制順守とデータ保護の透明性確保が主要な論点になっている。
 
 ### Key Findings
-- 投稿タイトルが保守派によるWokepedia批判を主題としている。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
-- 投稿者rezwennがr/technologyで議論を喚起した。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
-- 外部リンクはWSJ記事で保守派の主張が詳述されている。 [^]
-  - Footnote: https://www.wsj.com/tech/wikipedia-conservative-complaints-ee904b0b?st=RJcF9h
-- スコア19447で広範な支持と関心を集めた。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
-- コメント数2098件で活発な意見交換が行われた。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
-- 投稿の公開時刻は2025-10-04T10:58:43+00:00で、最新動向が反映されている。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
+- MSNがRingの顔スキャン計画を報じた。 [^]
+  - Footnote: https://www.msn.com/en-us/news/technology/amazon-s-ring-plans-to-scan-everyone-s-face-at-the-door/ar-AA1NOvVA
+- 記事タイトルは訪問者全員を対象にしたスキャンを強調している。 [^]
+  - Footnote: https://www.msn.com/en-us/news/technology/amazon-s-ring-plans-to-scan-everyone-s-face-at-the-door/ar-AA1NOvVA
+- 投稿はr/technologyで共有された。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nxwkpj/amazons_ring_plans_to_scan_everyones_face_at_the/
+- 投稿スコアは3441で、コメントは245件だった。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nxwkpj/amazons_ring_plans_to_scan_everyones_face_at_the/
+- 共有は2025-10-04T15:12:18+00:00に行われた。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nxwkpj/amazons_ring_plans_to_scan_everyones_face_at_the/
 
 ### References
-- https://reddit.com/r/technology/comments/1nxqy0e/why_conservatives_are_attacking_wokepedia/
-- https://www.wsj.com/tech/wikipedia-conservative-complaints-ee904b0b?st=RJcF9h
+- https://www.msn.com/en-us/news/technology/amazon-s-ring-plans-to-scan-everyone-s-face-at-the-door/ar-AA1NOvVA
+- https://www.reddit.com/r/technology/comments/1nxwkpj/amazons_ring_plans_to_scan_everyones_face_at_the/
