@@ -6,7 +6,7 @@
 - INPUT_FILE = "reports/{YYYY-MM-DD}/rss_sources.json"  # 既に収集済みの生データ
 - OUTPUT_DIR = "reports/{YYYY-MM-DD}"
 - OUTPUT_FILE = "report.json"
-- GENERATED_AT = "{utc_timestamp}"  # UTC タイムスタンプ（スクリプトから埋め込み）
+- GENERATED_AT = "{utc_timestamp}"  # UTC タイムスタンプ（スクリプトから埋め込み、ISO-8601 UTC 形式）
 </Variables>
 
 <CurrentEnvironment>
@@ -18,8 +18,18 @@
 以下のステップを順番に実行してください。
 
 1. `temp_tasklist.md` をチェックリスト形式で作成してください。各ステップが終了するごとにチェックボックスを埋めてください。
+```
+shell {"command":["apply_patch","*** Begin Patch\n*** Add File: temp_tasklist.md\n+# タスク一覧\n+- [ ] Step 1: 作業チェックリストを作成\n+- [ ] Step 2: 生データ読み込み\n+- [ ] Step 3: 要約・分析・JSON生成\n+- [ ] Step 4: 成果物報告と片付け\n*** End Patch\n"]}
+```
 
 2. `{INPUT_FILE}` を読み込んでください（存在がなければ失敗して終了してください）。
+   - 読み取り手順（PowerShell 例）：
+```powershell
+# PowerShell: UTF-8 で丸ごと読み込み、JSON に変換
+$raw = Get-Content -Raw -Encoding UTF8 $INPUT_FILE
+$data = $raw | ConvertFrom-Json
+# 使用例: $data.tech, $data.news, $data.fetched_at
+```
 
 3. `{INPUT_FILE}` の `sources` 配列の各記事を要約し JSONSchema に従って  `{OUTPUT_FILE}` を作成してください。
   - 各記事: タイトル、URL、日付（可能なら ISO-8601）、取得時刻（UTC）を含める
@@ -30,6 +40,9 @@
    - `generated_at` は "{utc_timestamp}" を使用
 
 4. 成果物を報告し、`temp_tasklist.md` を片付けてください。
+```
+shell {"command":["apply_patch","*** Begin Patch\n*** Delete File: temp_tasklist.md\n*** End Patch\n"]}
+```
 </Instructions>
 
 <FileSystem>
@@ -39,23 +52,21 @@
 </FileSystem>
 
 <OpsConstraints>
+- ファイル操作は apply_patch シェルコマンドを使う（作成／更新／削除）。
+- 読み取りのみは PowerShell の `Get-Content` を使用する。
 - Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）。
-- ファイル操作は **apply_patch** を使う。
-- 呼び出しは二段構え：
-  - **第一選択（システム準拠）**：`shell {"command":[ "apply_patch", "…パッチ…"]}`
-  - **代替（PowerShell互換）**：`bash -lc @'…'@` → 中で `apply_patch <<'EOF'` を使う
-- 相対パスのみ使用（絶対パスは禁止）。
-- 新規ファイルの内容行は必ず `+` を付ける。
-- Update のときは `@@` ハンクを使い、前後3行の文脈か `@@ def ...` / `@@ class ...` で特定する。
-- Python を使う場合は**一時スクリプト**を作って `uv run temp_script.py` で実行し、終了後に削除する。
 </OpsConstraints>
+
+<SafetyAndChecks>
+- 前提チェック: apply_patch シェルコマンドでダミーテキストファイルを作成し削除する 
+</SafetyAndChecks>
 
 <OutputSchema>
 JSONSchema に厳密準拠してください：
 
 ```json
 {
-  "generated_at": "ISO-8601 string",
+  "generated_at": "ISO-8601 string (use {utc_timestamp})",
   "site": "string",
   "num_articles": "number",
   "articles": [

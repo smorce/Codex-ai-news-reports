@@ -1,0 +1,151 @@
+{
+  "generated_at": "2025-10-05T16:38:49Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 18,
+  "sources": [
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "Twitter's Recommendation Algorithm",
+      "url": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+      "date": null,
+      "text": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline."
+    },
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "How we scaled Reads On the Twitter Users Database",
+      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+      "date": null,
+      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
+    },
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "Kerberizing Hadoop Clusters at Twitter",
+      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+      "date": null,
+      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "Language Agnostic Programming: Why you may still need code",
+      "url": "https://joaquimrocha.com/2025/08/31/language-agnostic-programming-why-you-may-still-need-code/",
+      "date": "2025-10-05T16:21:51",
+      "text": "デバッグは依然重要で、曖昧さを排除する役割がある。 自然言語の曖昧さとプログラミング言語の厳密さを対比する。 将来は基盤言語で出力され、好みの言語で読める閲覧が進む。 joaquimrocha.com/2025/08/31/language-agnostic-programming-why-you-may-still-need-code/ 🖊️英語約6,500文字, 🤖✨💬"
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "月額200ドルのAIブラウザ｢コメット｣が無料公開。ニュースまとめが超強い | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/2025/10/perplexity-comet-free.html",
+      "date": "2025-10-05T15:21:50",
+      "text": "AI搭載ブラウザが全世界で無料公開開始。 従来は月額200ドルのプラン利用者のみだった。 公式サイトから誰でもダウンロードして利用可能。 www.gizmodo.jp/2025/10/perplexity-comet-free.html 🖊️約600文字, 🎉🚀✨"
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "cc-sddで仕様駆動開発を試してみた",
+      "url": "https://zenn.dev/canly/articles/c77bf9f7a67582",
+      "date": "2025-10-05T14:21:52",
+      "text": "cc- sddで要件定義から検証まで対話型で進めた。 日本語対応で段階的な設計と検証の納得感が高まる。 課題は圧縮による精度低下とナレッジと仕様の分離の難しさ。 zenn.dev/canly/articles/c77bf9f7a67582 🖊️約2,500文字, ✨🚀📚"
+    },
+    {
+      "feed_name": "Zennの「AI駆動開発」のフィード",
+      "category": "zenn",
+      "title": "CursorのV1.7とBrowser Automationについて調査したんじゃ",
+      "url": "https://zenn.dev/omegamaster/articles/cursor-update-v-1_7",
+      "date": "2025-10-05T08:00:01",
+      "text": "初めに\ncursorのV1.7がリリースされました！\n個人的にBrowser Automationの方に興味がありますが、アップデート情報もしっかりと見ていきましょう〜\n!\npro人プランからTeamプランに変更したため、実機でテストできていないことがありますが、ご容赦ください。\nまたこの情報は2025/10/05時点の情報なので、参考までにご覧ください。\n\n\n 1.7で発表された情報\n\n Agentオートコンプリート\nチャット入力欄でTabを押すと提案が表示され、最近開いたファイルやメソッド、変数などを容易にコンテキストへ添付できるようになる。\nまぁコードを書くときのtab機能と同..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Cometがついに無料化！AIブラウザの新時代がやってきた！",
+      "url": "https://qiita.com/TaiyoYamada/items/5aaea959b9c6e3f63d5f",
+      "date": "2025-10-05T16:26:38",
+      "text": "Cometとは？\nCometは、AI検索サービス「Perplexity」が開発した次世代ブラウザ。特徴は、ブラウザそのものにAIが組み込まれており、\n\nページを開きながらAIに質問\n調べ物の出典を即参照\n文章要約や比較がワンクリック\n\nといった、“調べながら考える”体験を..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "【論文メモ】\"Bridging the Digital Divide: Empowering Elderly Smartphone Users with Intelligent and Human-Centered Design in Agemate\"",
+      "url": "https://qiita.com/kawauso24/items/26db4d13abf322fd449f",
+      "date": "2025-10-05T16:19:10",
+      "text": "はじめに\nOn device LLMに関して勉強する中で、その活用例としてスマートフォンの操作支援を考えています。今回の論文はOn deviceのモデルは利用していませんが、そういったアプリを実装した内容となっておりましたので読んだメモとなっています。\n\n論文情報\nタイト..."
+    },
+    {
+      "feed_name": "AI駆動開発タグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "ネストしたJSONを直感的に検索したくて、クエリ言語を自作した話",
+      "url": "https://qiita.com/mtsnrtkhr/items/4338017af6cd8e1d3608",
+      "date": "2025-10-05T15:59:06",
+      "text": "TL;DR\n\nカクテルレシピ検索で「Google風の自然なクエリ」でJSON検索をしたかった\n自作にもチャレンジ（PEG.js、search-query-parser + JSONPath-Plus）したが、実装の複雑さで挫折\nAIと対話しながらChevrotainでパー..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "実務で役立つネットワーク基礎：宅配便とLINEで理解するTCP/IPの世界",
+      "url": "https://qiita.com/nomurasan/items/51a4926b4bb7645d6b84",
+      "date": "2025-10-05T15:39:38",
+      "text": "前記事と比較しながら見てもらうとチューニングの重要性が見えます。\n\nはじめに：ネットワークは「見えない宅配システム」\nあなたがスマートフォンでWebサイトを開く時、画面の裏側では何が起きているのでしょうか？\n考えてみてください。Amazonで商品を注文すると、..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Microsoft LLM ワークショップ 体験記",
+      "url": "https://qiita.com/ikeike48/items/e8b0ecbeb25afb370eb7",
+      "date": "2025-10-05T15:13:09",
+      "text": "Microsoft LLM ワークショップへ参加したので、その時の学びを記録する。\n\n1. 理解重視のエンジニアへ\n\n「動いたら終わり」ではなく、挙動と構造を理解するエンジニアになる必要がある。\n\nサンプルコードを動かすだけでなく、ドキュメントを読み、動作原理・設計意図を..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "MCPの活用や応用への考察 - MCP実装のセキュリティ監査：プロトコル連携における脆弱性チェックリスト",
+      "url": "https://qiita.com/555hamano/items/d973a008a1ec16556081",
+      "date": "2025-10-05T14:05:26",
+      "text": "はじめに\nAnthropicの提唱するModel Context Protocol (MCP) を利用して、LLM(大規模言語モデル)と外部データソースやToolを連携させる際、セキュリティ監査は極めて重要です。プロトコル連携の脆弱性は、データ漏洩、不正アクセス、あるいは..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Chrome DevTools MCP経由でWebSocketを試してみる！",
+      "url": "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec",
+      "date": "2025-10-05T12:58:23",
+      "text": "はじめに\nChrome DevTools MCPでWebSocketを試してみました。\n\nクライアント側のログ(Claude Code)\n> chrome-devtoolsを開始して下さい。 \n\n⏺ Chrome DevToolsを開始するには、まずブラウザのページ一覧を..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Chrome DevTools MCP経由でWebSocketを試してみる！",
+      "url": "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec",
+      "date": "2025-10-05T12:58:23",
+      "text": "はじめに\nChrome DevTools MCPでWebSocketを試してみました。\n\nクライアント側のログ(Claude Code)\n> chrome-devtoolsを開始して下さい。 \n\n⏺ Chrome DevToolsを開始するには、まずブラウザのページ一覧を..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Codeでバックグラウンドで立ち上げたローカルサーバーにchrome-devtoolsでアクセスする",
+      "url": "https://qiita.com/s0ukada025/items/e35eaf07841460b8029a",
+      "date": "2025-10-05T12:24:24",
+      "text": "Claude Codeではnpm run devのようなコマンドをバックグラウンドで実行してくれるようになっているので以下のような指示を行うとコマンドを実行した上で対象のURLを開くようになります。わざわざ、コマンドを実行してchrome-devtoolsでページを開く必要..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Backlogのチケット→Codex CLIで実装→PR→Vercelプレビューまで自動化（サンプルコードあり）",
+      "url": "https://qiita.com/wondercoms/items/fb7025f2f64a921dd02c",
+      "date": "2025-10-05T12:06:24",
+      "text": "はじめに\nBacklogに仕様を書いてチケット番号を渡すだけで、CodexCLIがコード実装→push、GitHub ActionsがPRとBacklogコメントを自動生成、Vercelがプレビューまで用意。テンプレとWorkflowを丸ごと公開します。\nディレクターやデ..."
+    },
+    {
+      "feed_name": "AI駆動開発タグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Code入門：Claude Desktopで使用量を確認する",
+      "url": "https://qiita.com/tanadeyu/items/45a05516bcc32bf39730",
+      "date": "2025-10-05T02:53:37",
+      "text": "Claude使用時の疑問\nClaude DesktopやClaude Code CLIを使用している際、次の情報が知りたい場合の対処法です。\n\n現在の使用量\n時間制限のリセット時間\n週間制限の残量\nログイン可能だが通信不可の原因\n不慮の開発中断防止の事前確認\n\nClaud..."
+    }
+  ]
+}
