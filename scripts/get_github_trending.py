@@ -178,19 +178,12 @@ def collect_github_trending_report(
         executive_summary: List[str] = []
         if r.description:
             executive_summary.append(r.description)
-        
-        # トレンド情報を強調（今日のスター数がある場合）
-        if r.stars_today > 0:
-            executive_summary.append(f"🔥 {r.stars_today:,} stars {r.stars_period}")
-        executive_summary.append(f"⭐ 累積スター数: {r.stars:,}")
+        # README＋今日の獲得スター数＋累計スター数
+        executive_summary.append(f"今日の獲得スター数: {r.stars_today:,}")
+        executive_summary.append(f"累積スター数: {r.stars:,}")
 
-        # key_findingsにもトレンド情報を追加
-        key_findings = []
-        if r.stars_today > 0:
-            key_findings.append({
-                "point": f"トレンド: {r.stars_today:,} stars {r.stars_period}",
-                "footnote": "GitHubトレンディングページから取得"
-            })
+        # key_findings は NULL を指定
+        key_findings = None  # type: ignore[assignment]
 
         articles.append(
             {

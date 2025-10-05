@@ -115,8 +115,7 @@ class CodexDailyRunner:
                 raise FileNotFoundError(f"AGENTS_Reddit_Simple.md not found: {self.agents_reddit_file}")
             if not self.agents_rss_file.exists():
                 raise FileNotFoundError(f"AGENTS_rss.md not found: {self.agents_rss_file}")
-            if not self.agents_github_trending_file.exists():
-                raise FileNotFoundError(f"AGENTS_github_trending.md not found: {self.agents_github_trending_file}")
+            # GitHub Trending は Codex を使用しないため存在チェックは不要
 
             # 日付と出力ディレクトリ
             date_dir = datetime.now().strftime("%Y-%m-%d")
@@ -124,6 +123,7 @@ class CodexDailyRunner:
             output_dir.mkdir(parents=True, exist_ok=True)
 
             # # 1) 通常の AGENTS.md を処理（AI Devニュース）
+            # RSS で対応しているのでコメントアウトしたが、この処理自体は完成している
             # self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
             # ai_report_obj, ai_md_content = self.process_agents(
             #     agents_path=self.agents_file,
@@ -176,15 +176,37 @@ class CodexDailyRunner:
                 self.log(f"ERROR: GitHub Trending raw data collection failed: {e}")
                 raise
 
-            # 5) GitHub Trending を Codex で要約・分析
-            self.log("Processing GitHub Trending with Codex → report_github_trending.json / report_github_trending.md ...")
-            trending_report_obj, trending_md_content = self.process_agents(
-                agents_path=self.agents_github_trending_file,
-                json_output_name="report_github_trending.json",
-                md_output_name="report_github_trending.md",
-            )
+            # 5) 処理が重たいので、GitHub Trending は Codex による要約を行わない
+            # self.log("Processing GitHub Trending with Codex → report_github_trending.json / report_github_trending.md ...")
+            # trending_report_obj, trending_md_content = self.process_agents(
+            #     agents_path=self.agents_github_trending_file,
+            #     json_output_name="report_github_trending.json",
+            #     md_output_name="report_github_trending.md",
+            # )
 
-            # 6) RSS ソースを機械的に収集・保存（LLMなし）
+            # 6) GitHub Trending の最終レポートを reports/{YYYY-MM-DD}/report.json に保存
+            try:
+                self.log("Saving GitHub Trending final report to report.json ...")
+                final_report_path = output_dir / "report.json"
+                with open(final_report_path, 'w', encoding='utf-8') as f:
+                    json.dump(trending_raw_obj, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved final GitHub Trending JSON to {final_report_path}")
+            except Exception as e:
+                self.log(f"ERROR: Failed to save final GitHub Trending JSON: {e}")
+                raise
+
+            # GitHub Trending の Markdown レポートを生成
+            try:
+                self.log("Generating GitHub Trending Markdown report ...")
+                md_content = self._convert_report_json_to_markdown(trending_raw_obj)
+                final_md_path = output_dir / "report_github_trending.md"
+                final_md_path.write_text(md_content, encoding='utf-8')
+                self.log(f"Markdown report saved to {final_md_path}")
+            except Exception as e:
+                self.log(f"ERROR: Failed to save GitHub Trending Markdown: {e}")
+                raise
+
+            # 7) RSS ソースを機械的に収集・保存（LLMなし）
             try:
                 self.log("Collecting RSS sources (mechanical) → rss_sources.json ...")
                 feed_file = Path(__file__).parent / "feed.toml"
@@ -201,13 +223,14 @@ class CodexDailyRunner:
                 self.log(f"ERROR: RSS sources collection failed: {e}")
                 raise
 
-            # 7) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
+            # 8) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
             self.log("Processing AGENTS_rss.md → report_rss.json / report_rss.md ...")
             rss_report_obj, rss_md_content = self.process_agents(
                 agents_path=self.agents_rss_file,
                 json_output_name="report_rss.json",
                 md_output_name="report_rss.md",
             )
+
 
             # Git操作（出力物と新規/更新された scripts もコミット）
             self.git_operations(output_dir, date_dir)
