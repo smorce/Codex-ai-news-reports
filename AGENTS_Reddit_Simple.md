@@ -33,10 +33,23 @@
 4. 成果物報告後、`temp_tasklist.md` を削除
 </Instructions>
 
-<Constraints>
-- ファイル操作: apply_patch を使用する
-- Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）
-</Constraints>
+<FileSystem>
+- 出力先: {OUTPUT_DIR}/{OUTPUT_FILE}
+- ディレクトリが無ければ作成
+- 文字コード: UTF-8、改行: \n
+</FileSystem>
+
+<OpsConstraints>
+- Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）。
+- ファイル操作は **apply_patch** を使う。
+- 呼び出しは二段構え：
+  - **第一選択（システム準拠）**：`shell {"command":[ "apply_patch", "…パッチ…"]}`
+  - **代替（PowerShell互換）**：`bash -lc @'…'@` → 中で `apply_patch <<'EOF'` を使う
+- 相対パスのみ使用（絶対パスは禁止）。
+- 新規ファイルの内容行は必ず `+` を付ける。
+- Update のときは `@@` ハンクを使い、前後3行の文脈か `@@ def ...` / `@@ class ...` で特定する。
+- Python を使う場合は**一時スクリプト**を作って `uv run temp_script.py` で実行し、終了後に削除する。
+</OpsConstraints>
 
 <OutputSchema>
 JSONSchema に厳密準拠してください：
