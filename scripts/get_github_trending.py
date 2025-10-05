@@ -20,6 +20,7 @@ class Repository:
     stars: int
     stars_today: int  # 今日獲得したスター数
     stars_period: str  # "today" or "this week"
+    readme_content: Optional[str]
 
 
 def _read_languages_config(languages_file: Path) -> Dict[str, List[str]]:
@@ -118,6 +119,19 @@ def _retrieve_repositories(language: str, limit: int) -> List[Repository]:
                 stars_today = int(match.group(1).replace(",", ""))
                 stars_period = "today" if "today" in match.group(2).lower() else "this week"
 
+        # README全文を取得
+        readme_content = None
+        try:
+            repo_resp = requests.get(link, headers=headers, timeout=15)
+            repo_resp.raise_for_status()
+            repo_soup = BeautifulSoup(repo_resp.text, "html.parser")
+            readme_el = repo_soup.select_one("#readme article")
+            if readme_el:
+                readme_content = readme_el.get_text("\n", strip=True)
+        except Exception as e:
+            # READMEが取得できなくても処理は続ける
+            print(f"Could not retrieve README for {name}: {e}", file=sys.stderr)
+
         repositories.append(
             Repository(
                 name=name,
@@ -126,6 +140,7 @@ def _retrieve_repositories(language: str, limit: int) -> List[Repository]:
                 stars=stars,
                 stars_today=stars_today,
                 stars_period=stars_period,
+                readme_content=readme_content,
             )
         )
 
@@ -178,7 +193,12 @@ def collect_github_trending_report(
         executive_summary: List[str] = []
         if r.description:
             executive_summary.append(r.description)
-        # README＋今日の獲得スター数＋累計スター数
+
+        if r.readme_content:
+            executive_summary.append("---")
+            executive_summary.append(r.readme_content)
+
+        # 今日の獲得スター数＋累計スター数
         executive_summary.append(f"今日の獲得スター数: {r.stars_today:,}")
         executive_summary.append(f"累積スター数: {r.stars:,}")
 
