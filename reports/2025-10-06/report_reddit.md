@@ -1,106 +1,100 @@
 # AI News Report (https://reddit.com/)
 
-- Generated at: 2025-10-05T16:03:22Z
+- Generated at: 2025-10-05T16:20:56Z
 - Articles: 4
 
 ## It would be bad if superintelligent AI destroyed humanity
 - Date: 2025-10-05T09:24:43+00:00
 
 ### Executive Summary
-- 投稿者MetaKnowingがr/artificialで超知能AIによる人類滅亡を皮肉る画像を共有した。
-- タイトル通り、超知能AIリスクを直截に笑いへ昇華しつつ危機感を喚起している。
-- 2025年10月5日09:24 UTCに投稿され、収集時点でスコア39・コメント38件という適度な反響を得た。
-- ユーモアを通じて安全保障上の直感的な懸念を再確認する投稿として受け止められている。
+- 超知能AIが人類を滅ぼす最悪シナリオへの警鐘をユーモラスに伝える投稿。
+- i.redd.itの画像コンテンツで危機感を視覚化し、議論を促す。
+- 2025年10月5日09時24分UTCに公開され、/r/artificialで40件のコメントを集めた。
 
 ### Key Findings
-- MetaKnowingがr/artificialで超知能AI災禍を茶化す投稿を行い、リスク認識への共感を誘った。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
-- 投稿は2025年10月5日09時24分43秒UTCに公開されている。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
-- 収集時点でスコア39が付与され、コミュニティ内で適度な支持を獲得した。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
-- コメント数38件と議論の活発さは控えめながら継続している。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
-- 共有URLは極端なシナリオを皮肉る画像で、安全性議論を喚起する。 [^]
+- 投稿タイトルは「It would be bad if superintelligent AI destroyed humanity」と危機感を直接表現している。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
+- 投稿者MetaKnowingが/r/artificialで超知能AIリスクへの注意喚起を行った。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
+- 投稿は2025-10-05T09:24:43+00:00（UTC）に作成された。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
+- スコア38、コメント40件とコミュニティ内で一定の反響があった。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
+- 共有されたコンテンツはi.redd.itの画像で視覚訴求を強めている。 [^]
   - Footnote: https://i.redd.it/u5sakgbih9tf1.png
 
 ### References
-- https://reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
+- https://www.reddit.com/r/artificial/comments/1nyjoar/it_would_be_bad_if_superintelligent_ai_destroyed/
 - https://i.redd.it/u5sakgbih9tf1.png
 
-## Here's JPMorgan Chase's blueprint to become the world’s first fully AI-powered megabank
-- Date: 2025-10-05T01:42:59+00:00
+## AI Endangering Tourists by Sending Them to Nonexistent Landmarks in Hazardous Locations
+- Date: 2025-10-05T07:41:55+00:00
 
 ### Executive Summary
-- esporxがr/artificialでJPMorgan Chaseの完全AI駆動メガバンク構想を紹介した。
-- CNBC記事を参照し、同行が全社的にAIを統合する設計図を共有している。
-- 2025年10月5日01:42 UTCの投稿で、収集時点のスコアは21・コメント7件だった。
-- 金融業界におけるAI戦略の現実性への期待と慎重さが併存している。
+- AI観光案内の幻覚が旅行者を実在しないランドマークへ誘導し危険を生むと警告する投稿。
+- Futurism記事へのリンクを通じ、AI依存のリスクと安全対策の必要性を共有。
+- 2025年10月5日07時41分UTCに/r/artificialで公開され、迅速な注意喚起が図られた。
 
 ### Key Findings
-- 投稿はCNBC報道を共有し、JPMorganが全社AI化を目指す計画を提示した。 [^]
-  - Footnote: https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
-- 報道はフロントからバックオフィスまでAIを統合する青写真を描写している。 [^]
-  - Footnote: https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
-- 投稿は2025年10月5日01時42分59秒UTCに公開された。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
-- 収集時点でスコア21が付与され、コミュニティの関心は穏やかだった。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
-- コメント7件が寄せられ、金融分野のAI導入を巡る議論が小規模ながら進んだ。 [^]
-  - Footnote: https://reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
+- 投稿タイトルがAIによる観光客危険誘導問題を強調している。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/
+- リンク先はFuturismの記事でAIの幻覚による誤誘導を詳述する。 [^]
+  - Footnote: https://futurism.com/artificial-intelligence/ai-hallucination-landmarks-tourists
+- 投稿は2025-10-05T07:41:55+00:00（UTC）に作成された。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/
+- スコア24、コメント4件と限定的ながら議論が始まっている。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/
+- 投稿者mareacaspicaが/r/artificialで交通安全面の注意喚起を行った。 [^]
+  - Footnote: https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/
 
 ### References
-- https://reddit.com/r/artificial/comments/1nybmux/heres_jpmorgan_chases_blueprint_to_become_the/
-- https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html
+- https://www.reddit.com/r/artificial/comments/1nyi1fu/ai_endangering_tourists_by_sending_them_to/
+- https://futurism.com/artificial-intelligence/ai-hallucination-landmarks-tourists
 
 ## White House told only way to move Discovery is to chop it up.  Smithsonian warns that dismantling orbiter for relocation is history in the wrecking
 - Date: 2025-10-04T20:00:34+00:00
 
 ### Executive Summary
-- esporxがr/technologyでスペースシャトル・ディスカバリー移設問題を伝えるThe Register記事を共有した。
-- ホワイトハウスには機体を移動する唯一の方法が分解だと伝えられ、博物館側は歴史的遺産破壊の危険を警告している。
-- 2025年10月4日20:00 UTCに投稿され、収集時点でスコア33,362・コメント1,135件と大きな反響を得た。
-- ディスカバリーの保存方法を巡る政策判断への懸念がコミュニティで共有されている。
+- スペースシャトル・ディスカバリー移転には解体が唯一の選択だと伝えられたという報道を共有する投稿。
+- スミソニアンが解体は歴史的価値を損なうと警告し、保存戦略の再考を促す。
+- 2025年10月4日20時00分UTCに/r/technologyで公開され、スコア33469と大きな関心を集めた。
 
 ### Key Findings
-- The Registerはディスカバリーを移す現実的手段が機体を切断することだと報じた。 [^]
+- 投稿タイトルがホワイトハウスはディスカバリー移動には解体が必要と告げられたと伝えている。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- スミソニアンが解体は歴史の破壊だと警鐘を鳴らしていると強調されている。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- リンク先はThe Registerの記事で経緯の詳細を報じる。 [^]
   - Footnote: https://www.theregister.com/2025/10/02/dismantling_discovery/
-- スミソニアンは分解が歴史的価値を損なうと警告した。 [^]
-  - Footnote: https://www.theregister.com/2025/10/02/dismantling_discovery/
-- 投稿は2025年10月4日20時00分34秒UTCに公開された。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- 収集時点でスコア33,362を記録し、極めて高い注目度を示した。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- コメント数1,135件が集まり、保存か移設かを巡る活発な議論が展開した。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
-- 投稿は政策決定への影響と文化財保全のバランスへの懸念を浮き彫りにした。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- 投稿は2025-10-04T20:00:34+00:00（UTC）に公開された。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- スコア33469、コメント1137件とコミュニティで大規模な議論が生まれている。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
 
 ### References
-- https://reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
+- https://www.reddit.com/r/technology/comments/1ny3who/white_house_told_only_way_to_move_discovery_is_to/
 - https://www.theregister.com/2025/10/02/dismantling_discovery/
 
-## Breakthrough Blood Test Detects Head and Neck Cancer up to 10 Years Before Symptoms
-- Date: 2025-10-05T01:40:56+00:00
+## As Microsoft lays off thousands and jacks up Game Pass prices, former FTC chair Lina Khan says I told you so: The Activision-Blizzard buyout is 'harming both gamers and developers'
+- Date: 2025-10-05T14:27:18+00:00
 
 ### Executive Summary
-- ourlifeintorontoがr/technologyで頭頸部がんを症状発現10年前に検出できる血液検査を紹介した。
-- SciTechDaily記事は早期発見に向けた分子診断技術の進展を報じている。
-- 2025年10月5日01:40 UTCに投稿され、収集時点でスコア3,822・コメント82件の反響を得た。
-- 医療現場での早期スクリーニング可能性がコミュニティの期待を喚起している。
+- マイクロソフトの大量解雇とGame Pass値上げが同時進行し、影響を懸念する声を伝える投稿。
+- リナ・カーン前FTC委員長がActivision-Blizzard買収はゲーマーと開発者を傷つけていると指摘したと報告。
+- 2025年10月5日14時27分UTCに/r/technologyで公開され、スコア5913・コメント254件の反応を得た。
 
 ### Key Findings
-- SciTechDailyは頭頸部がんを症状発現10年前まで検知できる血液検査のブレイクスルーを紹介した。 [^]
-  - Footnote: https://scitechdaily.com/breakthrough-blood-test-detects-head-and-neck-cancer-up-to-10-years-before-symptoms/
-- 研究成果は早期診断と予防介入の可能性を大幅に高めると報じられている。 [^]
-  - Footnote: https://scitechdaily.com/breakthrough-blood-test-detects-head-and-neck-cancer-up-to-10-years-before-symptoms/
-- 投稿は2025年10月5日01時40分56秒UTCに公開された。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nyblcw/breakthrough_blood_test_detects_head_and_neck/
-- 収集時点のスコア3,822が示すように医療イノベーションへの関心が高い。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nyblcw/breakthrough_blood_test_detects_head_and_neck/
-- コメント82件が寄せられ、臨床応用や検査アクセスを巡る議論が行われた。 [^]
-  - Footnote: https://reddit.com/r/technology/comments/1nyblcw/breakthrough_blood_test_detects_head_and_neck/
+- 投稿タイトルはMicrosoftの大量解雇とGame Pass値上げの同時進行を批判している。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/
+- リナ・カーン前FTC委員長が買収の悪影響を予見していたという主張が紹介されている。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/
+- リンク先のPC Gamer記事が詳細な分析を提供する。 [^]
+  - Footnote: https://www.pcgamer.com/gaming-industry/as-microsoft-lays-off-thousands-and-jacks-up-game-pass-prices-former-ftc-chair-says-i-told-you-so-the-activision-blizzard-buyout-is-harming-both-gamers-and-developers/
+- 投稿は2025-10-05T14:27:18+00:00（UTC）に公開された。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/
+- スコア5913、コメント254件と高いコミュニティ関心を集めた。 [^]
+  - Footnote: https://www.reddit.com/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/
 
 ### References
-- https://reddit.com/r/technology/comments/1nyblcw/breakthrough_blood_test_detects_head_and_neck/
-- https://scitechdaily.com/breakthrough-blood-test-detects-head-and-neck-cancer-up-to-10-years-before-symptoms/
+- https://www.reddit.com/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/
+- https://www.pcgamer.com/gaming-industry/as-microsoft-lays-off-thousands-and-jacks-up-game-pass-prices-former-ftc-chair-says-i-told-you-so-the-activision-blizzard-buyout-is-harming-both-gamers-and-developers/
