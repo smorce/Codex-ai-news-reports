@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+import random
 from dataclasses import dataclass
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -118,6 +119,11 @@ def collect_rss_sources(
                         filtered.append((dt or datetime.now(), e))
                 filtered.sort(key=lambda x: x[0], reverse=True)
                 filtered = [e for _dt, e in filtered[:limit_per_feed]]
+
+                # 量が多いのでZenn と Qiita はランダムに1件に絞る
+                if category.lower() in ["zenn", "qiita"]:
+                    if filtered:
+                        filtered = random.sample(filtered, 1)
 
                 for e in filtered:
                     url = getattr(e, "link", None)

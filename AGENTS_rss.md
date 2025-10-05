@@ -8,8 +8,11 @@
 </Variables>
 
 <CurrentEnvironment>
-- AI実行環境: Codex
+- AI 実行環境: Codex
 - システムシェル: PowerShell
+- Web 操作ツール: モデル文脈プロトコル＝MCP（Model Context Protocol）
+  → DevTools を外部ツールとして呼び出す仕組み。ここでは `chrome-devtools` を使う。
+  例: chrome-devtools.new_page({"url": <URL>})
 </CurrentEnvironment>
 
 <Instructions>
@@ -31,7 +34,7 @@
 
 <Constraints>
 - ファイル操作: apply_patch を使用する
-- Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）
+- アクセス先は ローカルの `{INPUT_FILE}` に記載されたURLのみを使用
 </Constraints>
 
 <JSONSchema>
