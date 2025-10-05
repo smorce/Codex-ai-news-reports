@@ -133,7 +133,8 @@ def collect_rss_sources(
         processed_entries: list[tuple[str, object]] = [(feed_name, e) for dt, feed_name, e in category_entries]
 
         # 量が多いのでZenn と Qiita は最新1件に絞る
-        if category.lower() in ["zenn", "qiita"]:
+        # →やっぱり量が多いので、すべてのカテゴリで最新1件だけに絞る
+        if True:
             if processed_entries:
                 # category_entries は新しい順にソート済み → 先頭を採用
                 processed_entries = processed_entries[:1]

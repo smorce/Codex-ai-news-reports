@@ -68,17 +68,17 @@ JSONSchema に厳密準拠してください：
 {
   "generated_at": "ISO-8601 string (use {utc_timestamp})",
   "site": "string",
-  "num_articles": "number",
+  "num_articles": "number (total count)",
   "articles": [
     {
       "url": "string",
       "title": "string",
       "date": "ISO-8601 string or null",
-      "executive_summary": ["string", "string"],
+      "executive_summary": ["string (3-7 items in Japanese)"],
       "key_findings": [
         {
-          "point": "string",
-          "footnote": "string"
+          "point": "string (key insight in Japanese)",
+          "footnote": "string (source URL or evidence)"
         }
       ],
       "references": ["string"],
