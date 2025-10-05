@@ -104,6 +104,8 @@ def collect_rss_sources(
     sources: List[Dict[str, object]] = []
 
     for category, feed_urls in config.items():
+        category_entries: list[tuple[datetime, str, object]] = []  # (date, feed_name, entry)
+
         for feed_url in feed_urls:
             try:
                 parsed = feedparser.parse(feed_url)
@@ -112,39 +114,48 @@ def collect_rss_sources(
                 )
                 entries = list(getattr(parsed, "entries", []))
 
-                filtered: List = []
+                filtered_per_feed: list[tuple[datetime, object]] = []
                 for e in entries:
                     dt = _parse_entry_datetime(e)
                     if dt is None or dt >= cutoff:
-                        filtered.append((dt or datetime.now(), e))
-                filtered.sort(key=lambda x: x[0], reverse=True)
-                filtered = [e for _dt, e in filtered[:limit_per_feed]]
+                        filtered_per_feed.append((dt or datetime.now(), e))
 
-                # 量が多いのでZenn と Qiita はランダムに1件に絞る
-                if category.lower() in ["zenn", "qiita"]:
-                    if filtered:
-                        filtered = random.sample(filtered, 1)
+                filtered_per_feed.sort(key=lambda x: x[0], reverse=True)
 
-                for e in filtered:
-                    url = getattr(e, "link", None)
-                    if not url:
-                        continue
-                    title = getattr(e, "title", "無題")
-                    published_at = _parse_entry_datetime(e)
-                    text = _extract_article_text(e, url, session)
+                for dt, e in filtered_per_feed[:limit_per_feed]:
+                    category_entries.append((dt, feed_name, e))
 
-                    sources.append(
-                        {
-                            "feed_name": feed_name,
-                            "category": category,
-                            "title": title,
-                            "url": url,
-                            "date": published_at.strftime("%Y-%m-%dT%H:%M:%S") if published_at else None,
-                            "text": text,
-                        }
-                    )
             except Exception:
                 continue
+
+        # Sort all entries for the category by date
+        category_entries.sort(key=lambda x: x[0], reverse=True)
+
+        processed_entries: list[tuple[str, object]] = [(feed_name, e) for dt, feed_name, e in category_entries]
+
+        # 量が多いのでZenn と Qiita はランダムに1件に絞る
+        if category.lower() in ["zenn", "qiita"]:
+            if processed_entries:
+                processed_entries = random.sample(processed_entries, 1)
+
+        for feed_name, e in processed_entries:
+            url = getattr(e, "link", None)
+            if not url:
+                continue
+            title = getattr(e, "title", "無題")
+            published_at = _parse_entry_datetime(e)
+            text = _extract_article_text(e, url, session)
+
+            sources.append(
+                {
+                    "feed_name": feed_name,
+                    "category": category,
+                    "title": title,
+                    "url": url,
+                    "date": published_at.strftime("%Y-%m-%dT%H:%M:%S") if published_at else None,
+                    "text": text,
+                }
+            )
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return {

@@ -1,0 +1,167 @@
+{
+  "generated_at": "2025-10-05T14:28:44Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 20,
+  "sources": [
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "Twitter's Recommendation Algorithm",
+      "url": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+      "date": null,
+      "text": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline."
+    },
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "How we scaled Reads On the Twitter Users Database",
+      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/how-we-scaled-reads-on-the-twitter-users-database",
+      "date": null,
+      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
+    },
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "Kerberizing Hadoop Clusters at Twitter",
+      "url": "https://blog.x.com/engineering/en_us/topics/infrastructure/2023/kerberizing-hadoop-clusters-at-twitter",
+      "date": null,
+      "text": "At Twitter, our on premise data centers contain hundreds of thousands of hardware servers and millions of server hardware components."
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "AIを最強の「壁打ちパートナー」に変える研究職のためのプロンプト集｜genkAIjokyo|ChatGPT/Claudeで論文作成と科研費申請",
+      "url": "https://note.com/genkaijokyo/n/n0af419d15334",
+      "date": "2025-10-05T13:21:51",
+      "text": "研究向けの壁打ちパートナー用プロンプト集を提示。 フェーズ1～3の三段階で具体プロンプトを提示、壁打ち前の設定も忘れずに。 迎合を避け、仮説強化- 設計- 査読視点を網羅、推奨はGPT- 5ThinkingとWeb検索ON。 note.com/genkaijokyo/n/n0af419d15334 🖊️約2,500文字, 😂💡✨"
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "AI 2D Spine Animation Generator - Game-Ready Animations",
+      "url": "https://godmodeai.com/ai-spine-animation",
+      "date": "2025-10-05T11:21:54",
+      "text": "自動リギングとボーン生成で作業を大幅に短縮。 レイヤー付き出力で後編集が楽に行える。 Spineへエクスポート対応、Unity/Godotに最適。 godmodeai.com/ai-spine-animation 🖊️英語約2,500文字, 🔥🎮✨"
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "MIT Tech Review: AIが危険タンパク質を「再設計」、DNA検査すり抜け＝MSが警鐘",
+      "url": "https://www.technologyreview.jp/s/369941/microsoft-says-ai-can-create-zero-day-threats-in-biology/",
+      "date": "2025-10-05T10:21:51",
+      "text": "AIを使い毒素のタンパク質を再設計し致死機能を維持する手法を示した。 DNA注文時のスクリーニングを回避する点がデュアルユース問題を深刻化させる。 実験は仮想環境のみで有害物質は作らず、政府とベンダーへ警鐘を伝えた。 www.technologyreview.jp/s/369941/microsoft-says-ai-can-create-zero-day-threats-in-biology/ 🖊️約3,000文字, ⚠️🧬🔥"
+    },
+    {
+      "feed_name": "Zennの「Cursor」のフィード",
+      "category": "zenn",
+      "title": "CursorのV1.7とBrowser Automationについて調査したんじゃ",
+      "url": "https://zenn.dev/omegamaster/articles/cursor-update-v-1_7",
+      "date": "2025-10-05T08:00:01",
+      "text": "初めに\ncursorのV1.7がリリースされました！\n個人的にBrowser Automationの方に興味がありますが、アップデート情報もしっかりと見ていきましょう〜\n!\npro人プランからTeamプランに変更したため、実機でテストできていないことがありますが、ご容赦ください。\nまたこの情報は2025/10/05時点の情報なので、参考までにご覧ください。\n\n\n 1.7で発表された情報\n\n Agentオートコンプリート\nチャット入力欄でTabを押すと提案が表示され、最近開いたファイルやメソッド、変数などを容易にコンテキストへ添付できるようになる。\nまぁコードを書くときのtab機能と同..."
+    },
+    {
+      "feed_name": "Zennの「LangChain」のフィード",
+      "category": "zenn",
+      "title": "RAG検索時に過去履歴を読み込ませるべきか？開発中のAIチャットから得た最適解",
+      "url": "https://zenn.dev/tomoki33/articles/f3eb118ec4cc7d",
+      "date": "2025-10-05T00:03:41",
+      "text": "はじめに\n現在、私はRAG（Retrieval-Augmented Generation）を活用したAIチャットシステムを開発しています。\n目的は、ユーザの質問に対して高精度な回答を返しつつ、コストを最小限に抑えること。\nその中で直面した課題が──\n\n🔍 「RAG検索時に過去の会話履歴をどこまで読み込ませるべきか？」\n\nでした。\n本記事では、私が実際に試行錯誤した結果たどり着いた実践的な最適解を、\nコスト面・精度面・実装面の観点からまとめます。\n\n\n RAG検索における「過去履歴」の役割\nRAGは「検索＋生成」を組み合わせたアプローチで、\nクエリ（質問）をもとに知識ベースから関連情報..."
+    },
+    {
+      "feed_name": "Zennの「AI駆動開発」のフィード",
+      "category": "zenn",
+      "title": "CursorのV1.7とBrowser Automationについて調査したんじゃ",
+      "url": "https://zenn.dev/omegamaster/articles/cursor-update-v-1_7",
+      "date": "2025-10-05T08:00:01",
+      "text": "初めに\ncursorのV1.7がリリースされました！\n個人的にBrowser Automationの方に興味がありますが、アップデート情報もしっかりと見ていきましょう〜\n!\npro人プランからTeamプランに変更したため、実機でテストできていないことがありますが、ご容赦ください。\nまたこの情報は2025/10/05時点の情報なので、参考までにご覧ください。\n\n\n 1.7で発表された情報\n\n Agentオートコンプリート\nチャット入力欄でTabを押すと提案が表示され、最近開いたファイルやメソッド、変数などを容易にコンテキストへ添付できるようになる。\nまぁコードを書くときのtab機能と同..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Chrome DevTools MCP経由でWebSocketを試してみる！",
+      "url": "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec",
+      "date": "2025-10-05T12:58:23",
+      "text": "はじめに\nChrome DevTools MCPでWebSocketを試してみました。\n\nクライアント側のログ(Claude Code)\n> chrome-devtoolsを開始して下さい。 \n\n⏺ Chrome DevToolsを開始するには、まずブラウザのページ一覧を..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "【2025】最近のAIモデルとツールと会社名がわからないのでまとめてみる",
+      "url": "https://qiita.com/Eto0/items/ab830534072ea940ad45",
+      "date": "2025-10-05T12:33:37",
+      "text": "はじめに\n最近、AI関連のニュースを聞いて、それが会社名なのかモデルの名前なのかツール名なのか、さっぱりわからないときがあります。\n置いていかれないためにも、現時点のAI関連の名前について、会社名を軸にまとめて表にしてみました。\n\n会社軸でまとめたAI関連の表\n\n会社..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Codeでバックグラウンドで立ち上げたローカルサーバーにchrome-devtoolsでアクセスする",
+      "url": "https://qiita.com/s0ukada025/items/e35eaf07841460b8029a",
+      "date": "2025-10-05T12:24:24",
+      "text": "Claude Codeではnpm run devのようなコマンドをバックグラウンドで実行してくれるようになっているので以下のような指示を行うとコマンドを実行した上で対象のURLを開くようになります。わざわざ、コマンドを実行してchrome-devtoolsでページを開く必要..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "MCPの活用や応用への考察 - MCP実装のセキュリティ監査：プロトコル連携における脆弱性チェックリスト",
+      "url": "https://qiita.com/555hamano/items/d973a008a1ec16556081",
+      "date": "2025-10-05T14:05:26",
+      "text": "はじめに\nAnthropicの提唱するModel Context Protocol (MCP) を利用して、LLM(大規模言語モデル)と外部データソースやToolを連携させる際、セキュリティ監査は極めて重要です。プロトコル連携の脆弱性は、データ漏洩、不正アクセス、あるいは..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "MCPの活用や応用への考察 - 機密データ利用の課題解決：MCPとゼロ知識証明を組み合わせたセキュアなコンテキスト参照",
+      "url": "https://qiita.com/555hamano/items/0869a2038f997f93f5e2",
+      "date": "2025-10-05T14:02:04",
+      "text": "はじめに\nAnthropicのModel Context Protocol (MCP) は、LLM(大規模言語モデル)の推論能力を外部コンテキストで強化しますが、特に機密情報や個人情報を含むデータを利用する際、大きなセキュリティ課題に直面します。それは、「LLMにデータを..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "MCPの活用や応用への考察 - データ提供者の信頼性を証明：MCPにおけるコンテキストソースの認証と管理",
+      "url": "https://qiita.com/555hamano/items/126a0c2733e6d038a28f",
+      "date": "2025-10-05T13:59:30",
+      "text": "はじめに\nAnthropicの提唱するModel Context Protocol (MCP) は、LLM（大規模言語モデル）の推論を外部のデータソース(コンテキスト)で補強する際の標準化を目指しています。\nLLMの回答品質と信頼性は、提供されるコンテキストの品質に完全に..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Chrome DevTools MCP経由でWebSocketを試してみる！",
+      "url": "https://qiita.com/s0ukada025/items/e66a5fcf4006e16a4dec",
+      "date": "2025-10-05T12:58:23",
+      "text": "はじめに\nChrome DevTools MCPでWebSocketを試してみました。\n\nクライアント側のログ(Claude Code)\n> chrome-devtoolsを開始して下さい。 \n\n⏺ Chrome DevToolsを開始するには、まずブラウザのページ一覧を..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Codeでバックグラウンドで立ち上げたローカルサーバーにchrome-devtoolsでアクセスする",
+      "url": "https://qiita.com/s0ukada025/items/e35eaf07841460b8029a",
+      "date": "2025-10-05T12:24:24",
+      "text": "Claude Codeではnpm run devのようなコマンドをバックグラウンドで実行してくれるようになっているので以下のような指示を行うとコマンドを実行した上で対象のURLを開くようになります。わざわざ、コマンドを実行してchrome-devtoolsでページを開く必要..."
+    },
+    {
+      "feed_name": "MCPタグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Backlogのチケット→Codex CLIで実装→PR→Vercelプレビューまで自動化（サンプルコードあり）",
+      "url": "https://qiita.com/wondercoms/items/fb7025f2f64a921dd02c",
+      "date": "2025-10-05T12:06:24",
+      "text": "はじめに\nBacklogに仕様を書いてチケット番号を渡すだけで、CodexCLIがコード実装→push、GitHub ActionsがPRとBacklogコメントを自動生成、Vercelがプレビューまで用意。テンプレとWorkflowを丸ごと公開します。\nディレクターやデ..."
+    },
+    {
+      "feed_name": "AI駆動開発タグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Code入門：Claude Desktopで使用量を確認する",
+      "url": "https://qiita.com/tanadeyu/items/45a05516bcc32bf39730",
+      "date": "2025-10-05T02:53:37",
+      "text": "Claude使用時の疑問\nClaude DesktopやClaude Code CLIを使用している際、次の情報が知りたい場合の対処法です。\n\n現在の使用量\n時間制限のリセット時間\n週間制限の残量\nログイン可能だが通信不可の原因\n不慮の開発中断防止の事前確認\n\nClaud..."
+    },
+    {
+      "feed_name": "AI駆動開発タグが付けられた新着記事 - Qiita",
+      "category": "qitta",
+      "title": "Claude Code入門：並列指示による時間短縮効果は？",
+      "url": "https://qiita.com/tanadeyu/items/a389c081910b2d23718e",
+      "date": "2025-10-05T01:37:04",
+      "text": "Claude Codeにおける並列実行について\n逐次実行を並列実行に置き換えることで時間が短縮できないかと考えたことはないだろうか。\n※ 逐次実行：コマンドを1つずつ順番に実行すること\n※ 並列実行：複数のコマンドを同時に実行すること\nClaude Codeでは、依存関係..."
+    }
+  ]
+}
