@@ -15,8 +15,10 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
 from turso_push_report import push_daily_report
-from github_trending import collect_github_trending_report
-from tech_feed import collect_rss_sources
+from get_github_trending import collect_github_trending_report
+from get_reddit import collect_reddit_raw_data
+from get_rss import collect_rss_sources
+
 
 class CodexDailyRunner:
     def __init__(self):
@@ -38,7 +40,7 @@ class CodexDailyRunner:
         self.report_dir = self.repo_path / "reports"
         self.logs_dir = self.repo_path / "logs"
         self.log_file = self.logs_dir / "codex_daily_with_agents.log"
-        self.agents_file = self.repo_path / "AGENTS.md"
+        # self.agents_file = self.repo_path / "AGENTS.md"
         self.agents_reddit_file = self.repo_path / "AGENTS_Reddit_Simple.md"
         self.agents_rss_file = self.repo_path / "AGENTS_rss.md"
         self.agents_github_trending_file = self.repo_path / "AGENTS_github_trending.md"
@@ -69,6 +71,7 @@ class CodexDailyRunner:
             'report.json',                      # Codex生成の一時JSON
             'report_ai.json',                   # AI News成果物
             'report_reddit.json',               # Reddit成果物
+            'report_reddit_raw.json',           # Reddit生データ（Codex処理前）
             'report_github_trending.json',      # GitHub Trending成果物
             'report_github_trending_raw.json',  # GitHub Trending生データ（Codex処理前）
             'report_rss.json',                  # RSS成果物
@@ -96,7 +99,7 @@ class CodexDailyRunner:
             self.log(f"Warning: An error occurred during temp file cleanup: {e}")
 
     def run(self):
-        """メイン実行処理（AGENTS.md → AGENTS_Reddit.md の順で2本実行）"""
+        """メイン実行処理"""
         try:
             self.log("=== Start ===")
 
@@ -106,8 +109,8 @@ class CodexDailyRunner:
             # パスの存在確認
             if not self.repo_path.exists():
                 raise FileNotFoundError(f"Repo not found: {self.repo_path}")
-            if not self.agents_file.exists():
-                raise FileNotFoundError(f"AGENTS.md not found: {self.agents_file}")
+            # if not self.agents_file.exists():
+            #     raise FileNotFoundError(f"AGENTS.md not found: {self.agents_file}")
             if not self.agents_reddit_file.exists():
                 raise FileNotFoundError(f"AGENTS_Reddit_Simple.md not found: {self.agents_reddit_file}")
             if not self.agents_rss_file.exists():
@@ -120,23 +123,41 @@ class CodexDailyRunner:
             output_dir = self.report_dir / date_dir
             output_dir.mkdir(parents=True, exist_ok=True)
 
-            # 1) 通常の AGENTS.md を処理（AI Devニュース）
-            self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
-            ai_report_obj, ai_md_content = self.process_agents(
-                agents_path=self.agents_file,
-                json_output_name="report_ai.json",
-                md_output_name="report_ai.md",
-            )
+            # # 1) 通常の AGENTS.md を処理（AI Devニュース）
+            # self.log("Processing AGENTS.md → report_ai.json / report_ai.md ...")
+            # ai_report_obj, ai_md_content = self.process_agents(
+            #     agents_path=self.agents_file,
+            #     json_output_name="report_ai.json",
+            #     md_output_name="report_ai.md",
+            # )
 
-            # 2) Reddit 版 AGENTS_Reddit_Simple.md を処理
-            self.log("Processing AGENTS_Reddit_Simple.md → report_reddit.json / report_reddit.md ...")
+            # 2) Reddit を収集（機械的な生データ収集）
+            try:
+                self.log("Collecting Reddit raw data → report_reddit_raw.json ...")
+                reddit_raw_obj = collect_reddit_raw_data(
+                    tech_subs=["artificial", "compsci", "coding"],
+                    news_subs=["technology", "Futurology"],
+                    num_articles=2,
+                )
+
+                # 生データを一時保存（Codexが読み込む用）
+                raw_json_path = output_dir / "report_reddit_raw.json"
+                with open(raw_json_path, 'w', encoding='utf-8') as f:
+                    json.dump(reddit_raw_obj, f, ensure_ascii=False, indent=2)
+                self.log(f"Saved raw Reddit data to {raw_json_path}")
+            except Exception as e:
+                self.log(f"ERROR: Reddit raw data collection failed: {e}")
+                raise
+
+            # 3) Reddit を Codex で要約・分析
+            self.log("Processing Reddit with Codex → report_reddit.json / report_reddit.md ...")
             reddit_report_obj, reddit_md_content = self.process_agents(
                 agents_path=self.agents_reddit_file,
                 json_output_name="report_reddit.json",
                 md_output_name="report_reddit.md",
             )
 
-            # 3) GitHub Trending を収集（機械的な生データ収集）
+            # 4) GitHub Trending を収集（機械的な生データ収集）
             try:
                 self.log("Collecting GitHub Trending raw data → report_github_trending_raw.json ...")
                 languages_file = Path(__file__).parent / "languages.toml"
@@ -155,7 +176,7 @@ class CodexDailyRunner:
                 self.log(f"ERROR: GitHub Trending raw data collection failed: {e}")
                 raise
 
-            # 4) GitHub Trending を Codex で要約・分析
+            # 5) GitHub Trending を Codex で要約・分析
             self.log("Processing GitHub Trending with Codex → report_github_trending.json / report_github_trending.md ...")
             trending_report_obj, trending_md_content = self.process_agents(
                 agents_path=self.agents_github_trending_file,
@@ -163,7 +184,7 @@ class CodexDailyRunner:
                 md_output_name="report_github_trending.md",
             )
 
-            # 5) RSS ソースを機械的に収集・保存（LLMなし）
+            # 6) RSS ソースを機械的に収集・保存（LLMなし）
             try:
                 self.log("Collecting RSS sources (mechanical) → rss_sources.json ...")
                 feed_file = Path(__file__).parent / "feed.toml"
@@ -180,7 +201,7 @@ class CodexDailyRunner:
                 self.log(f"ERROR: RSS sources collection failed: {e}")
                 raise
 
-            # 6) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
+            # 7) AGENTS_rss.md を使って要約とレポート生成（LLM/Codex CLI）
             self.log("Processing AGENTS_rss.md → report_rss.json / report_rss.md ...")
             rss_report_obj, rss_md_content = self.process_agents(
                 agents_path=self.agents_rss_file,

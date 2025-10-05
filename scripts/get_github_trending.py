@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# scripts/github_trending.py
+# scripts/get_github_trending.py
 
 import re
 import sys
@@ -212,6 +212,4 @@ def collect_github_trending_report(
     }
 
     return report_obj
-
-
 

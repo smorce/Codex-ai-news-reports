@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# scripts/tech_feed.py
+# scripts/get_rss.py
 
 from __future__ import annotations
 
@@ -147,5 +147,4 @@ def collect_rss_sources(
         "num_articles": len(sources),
         "sources": sources,
     }
-
 

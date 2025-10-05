@@ -1,15 +1,10 @@
 <Variables>
+- INPUT_FILE = "reports/{YYYY-MM-DD}/report_github_trending_raw.json"  # 既に収集済みの生データ
 - NUM_ARTICLES = 10
 - SITE = "https://github.com/trending"
 - OUTPUT_DIR = "reports/{YYYY-MM-DD}"
 - OUTPUT_FILE = "report.json"
-- RETRY_MAX = 3
-- REQUEST_TIMEOUT_SEC = 30
-
-# GitHub Trending収集設定
-- LANGUAGES_FILE = "scripts/languages.toml"
-- GENERAL_LIMIT = 10
-- SPECIFIC_LIMIT = 5
+- GENERATED_AT = "{utc_timestamp}"  # UTC タイムスタンプ（スクリプトから埋め込み）
 </Variables>
 
 <CurrentEnvironment>
@@ -22,7 +17,7 @@
 
 1. `temp_tasklist.md` をチェックリスト形式で作成してください。各ステップが終了するごとにチェックボックスを埋めてください。
 
-2. 既存の `report_github_trending_raw.json` から収集済みのGitHub Trendingリポジトリデータを読み込む。
+2. `{INPUT_FILE}` から収集済みのGitHub Trendingリポジトリデータを読み込む（存在がなければ失敗して終了してください）。
    - このファイルには、リポジトリ名、description、スター数、URLが含まれています。
 
 3. トップ `{NUM_ARTICLES}` 件のリポジトリについて、各リポジトリの詳細を調査し `{OUTPUT_FILE}` を作成する。
@@ -38,14 +33,16 @@
      * 利用シーン
      * コミュニティの活発さ（スター数、最近の更新など）
      * ライセンス情報
+   - `site` は `SITE` を使用
+   - `generated_at` は "{utc_timestamp}" を使用
 
 4. 成果物を報告し、`temp_tasklist.md` を片付けてください。
 </Instructions>
 
 <Constraints>
-- Web検索: Chrome DevTools MCPサーバーを使用する
 - ファイル操作: apply_patch を使用する
-- README取得時は適切な `User-Agent` を使用
+- URLアクセス: Chrome DevTools MCP を使用して、生データに含まれるリポジトリURLにアクセスしREADMEを取得する
+  （Web検索は不要 - URLは既に収集済み）
 </Constraints>
 
 <JSONSchema>
