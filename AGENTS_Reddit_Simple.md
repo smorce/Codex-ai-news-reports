@@ -6,7 +6,7 @@
 - INPUT_FILE = "reports/{YYYY-MM-DD}/report_reddit_raw.json"  # 既に収集済みの生データ
 - OUTPUT_DIR = "reports/{YYYY-MM-DD}"
 - OUTPUT_FILE = "report.json"
-- GENERATED_AT = "{utc_timestamp}"  # UTC タイムスタンプ（スクリプトから埋め込み）
+- GENERATED_AT = "{utc_timestamp}"  # UTC タイムスタンプ（スクリプトから埋め込み、ISO-8601 UTC 形式）
 </Variables>
 
 <CurrentEnvironment>
@@ -22,9 +22,16 @@
 shell {"command":["apply_patch","*** Begin Patch\n*** Add File: temp_tasklist.md\n+# タスク一覧\n+- [ ] Step 1: チェックリスト作成\n+- [ ] Step 2: 生データ読み込み\n+- [ ] Step 3: 要約・分析・JSON生成\n+- [ ] Step 4: 成果物報告と片付け\n*** End Patch\n"]}
 ```
 
-2. `{INPUT_FILE}` を読み込む
+2. `{INPUT_FILE}` を読み込む（**PowerShell の `Get-Content` を明示して実行**）
    - 形式: {"tech": [...], "news": [...], "fetched_at": "..."}
    - tech/news 各グループから記事を抽出
+   - 読み取り手順（PowerShell 例）：
+```powershell
+# PowerShell: UTF-8 で丸ごと読み込み、JSON に変換
+$raw = Get-Content -Raw -Encoding UTF8 $INPUT_FILE
+$data = $raw | ConvertFrom-Json
+# 使用例: $data.tech, $data.news, $data.fetched_at
+```
 
 3. 各記事について日本語で要約・分析を行い、JSONSchema に従って {OUTPUT_FILE} を作成
    - `executive_summary`: 日本語 3–7 行（短文で要点）
@@ -46,10 +53,10 @@ shell {"command":["apply_patch","*** Begin Patch\n*** Delete File: temp_tasklist
 </FileSystem>
 
 <OpsConstraints>
-- ファイル操作は apply_patch シェルコマンドを使う。
+- ファイル操作は apply_patch シェルコマンドを使う（作成／更新／削除）。
+- 読み取りのみは PowerShell の `Get-Content` を使用する。
 - Webアクセスやブラウジングは不要（ローカルの `{INPUT_FILE}` のみを使用）。
 </OpsConstraints>
-
 
 <SafetyAndChecks>
 - 前提チェック: apply_patch シェルコマンドでダミーテキストファイルを作成し削除する 
