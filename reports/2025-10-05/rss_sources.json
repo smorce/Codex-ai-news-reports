@@ -1,0 +1,31 @@
+{
+  "generated_at": "2025-10-05T17:51:05Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 3,
+  "sources": [
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "LLM用宣言的プログラミング言語 DSPy",
+      "url": "https://zenn.dev/cybernetics/articles/f879e10b53c2db",
+      "date": "2025-10-05T17:21:55",
+      "text": "宣言型と自己改善を組み合わせ、処理を再現。 プロンプトを内部で管理し、出力はLLMの応答として得る。 多段推論に対応、今後は設計最適化と状態分岐を拡張。 zenn.dev/cybernetics/articles/f879e10b53c2db 🖊️約5,000文字, 🤖✨⚡"
+    },
+    {
+      "feed_name": "Zennの「Cursor」のフィード",
+      "category": "zenn",
+      "title": "非エンジニアでもできる！Cursor x MCP でマニュアルを完全自動化！",
+      "url": "https://zenn.dev/jkkitakita/articles/b16d59a31138e2",
+      "date": "2025-10-05T14:28:48",
+      "text": "こんにちは。jkkitakitaです。\nプロダクトのマニュアル作成って大変じゃないですか？\n作成するだけではなくリリースの度に更新しないといけない\nしかも、開発とCSの連携がうまくできず、気づいたら変わってるなんてことは、あるあるなんじゃないかなと思っています。\n本記事では、以下のような課題を解決する方法を紹介します！\n\nマニュアル作成に膨大な時間がかかる\nシステムの現在の仕様を正確に把握するのが困難\n最新のスクリーンショットを取得する作業が手間\nマニュアルの更新が後回しになりがち\nマニュアルの品質が安定しない。\nNotion など外部ツールへの依存が管理の負担になる\n\n\n 使ったツール..."
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qiita",
+      "title": "初心者の失敗：フォーマットの違いで学習はこう変わる——CoTを活かすフォーマット設計の重要性",
+      "url": "https://qiita.com/hiro7_2kae/items/5a5c287aadcf72817e71",
+      "date": "2025-10-05T17:36:09",
+      "text": "ChatGPTが提案したコードをそのまま使ったら、なぜか出力からCoT（Chain of Thought）が消えてしまった——。\n本記事は、東京大学 松尾・岩澤研究室 LLM開発コンペ2025 において、Team K.A.T.Oの一員として参加した私が、RLT実装中に直面し..."
+    }
+  ]
+}
