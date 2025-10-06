@@ -560,24 +560,23 @@ class CodexDailyRunner:
                 rel_path = target_path.relative_to(self.repo_path)
                 subprocess.run(['git', 'add', str(rel_path)], check=True)
                 
-                # git statusで変更があるかチェック
-                status_result = subprocess.run(
-                    ['git', 'status', '--porcelain'], 
-                    capture_output=True, 
-                    text=True, 
+                # 直近の add によりステージされた変更のみを確認（対象パスに限定）
+                staged_result = subprocess.run(
+                    ['git', 'diff', '--name-only', '--cached', '--', str(rel_path)],
+                    capture_output=True,
+                    text=True,
                     check=True
                 )
                 
-                if status_result.stdout.strip():
-                    # 変更がある場合はコミットとプッシュ
+                if staged_result.stdout.strip():
+                    # ステージ済みの変更がある場合はコミットとプッシュ
                     commit_msg = f"Auto: AI News report {date} (JSON)"
                     subprocess.run(['git', 'commit', '-m', commit_msg], check=True)
-                    
                     subprocess.run(['git', 'push', 'origin', self.branch], check=True)
-                    
                     self.log(f"Committed and pushed to {self.branch}")
                 else:
-                    self.log("No changes to commit")
+                    # ステージ済みの変更がない（通常想定のケースもある）
+                    self.log(f"No staged changes to commit for {rel_path}. Skipping commit/push.")
                     
             finally:
                 # 元のディレクトリに戻る
