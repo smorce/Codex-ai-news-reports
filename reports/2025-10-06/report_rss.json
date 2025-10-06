@@ -1,0 +1,126 @@
+{
+  "generated_at": "2025-10-06T14:19:17Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 3,
+  "articles": [
+    {
+      "url": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html",
+      "title": "生成AIで世代交代するAmazonデバイス　「日本語化」でなく「日本対応」【西田宗千佳のイマトミライ】-Impress Watch",
+      "date": "2025-10-06T13:22:00",
+      "executive_summary": [
+        "Alexa+を軸に新しいAmazonデバイス群が米国で発表された。",
+        "日本向けの提供時期は未公表だが、単なる日本語化ではなく日本対応を重視している。",
+        "Ringは欧州でスマートビデオサーチを展開し、日本への展開準備を進めている。",
+        "Kindle Scribeは英語機能を活かしつつ、現地適応を優先する方針が示された。"
+      ],
+      "key_findings": [
+        {
+          "point": "Alexa+を中心にした新デバイスが米国で提供開始された。",
+          "footnote": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+        },
+        {
+          "point": "日本市場では提供時期を明かさず、日本対応の最適化を優先している。",
+          "footnote": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+        },
+        {
+          "point": "現地適応を重視することで単なる翻訳以上の体験づくりを目指している。",
+          "footnote": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+        },
+        {
+          "point": "Ringは欧州市場でスマートビデオサーチを展開し、日本向け展開の準備を進めている。",
+          "footnote": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+        },
+        {
+          "point": "Kindle Scribeでは英語機能を維持しながらサービス展開を検討している。",
+          "footnote": "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+        }
+      ],
+      "references": [
+        "https://www.watch.impress.co.jp/docs/series/nishida/2052646.html"
+      ],
+      "retrieved_at": "2025-10-06T14:19:17Z"
+    },
+    {
+      "url": "https://zenn.dev/nexta_/articles/cursor-browser-automation",
+      "title": "CursorのAIエージェントにブラウザ操作させる方法",
+      "date": "2025-10-06T07:04:45",
+      "executive_summary": [
+        "Cursor Agentにブラウザ機能が追加され、AIがWeb操作を自動化できるようになった。",
+        "記事は情報収集や動作確認を想定した活用シナリオと操作手順を解説している。",
+        "Beta設定の変更からショートカット操作、ブラウザ起動までの流れが詳述されている。",
+        "生成されたスクリーンショットは自動で .cursor/screenshots に保存される。"
+      ],
+      "key_findings": [
+        {
+          "point": "Cursor Beta設定をEarly Accessに切り替えることがブラウザ機能の前提となる。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        },
+        {
+          "point": "Agent WindowはCtrl+E（またはCmd+E）で起動し、AIエージェントとの対話を始める。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        },
+        {
+          "point": "Browserボタンをクリックすることでブラウザウィンドウが立ち上がる。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        },
+        {
+          "point": "チャットで指示を出すとAIがブラウジングを実行し、必要な情報を取得する。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        },
+        {
+          "point": "実行結果のスクリーンショットは .cursor/screenshots フォルダーに自動保存される。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        },
+        {
+          "point": "記事は前提条件や準備事項を整理し、運用手順の全体像を提示している。",
+          "footnote": "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+        }
+      ],
+      "references": [
+        "https://zenn.dev/nexta_/articles/cursor-browser-automation"
+      ],
+      "retrieved_at": "2025-10-06T14:19:17Z"
+    },
+    {
+      "url": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0",
+      "title": "暗黙知だらけのソースやメモ書きから、AIでプロジェクト資料を作ろう！",
+      "date": "2025-10-06T14:16:57",
+      "executive_summary": [
+        "GitやMarkdownに不慣れでも短時間でREADMEを整備できるAI活用法を紹介している。",
+        "プロジェクト内に眠る暗黙知を可視化し、チームの成長と効率を阻む課題を減らす狙いだ。",
+        "時間不足や属人化といった現場の悩みに応じて資料化を自動化する手順を解説する。",
+        "現場から集めたメモやソースを起点にドキュメント化するワークフローを提示している。"
+      ],
+      "key_findings": [
+        {
+          "point": "GitやMarkdownに不慣れな人でもAIがREADME作成を支援する。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        },
+        {
+          "point": "暗黙知がチームの成長と効率を妨げる最大の課題だと位置付けている。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        },
+        {
+          "point": "「時間がない」「特定の人しか知らない」といった属人化をAIで解消する狙いを示す。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        },
+        {
+          "point": "散在するメモやソースから必要な情報を抽出しドキュメント化する流れを紹介する。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        },
+        {
+          "point": "短時間で複数の有用なドキュメントを自動生成できるユースケースを想定している。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        },
+        {
+          "point": "共有資産を整備することでチーム全体の運用改善につなげる重要性を強調している。",
+          "footnote": "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+        }
+      ],
+      "references": [
+        "https://qiita.com/suttamondamon/items/177727f042c91d322aa0"
+      ],
+      "retrieved_at": "2025-10-06T14:19:17Z"
+    }
+  ]
+}
