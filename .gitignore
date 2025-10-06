@@ -185,3 +185,5 @@ vertex-ai-gemini.json
 .files/
 【bk v1】chainlit_app.py
 .cursor/mcp.json
+run_codex.bat
+run_codex_spinner.ps1

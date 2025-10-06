@@ -1,8 +1,24 @@
 #!/usr/bin/env python3
 # scripts/codex_daily_with_agents.py
 
+# 標準出力を UTF-8（かつエラーは置換）に再設定
+# 先頭に追加（ファイルの一番上、他の import の前に置くのが確実）
 import os
 import sys
+
+# Python の UTF-8 モードを有効化（環境変数）
+os.environ.setdefault("PYTHONUTF8", "1")
+
+# 標準出力／標準エラーを UTF-8 に設定し、出力不可文字は置換する
+try:
+    # Python 3.7+ で利用可
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    # 古い環境など reconfigure が無い場合は無視しておく
+    pass
+
+
 import subprocess
 import tempfile
 import shutil

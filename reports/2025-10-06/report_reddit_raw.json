@@ -7,8 +7,8 @@
       "created_utc": 1759719113.0,
       "subreddit": "artificial",
       "author": "Sackim05",
-      "score": 108,
-      "num_comments": 6,
+      "score": 116,
+      "num_comments": 20,
       "created_iso": "2025-10-06T02:51:53+00:00"
     },
     {
@@ -18,23 +18,12 @@
       "created_utc": 1759683889.0,
       "subreddit": "compsci",
       "author": "DataBaeBee",
-      "score": 74,
-      "num_comments": 18,
+      "score": 83,
+      "num_comments": 19,
       "created_iso": "2025-10-05T17:04:49+00:00"
     }
   ],
   "news": [
-    {
-      "title": "As Microsoft lays off thousands and jacks up Game Pass prices, former FTC chair Lina Khan says I told you so: The Activision-Blizzard buyout is 'harming both gamers and developers'",
-      "permalink": "/r/technology/comments/1nypn3g/as_microsoft_lays_off_thousands_and_jacks_up_game/",
-      "url": "https://www.pcgamer.com/gaming-industry/as-microsoft-lays-off-thousands-and-jacks-up-game-pass-prices-former-ftc-chair-says-i-told-you-so-the-activision-blizzard-buyout-is-harming-both-gamers-and-developers/",
-      "created_utc": 1759674438.0,
-      "subreddit": "technology",
-      "author": "ControlCAD",
-      "score": 33018,
-      "num_comments": 1128,
-      "created_iso": "2025-10-05T14:27:18+00:00"
-    },
     {
       "title": "Microsoft reportedly estimated that Game Pass led to $300 million in lost sales of Black Ops 6, with 82% of copies sold being on the Game Pass-less PlayStation 5",
       "permalink": "/r/technology/comments/1nz29ek/microsoft_reportedly_estimated_that_game_pass_led/",
@@ -42,10 +31,21 @@
       "created_utc": 1759703666.0,
       "subreddit": "technology",
       "author": "ControlCAD",
-      "score": 8165,
-      "num_comments": 540,
+      "score": 8534,
+      "num_comments": 559,
       "created_iso": "2025-10-05T22:34:26+00:00"
+    },
+    {
+      "title": "Arizona sees spike in demand for VPNs following the introduction of age verification laws",
+      "permalink": "/r/technology/comments/1nz7ygb/arizona_sees_spike_in_demand_for_vpns_following/",
+      "url": "https://www.tomsguide.com/computing/vpns/arizona-sees-spike-in-demand-for-vpns-following-the-introduction-of-age-verification-laws",
+      "created_utc": 1759719696.0,
+      "subreddit": "technology",
+      "author": "lurker_bee",
+      "score": 7659,
+      "num_comments": 301,
+      "created_iso": "2025-10-06T03:01:36+00:00"
     }
   ],
-  "fetched_at": "2025-10-06T14:12:27.018978+00:00"
+  "fetched_at": "2025-10-06T15:46:56.049521+00:00"
 }
