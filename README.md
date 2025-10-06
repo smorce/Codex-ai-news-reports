@@ -1,6 +1,9 @@
 https://github.com/smorce/Codex-ai-news-reports
 
 
+run_codex.bat
+をテスト中
+
 uv run scripts/codex_daily_with_agents.py
 →tomlを読み込めてない気がする。それが原因でインターネットアクセスできていない気がする。
 →読むようにしたらOKだった。プロンプトが原因だった可能性もあるけど。
