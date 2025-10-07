@@ -1,0 +1,39 @@
+{
+  "generated_at": "2025-10-07T00:20:14Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "sources": [
+    {
+      "feed_name": "AWS News Blog",
+      "category": "tech_blogs",
+      "title": "Introducing new compute-optimized Amazon EC2 C8i and C8i-flex instances",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/",
+      "date": "2025-10-06T20:33:28",
+      "text": "AWS launched compute-optimized C8i and C8i-flex EC2 instances powered by custom Intel Xeon 6 processors available only on AWS to offer up to 15% better price performance, 20% higher performance, and 2.5 times more memory throughput compared to previous generations."
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "AIはどれぐらい電力を使用しどれだけインフラに負荷をかけるのか、原子力発電所を何個増設する必要があるのか？ - GIGAZINE",
+      "url": "https://gigazine.net/news/20251006-ai-energy/",
+      "date": "2025-10-06T23:22:06",
+      "text": "AIの電力消費とインフラ負荷の現状が示される。 モデル別の電力指標とCO2- 水の影響が紹介。 全ユーザーの1日消費は約850MWhで1万4000台分相当。 gigazine.net/news/20251006-ai-energy/ 🖊️約2,000文字, ⚡️💡🌿"
+    },
+    {
+      "feed_name": "Zennの「AI駆動開発」のフィード",
+      "category": "zenn",
+      "title": "Claude Code入門 - AI駆動開発の基礎を1日で身につけよう",
+      "url": "https://zenn.dev/tmasuyama1114/books/claude_code_basic",
+      "date": "2025-10-06T15:41:50",
+      "text": "こんにちは、とまだです。\n\n「Claude Codeって何？」「AIで本当にコードが書けるの？」と思ったことはありませんか？\n\nこの本では Claued Code を使ったAI駆動開発の基本を 1日で身につけることができます。\n\n【こんな方におすすめ】\n・AI開発ツールに興味はあるけど、どこから始めていいかわからない\n・Claude Codeをインストールしたけど、使い方がよくわからない\n・開発作業を効率化して、もっと創造的な仕事に時間を使いたい\n・AIアシスタントと協働する次世代の開発スタイルを体験したい\n\n【本書で身につくスキル】\n■ Claude Codeの基礎理解\n- ターミナルで動く自律的なAIアシスタントの仕組み\n- 従来の開発ツールとの違い\n- Claude Codeが得意なこと・不得意なこと\n\n■ 確実なセットアップ\n- Node.jsのインストールから認証まで\n- つまずきやすいポイントを丁寧に解説\n- 最適な開発環境の構築方法\n\n■ 効率的な操作方法\n- 起動オプションの使い分け\n- インタラクティブモードでの快適な操作\n- 便利なスラッシュコマンドの活用法\n\n■ メモリシステムの活用\n- CLAUDE.mdによるプロジェクト知識の蓄積\n- 効率的なメモリ管理のコツ\n- settings.jsonでの詳細な設定\n- カスタムコマンドで開発を自動化\n\n【学習の流れ】\n本書は段階的なアプローチでClaude Codeを学ぶことができます。\n\nまず「Claude Codeとは何か」から始まり、確実にセットアップを完了させます。\n\nそして基本的な操作方法を身につけ、最後はメモリシステムやカスタムコマンドなど、実践的な活用法まで学習します。\n\n各チャプターは初心者がつまずきやすいポイントを丁寧に解説しているので、安心して進められます。\n\n【技術スタック】\n- Claude Code（ターミナルで動くAI開発アシスタント）\n- Node.js（実行環境）\n- VS Code（推奨エディタ）\n- CLAUDE.md（プロジェクトメモリシステム）\n\n【最後に】\nClaude Codeを学ぶことで、AIアシスタントと協働する新しい開発スタイルを体験できます。\n\nまた、効率的なメモリ管理やカスタムコマンドの活用は、開発効率を劇的に向上させてくれるはずです！\n\nそしてこの本で学んだあと、私の動画講座も試してみてはいかがでしょうか？\nClaude Code や Codex など、AI駆動開発分野のベストセラー講座で実践レベルにスキルアップしましょう！\nhttps://school.learning-next.app/coupons?topic=claude-code"
+    },
+    {
+      "feed_name": "LLMタグが付けられた新着記事 - Qiita",
+      "category": "qiita",
+      "title": "discord連携の利点と課題 with MCP by ChatGPT",
+      "url": "https://qiita.com/kaizen_nagoya/items/879b807c19ed67b6ef24",
+      "date": "2025-10-06T23:55:30",
+      "text": "大規模言語モデル講座 基礎編 2025 Autumn　敗因を勝因に\nhttps://qiita.com/kaizen_nagoya/items/34ffd2b0c47a5f3665d9\nにおけるSlack\n\nChatGPT\nLLM研究でDiscordと連携する利点と課題を整..."
+    }
+  ]
+}
