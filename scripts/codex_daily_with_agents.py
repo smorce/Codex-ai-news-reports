@@ -52,6 +52,12 @@ class CodexDailyRunner:
         else:
             print(f"Warning: .env file not found at: {env_file}")
         
+        # Codex のアイドルタイムアウト（秒）を .env から読み込む（デフォルト60秒）
+        try:
+            self.codex_idle_timeout = int(os.getenv('CODEX_IDLE_TIMEOUT_SEC', '60'))
+        except (ValueError, TypeError):
+            self.codex_idle_timeout = 60
+        
         self.branch = "main"
         self.report_dir = self.repo_path / "reports"
         self.logs_dir = self.repo_path / "logs"
@@ -426,7 +432,7 @@ class CodexDailyRunner:
                 
                 # タイムアウト監視（最大10分、出力停止後60秒で終了）
                 M = 10 * 60
-                IDLE_TIMEOUT = 60
+                IDLE_TIMEOUT = self.codex_idle_timeout
                 idle_termination_detected = False
                 
                 try:
