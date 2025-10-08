@@ -1,0 +1,155 @@
+{
+  "generated_at": "2025-10-08T02:06:05Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "articles": [
+    {
+      "url": "https://blog.google/technology/google-labs/opal-expansion/",
+      "title": "Expanding access to Opal, our no-code AI mini-app builder",
+      "date": "2025-10-07T18:00:00",
+      "executive_summary": [
+        "GoogleはノーコードAIミニアプリ開発ツールOpalの提供範囲拡大を発表した。",
+        "新しいアクセス枠により実験的機能を試しやすくなると説明している。",
+        "紹介ビデオで主要機能と活用イメージが紹介された。",
+        "Opalを使ったミニアプリ構築がより広い開発者層に届くことを狙う。"
+      ],
+      "key_findings": [
+        {
+          "point": "OpalはノーコードでAIミニアプリを構築できる開発環境である。",
+          "footnote": "https://blog.google/technology/google-labs/opal-expansion/"
+        },
+        {
+          "point": "GoogleはOpalのアクセス枠を広げ、より多くの利用者に開放した。",
+          "footnote": "https://blog.google/technology/google-labs/opal-expansion/"
+        },
+        {
+          "point": "今回の案内ではOpalの概要を紹介する動画が公開されている。",
+          "footnote": "https://blog.google/technology/google-labs/opal-expansion/"
+        },
+        {
+          "point": "OpalはGoogleのAI実験プログラムの一環として位置付けられている。",
+          "footnote": "https://blog.google/technology/google-labs/opal-expansion/"
+        },
+        {
+          "point": "開発者コミュニティに向けて活用を促すメッセージが含まれている。",
+          "footnote": "https://blog.google/technology/google-labs/opal-expansion/"
+        }
+      ],
+      "references": [
+        "https://blog.google/technology/google-labs/opal-expansion/"
+      ],
+      "retrieved_at": "2025-10-08T02:06:05Z"
+    },
+    {
+      "url": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127",
+      "title": "OpenAI Agent Builderを触ってみた：Difyとの違いと実践Tips #ChatGPT - Qiita",
+      "date": "2025-10-08T01:21:51",
+      "executive_summary": [
+        "Qiita記事はOpenAI Agent Builderの体験レポートを通じてDifyとの違いを整理した。",
+        "ビジュアルUIでエージェントのワークフローを組める点が強調されている。",
+        "Design→Publish→Deployの三段階で素早く検証できたと報告した。",
+        "公式統合と最新モデルアクセスが導入時の優位性と評価された。"
+      ],
+      "key_findings": [
+        {
+          "point": "OpenAI Agent Builderはビジュアルなフロー編集でエージェント構築を支援する。",
+          "footnote": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+        },
+        {
+          "point": "記事はDesign→Publish→Deployの3ステップで検証できる点を紹介している。",
+          "footnote": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+        },
+        {
+          "point": "Difyとの比較では公式統合と最新モデルアクセスが強みと整理されている。",
+          "footnote": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+        },
+        {
+          "point": "実践Tipsとして運用フローを素早く試作する方法が共有されている。",
+          "footnote": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+        },
+        {
+          "point": "執筆者はハンズオンの感想を通じて導入時の注意点を解説している。",
+          "footnote": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+        }
+      ],
+      "references": [
+        "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127"
+      ],
+      "retrieved_at": "2025-10-08T02:06:05Z"
+    },
+    {
+      "url": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6",
+      "title": "AIエージェント時代の助走戦略：MCP × AWS × Copilotで“移行コストゼロ”を狙う",
+      "date": "2025-10-07T22:47:33",
+      "executive_summary": [
+        "Zenn記事はAIエージェント時代に備える助走戦略を提示している。",
+        "MCPとAWSとCopilotを組み合わせて移行コストゼロを目指す方針を解説した。",
+        "DevinやWindsurfなど先行事例を挙げ、準備の遅れのリスクを訴えている。",
+        "段階的に基盤を整える重要性を実務視点で論じている。"
+      ],
+      "key_findings": [
+        {
+          "point": "AIエージェント時代が現実味を帯びており早期準備が必要だと指摘している。",
+          "footnote": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+        },
+        {
+          "point": "MCPとAWSとGitHub Copilotの連携で移行コストゼロを狙う戦略を提示している。",
+          "footnote": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+        },
+        {
+          "point": "DevinやWindsurfなど自律型開発ツールの事例が背景として挙げられている。",
+          "footnote": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+        },
+        {
+          "point": "基盤整備のステップを助走期として段階的に整える重要性を説いている。",
+          "footnote": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+        },
+        {
+          "point": "現場チームがAIエージェントを受け入れる体制づくりの指針を示している。",
+          "footnote": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+        }
+      ],
+      "references": [
+        "https://zenn.dev/hatyibei/articles/96cbcb51832dd6"
+      ],
+      "retrieved_at": "2025-10-08T02:06:05Z"
+    },
+    {
+      "url": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6",
+      "title": "Dowork.ai でカスタマーサービスを自動化: AI を活用したサポートの未来を探求",
+      "date": "2025-10-08T01:49:28",
+      "executive_summary": [
+        "Qiita記事はDowork.aiによるカスタマーサービス自動化の取り組みを紹介した。",
+        "共同創設者の動画を通じてプラットフォームの価値と使い方を説明している。",
+        "エージェント型AIオーケストレーションでSMEのサポート効率を高められると述べている。",
+        "サポートの未来像と導入時のポイントが整理されている。"
+      ],
+      "key_findings": [
+        {
+          "point": "Dowork.aiはSMEのカスタマーサービス自動化を支援するプラットフォームである。",
+          "footnote": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+        },
+        {
+          "point": "Mushegh Gevorgyan氏の解説動画が記事の中心資料になっている。",
+          "footnote": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+        },
+        {
+          "point": "エージェント型AIオーケストレーションで問い合わせ対応を効率化できると述べている。",
+          "footnote": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+        },
+        {
+          "point": "導入によってサポート体験の向上と工数削減が期待できると解説している。",
+          "footnote": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+        },
+        {
+          "point": "記事はAI活用のベストプラクティスをSME視点でまとめている。",
+          "footnote": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+        }
+      ],
+      "references": [
+        "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6"
+      ],
+      "retrieved_at": "2025-10-08T02:06:05Z"
+    }
+  ]
+}

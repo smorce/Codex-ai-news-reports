@@ -1,0 +1,1745 @@
+{
+  "generated_at": "2025-10-08T02:05:53Z",
+  "site": "github-trending",
+  "num_articles": 116,
+  "articles": [
+    {
+      "url": "https://github.com/Infisical/infisical",
+      "title": "Infisical/infisical",
+      "date": null,
+      "executive_summary": [
+        "Infisical is the open-source platform for secrets management, PKI, and SSH access.",
+        "今日の獲得スター数: 1,185",
+        "累積スター数: 22,077"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Infisical/infisical"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Stremio/stremio-web",
+      "title": "Stremio/stremio-web",
+      "date": null,
+      "executive_summary": [
+        "Stremio - Freedom to Stream",
+        "今日の獲得スター数: 573",
+        "累積スター数: 3,996"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Stremio/stremio-web"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/aandrew-me/ytDownloader",
+      "title": "aandrew-me/ytDownloader",
+      "date": null,
+      "executive_summary": [
+        "Desktop App for downloading Videos and Audios from hundreds of sites",
+        "今日の獲得スター数: 543",
+        "累積スター数: 3,368"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/aandrew-me/ytDownloader"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/meshery/meshery",
+      "title": "meshery/meshery",
+      "date": null,
+      "executive_summary": [
+        "Meshery, the cloud native manager",
+        "今日の獲得スター数: 518",
+        "累積スター数: 9,161"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/meshery/meshery"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/BeehiveInnovations/zen-mcp-server",
+      "title": "BeehiveInnovations/zen-mcp-server",
+      "date": null,
+      "executive_summary": [
+        "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
+        "今日の獲得スター数: 374",
+        "累積スター数: 8,069"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/BeehiveInnovations/zen-mcp-server"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/jdx/mise",
+      "title": "jdx/mise",
+      "date": null,
+      "executive_summary": [
+        "dev tools, env vars, task runner",
+        "今日の獲得スター数: 371",
+        "累積スター数: 20,149"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/jdx/mise"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui",
+      "title": "shadcn-ui/ui",
+      "date": null,
+      "executive_summary": [
+        "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+        "今日の獲得スター数: 354",
+        "累積スター数: 96,525"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/shadcn-ui/ui"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "title": "dgtlmoon/changedetection.io",
+      "date": null,
+      "executive_summary": [
+        "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+        "今日の獲得スター数: 291",
+        "累積スター数: 27,439"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/dgtlmoon/changedetection.io"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/simstudioai/sim",
+      "title": "simstudioai/sim",
+      "date": null,
+      "executive_summary": [
+        "Open-source platform to build and deploy AI agent workflows.",
+        "今日の獲得スター数: 259",
+        "累積スター数: 16,697"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/simstudioai/sim"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/juspay/hyperswitch",
+      "title": "juspay/hyperswitch",
+      "date": null,
+      "executive_summary": [
+        "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+        "今日の獲得スター数: 258",
+        "累積スター数: 36,392"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/juspay/hyperswitch"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/dyad-sh/dyad",
+      "title": "dyad-sh/dyad",
+      "date": null,
+      "executive_summary": [
+        "Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!",
+        "今日の獲得スター数: 215",
+        "累積スター数: 15,544"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/dyad-sh/dyad"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/firefly-iii/firefly-iii",
+      "title": "firefly-iii/firefly-iii",
+      "date": null,
+      "executive_summary": [
+        "Firefly III: a personal finances manager",
+        "今日の獲得スター数: 210",
+        "累積スター数: 20,903"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/firefly-iii/firefly-iii"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/audacity/audacity",
+      "title": "audacity/audacity",
+      "date": null,
+      "executive_summary": [
+        "Audio Editor",
+        "今日の獲得スター数: 201",
+        "累積スター数: 15,105"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/audacity/audacity"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/openemr/openemr",
+      "title": "openemr/openemr",
+      "date": null,
+      "executive_summary": [
+        "The most popular open source electronic health records and medical practice management solution.",
+        "今日の獲得スター数: 197",
+        "累積スター数: 4,048"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/openemr/openemr"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/simular-ai/Agent-S",
+      "title": "simular-ai/Agent-S",
+      "date": null,
+      "executive_summary": [
+        "Agent S: an open agentic framework that uses computers like a human",
+        "今日の獲得スター数: 180",
+        "累積スター数: 6,865"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/simular-ai/Agent-S"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/is-a-dev/register",
+      "title": "is-a-dev/register",
+      "date": null,
+      "executive_summary": [
+        "Grab your own sweet-looking '.is-a.dev' subdomain.",
+        "今日の獲得スター数: 179",
+        "累積スター数: 8,410"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/is-a-dev/register"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/BitNet",
+      "title": "microsoft/BitNet",
+      "date": null,
+      "executive_summary": [
+        "Official inference framework for 1-bit LLMs",
+        "今日の獲得スター数: 177",
+        "累積スター数: 23,925"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/microsoft/BitNet"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "title": "FlowiseAI/Flowise",
+      "date": null,
+      "executive_summary": [
+        "Build AI Agents, Visually",
+        "今日の獲得スター数: 169",
+        "累積スター数: 44,655"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/FlowiseAI/Flowise"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Zie619/n8n-workflows",
+      "title": "Zie619/n8n-workflows",
+      "date": null,
+      "executive_summary": [
+        "all of the workflows of n8n i could find (also from the site itself)",
+        "今日の獲得スター数: 161",
+        "累積スター数: 35,299"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Zie619/n8n-workflows"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "title": "openai/openai-agents-python",
+      "date": null,
+      "executive_summary": [
+        "A lightweight, powerful framework for multi-agent workflows",
+        "今日の獲得スター数: 126",
+        "累積スター数: 15,583"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/openai/openai-agents-python"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "title": "LadybirdBrowser/ladybird",
+      "date": null,
+      "executive_summary": [
+        "Truly independent web browser",
+        "今日の獲得スター数: 112",
+        "累積スター数: 49,450"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/LadybirdBrowser/ladybird"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/upstash/context7",
+      "title": "upstash/context7",
+      "date": null,
+      "executive_summary": [
+        "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
+        "今日の獲得スター数: 99",
+        "累積スター数: 32,846"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/upstash/context7"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/astral-sh/uv",
+      "title": "astral-sh/uv",
+      "date": null,
+      "executive_summary": [
+        "An extremely fast Python package and project manager, written in Rust.",
+        "今日の獲得スター数: 93",
+        "累積スター数: 69,325"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/astral-sh/uv"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "title": "comfyanonymous/ComfyUI",
+      "date": null,
+      "executive_summary": [
+        "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+        "今日の獲得スター数: 87",
+        "累積スター数: 90,374"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/comfyanonymous/ComfyUI"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "title": "swisskyrepo/PayloadsAllTheThings",
+      "date": null,
+      "executive_summary": [
+        "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+        "今日の獲得スター数: 86",
+        "累積スター数: 70,601"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/swisskyrepo/PayloadsAllTheThings"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/tursodatabase/turso",
+      "title": "tursodatabase/turso",
+      "date": null,
+      "executive_summary": [
+        "Turso is an in-process SQL database, compatible with SQLite.",
+        "今日の獲得スター数: 75",
+        "累積スター数: 13,964"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/tursodatabase/turso"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/open-webui/open-webui",
+      "title": "open-webui/open-webui",
+      "date": null,
+      "executive_summary": [
+        "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "今日の獲得スター数: 66",
+        "累積スター数: 111,788"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/open-webui/open-webui"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-js",
+      "title": "openai/openai-agents-js",
+      "date": null,
+      "executive_summary": [
+        "A lightweight, powerful framework for multi-agent workflows and voice agents",
+        "今日の獲得スター数: 50",
+        "累積スター数: 1,588"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/openai/openai-agents-js"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/venera-app/venera",
+      "title": "venera-app/venera",
+      "date": null,
+      "executive_summary": [
+        "A comic app",
+        "今日の獲得スター数: 49",
+        "累積スター数: 4,068"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/venera-app/venera"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/apple/container",
+      "title": "apple/container",
+      "date": null,
+      "executive_summary": [
+        "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+        "今日の獲得スター数: 48",
+        "累積スター数: 21,131"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/apple/container"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/ente-io/ente",
+      "title": "ente-io/ente",
+      "date": null,
+      "executive_summary": [
+        "🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets.",
+        "今日の獲得スター数: 47",
+        "累積スター数: 22,166"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/ente-io/ente"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "title": "iluwatar/java-design-patterns",
+      "date": null,
+      "executive_summary": [
+        "Design patterns implemented in Java",
+        "今日の獲得スター数: 43",
+        "累積スター数: 92,929"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/iluwatar/java-design-patterns"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "title": "Stirling-Tools/Stirling-PDF",
+      "date": null,
+      "executive_summary": [
+        "#1 Locally hosted web application that allows you to perform various operations on PDF files",
+        "今日の獲得スター数: 43",
+        "累積スター数: 68,377"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Stirling-Tools/Stirling-PDF"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "title": "Flowseal/zapret-discord-youtube",
+      "date": null,
+      "executive_summary": [
+        "今日の獲得スター数: 43",
+        "累積スター数: 17,004"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Flowseal/zapret-discord-youtube"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/mayswind/ezbookkeeping",
+      "title": "mayswind/ezbookkeeping",
+      "date": null,
+      "executive_summary": [
+        "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
+        "今日の獲得スター数: 41",
+        "累積スター数: 2,274"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/mayswind/ezbookkeeping"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/ashishps1/awesome-low-level-design",
+      "title": "ashishps1/awesome-low-level-design",
+      "date": null,
+      "executive_summary": [
+        "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
+        "今日の獲得スター数: 40",
+        "累積スター数: 18,616"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/ashishps1/awesome-low-level-design"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/trycua/cua",
+      "title": "trycua/cua",
+      "date": null,
+      "executive_summary": [
+        "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+        "今日の獲得スター数: 37",
+        "累積スター数: 10,081"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/trycua/cua"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "title": "DioxusLabs/dioxus",
+      "date": null,
+      "executive_summary": [
+        "Fullstack app framework for web, desktop, and mobile.",
+        "今日の獲得スター数: 36",
+        "累積スター数: 30,807"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/DioxusLabs/dioxus"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "title": "virattt/ai-hedge-fund",
+      "date": null,
+      "executive_summary": [
+        "An AI Hedge Fund Team",
+        "今日の獲得スター数: 35",
+        "累積スター数: 41,686"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/virattt/ai-hedge-fund"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/rizinorg/cutter",
+      "title": "rizinorg/cutter",
+      "date": null,
+      "executive_summary": [
+        "Free and Open Source Reverse Engineering Platform powered by rizin",
+        "今日の獲得スター数: 35",
+        "累積スター数: 17,514"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/rizinorg/cutter"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/TheAlgorithms/Java",
+      "title": "TheAlgorithms/Java",
+      "date": null,
+      "executive_summary": [
+        "All Algorithms implemented in Java",
+        "今日の獲得スター数: 34",
+        "累積スター数: 63,816"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/TheAlgorithms/Java"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/maxrave-dev/SimpMusic",
+      "title": "maxrave-dev/SimpMusic",
+      "date": null,
+      "executive_summary": [
+        "A simple music app using YouTube Music for backend",
+        "今日の獲得スター数: 34",
+        "累積スター数: 5,060"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/maxrave-dev/SimpMusic"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/filamentphp/filament",
+      "title": "filamentphp/filament",
+      "date": null,
+      "executive_summary": [
+        "A powerful open source UI framework for Laravel • Build and ship admin panels & apps fast with Livewire",
+        "今日の獲得スター数: 33",
+        "累積スター数: 26,885"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/filamentphp/filament"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/shadps4-emu/shadPS4",
+      "title": "shadps4-emu/shadPS4",
+      "date": null,
+      "executive_summary": [
+        "PlayStation 4 emulator for Windows, Linux and macOS written in C++",
+        "今日の獲得スター数: 31",
+        "累積スター数: 26,631"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/shadps4-emu/shadPS4"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/yonahd/kor",
+      "title": "yonahd/kor",
+      "date": null,
+      "executive_summary": [
+        "A Golang Tool to discover unused Kubernetes Resources",
+        "今日の獲得スター数: 30",
+        "累積スター数: 1,445"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/yonahd/kor"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/golang/go",
+      "title": "golang/go",
+      "date": null,
+      "executive_summary": [
+        "The Go programming language",
+        "今日の獲得スター数: 29",
+        "累積スター数: 130,175"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/golang/go"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/cline/cline",
+      "title": "cline/cline",
+      "date": null,
+      "executive_summary": [
+        "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+        "今日の獲得スター数: 29",
+        "累積スター数: 51,109"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/cline/cline"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/starship/starship",
+      "title": "starship/starship",
+      "date": null,
+      "executive_summary": [
+        "☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+        "今日の獲得スター数: 28",
+        "累積スター数: 51,501"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/starship/starship"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/landley/toybox",
+      "title": "landley/toybox",
+      "date": null,
+      "executive_summary": [
+        "toybox",
+        "今日の獲得スター数: 26",
+        "累積スター数: 2,877"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/landley/toybox"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/airbnb/javascript",
+      "title": "airbnb/javascript",
+      "date": null,
+      "executive_summary": [
+        "JavaScript Style Guide",
+        "今日の獲得スター数: 25",
+        "累積スター数: 147,575"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/airbnb/javascript"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/wppconnect-team/wppconnect",
+      "title": "wppconnect-team/wppconnect",
+      "date": null,
+      "executive_summary": [
+        "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination",
+        "今日の獲得スター数: 25",
+        "累積スター数: 2,698"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/wppconnect-team/wppconnect"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/redis/redis",
+      "title": "redis/redis",
+      "date": null,
+      "executive_summary": [
+        "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+        "今日の獲得スター数: 21",
+        "累積スター数: 71,120"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/redis/redis"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/daijro/camoufox",
+      "title": "daijro/camoufox",
+      "date": null,
+      "executive_summary": [
+        "🦊 Anti-detect browser",
+        "今日の獲得スター数: 21",
+        "累積スター数: 3,607"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/daijro/camoufox"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/valinet/ExplorerPatcher",
+      "title": "valinet/ExplorerPatcher",
+      "date": null,
+      "executive_summary": [
+        "This project aims to enhance the working environment on Windows",
+        "今日の獲得スター数: 18",
+        "累積スター数: 29,079"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/valinet/ExplorerPatcher"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/helix-editor/helix",
+      "title": "helix-editor/helix",
+      "date": null,
+      "executive_summary": [
+        "A post-modern modal text editor.",
+        "今日の獲得スター数: 17",
+        "累積スター数: 40,177"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/helix-editor/helix"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/etcd-io/etcd",
+      "title": "etcd-io/etcd",
+      "date": null,
+      "executive_summary": [
+        "Distributed reliable key-value store for the most critical data of a distributed system",
+        "今日の獲得スター数: 16",
+        "累積スター数: 50,522"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/etcd-io/etcd"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/TheJoeFin/Text-Grab",
+      "title": "TheJoeFin/Text-Grab",
+      "date": null,
+      "executive_summary": [
+        "Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications.",
+        "今日の獲得スター数: 16",
+        "累積スター数: 3,991"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/TheJoeFin/Text-Grab"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/TomBursch/kitchenowl",
+      "title": "TomBursch/kitchenowl",
+      "date": null,
+      "executive_summary": [
+        "KitchenOwl is a self-hosted grocery list and recipe manager. The backend is made with Flask and the frontend with Flutter. Easily add items to your shopping list before you go shopping. You can also create recipes and add items based on what you want to cook.",
+        "今日の獲得スター数: 16",
+        "累積スター数: 2,730"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/TomBursch/kitchenowl"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/dbeaver/dbeaver",
+      "title": "dbeaver/dbeaver",
+      "date": null,
+      "executive_summary": [
+        "Free universal database tool and SQL client",
+        "今日の獲得スター数: 15",
+        "累積スター数: 45,673"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/dbeaver/dbeaver"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/appsmithorg/appsmith",
+      "title": "appsmithorg/appsmith",
+      "date": null,
+      "executive_summary": [
+        "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+        "今日の獲得スター数: 14",
+        "累積スター数: 38,125"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/appsmithorg/appsmith"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/rivet-dev/engine",
+      "title": "rivet-dev/engine",
+      "date": null,
+      "executive_summary": [
+        "Scale and orchestrate RivetKit",
+        "今日の獲得スター数: 14",
+        "累積スター数: 4,437"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/rivet-dev/engine"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/pgvector/pgvector",
+      "title": "pgvector/pgvector",
+      "date": null,
+      "executive_summary": [
+        "Open-source vector similarity search for Postgres",
+        "今日の獲得スター数: 12",
+        "累積スター数: 17,837"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/pgvector/pgvector"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/libre-tube/LibreTube",
+      "title": "libre-tube/LibreTube",
+      "date": null,
+      "executive_summary": [
+        "An alternative frontend for YouTube, for Android.",
+        "今日の獲得スター数: 12",
+        "累積スター数: 10,551"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/libre-tube/LibreTube"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/evcc-io/evcc",
+      "title": "evcc-io/evcc",
+      "date": null,
+      "executive_summary": [
+        "solar charging ☀️🚘",
+        "今日の獲得スター数: 12",
+        "累積スター数: 5,530"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/evcc-io/evcc"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "title": "gtsteffaniak/filebrowser",
+      "date": null,
+      "executive_summary": [
+        "📂 Web File Browser",
+        "今日の獲得スター数: 12",
+        "累積スター数: 3,671"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/gtsteffaniak/filebrowser"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "title": "gruntwork-io/terragrunt",
+      "date": null,
+      "executive_summary": [
+        "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+        "今日の獲得スター数: 11",
+        "累積スター数: 8,998"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/gruntwork-io/terragrunt"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/meshtastic/firmware",
+      "title": "meshtastic/firmware",
+      "date": null,
+      "executive_summary": [
+        "The official firmware for Meshtastic, an open-source, off-grid mesh communication system.",
+        "今日の獲得スター数: 11",
+        "累積スター数: 5,855"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/meshtastic/firmware"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/cgoinglove/better-chatbot",
+      "title": "cgoinglove/better-chatbot",
+      "date": null,
+      "executive_summary": [
+        "Just a Better Chatbot. Powered by Agent & MCP & Workflows.",
+        "今日の獲得スター数: 11",
+        "累積スター数: 724"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/cgoinglove/better-chatbot"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/WSL",
+      "title": "microsoft/WSL",
+      "date": null,
+      "executive_summary": [
+        "Windows Subsystem for Linux",
+        "今日の獲得スター数: 9",
+        "累積スター数: 30,008"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/microsoft/WSL"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/keploy/keploy",
+      "title": "keploy/keploy",
+      "date": null,
+      "executive_summary": [
+        "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
+        "今日の獲得スター数: 9",
+        "累積スター数: 11,621"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/keploy/keploy"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/mobile-dev-inc/Maestro",
+      "title": "mobile-dev-inc/Maestro",
+      "date": null,
+      "executive_summary": [
+        "Painless E2E Automation for Mobile and Web",
+        "今日の獲得スター数: 9",
+        "累積スター数: 8,945"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/mobile-dev-inc/Maestro"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/antiwork/gumroad",
+      "title": "antiwork/gumroad",
+      "date": null,
+      "executive_summary": [
+        "Sell stuff and see what sticks",
+        "今日の獲得スター数: 9",
+        "累積スター数: 7,139"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/antiwork/gumroad"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/AvaloniaUI/Avalonia",
+      "title": "AvaloniaUI/Avalonia",
+      "date": null,
+      "executive_summary": [
+        "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The most popular .NET UI client technology",
+        "今日の獲得スター数: 8",
+        "累積スター数: 28,851"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/AvaloniaUI/Avalonia"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/chatwoot/chatwoot",
+      "title": "chatwoot/chatwoot",
+      "date": null,
+      "executive_summary": [
+        "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+        "今日の獲得スター数: 8",
+        "累積スター数: 25,576"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/chatwoot/chatwoot"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/semantic-release/semantic-release",
+      "title": "semantic-release/semantic-release",
+      "date": null,
+      "executive_summary": [
+        "📦🚀 Fully automated version management and package publishing",
+        "今日の獲得スター数: 8",
+        "累積スター数: 22,680"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/semantic-release/semantic-release"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/musescore/MuseScore",
+      "title": "musescore/MuseScore",
+      "date": null,
+      "executive_summary": [
+        "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
+        "今日の獲得スター数: 8",
+        "累積スター数: 13,747"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/musescore/MuseScore"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/rust-lang/rustfmt",
+      "title": "rust-lang/rustfmt",
+      "date": null,
+      "executive_summary": [
+        "Format Rust code",
+        "今日の獲得スター数: 8",
+        "累積スター数: 6,472"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/rust-lang/rustfmt"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/tombonez/noTunes",
+      "title": "tombonez/noTunes",
+      "date": null,
+      "executive_summary": [
+        "A simple macOS application that will prevent iTunes or Apple Music from launching.",
+        "今日の獲得スター数: 8",
+        "累積スター数: 4,982"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/tombonez/noTunes"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/JuliaLang/julia",
+      "title": "JuliaLang/julia",
+      "date": null,
+      "executive_summary": [
+        "The Julia Programming Language",
+        "今日の獲得スター数: 7",
+        "累積スター数: 47,761"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/JuliaLang/julia"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/osquery/osquery",
+      "title": "osquery/osquery",
+      "date": null,
+      "executive_summary": [
+        "SQL powered operating system instrumentation, monitoring, and analytics.",
+        "今日の獲得スター数: 7",
+        "累積スター数: 22,784"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/osquery/osquery"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/neo4j/neo4j",
+      "title": "neo4j/neo4j",
+      "date": null,
+      "executive_summary": [
+        "Graphs for Everyone",
+        "今日の獲得スター数: 7",
+        "累積スター数: 15,167"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/neo4j/neo4j"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/QuantConnect/Lean",
+      "title": "QuantConnect/Lean",
+      "date": null,
+      "executive_summary": [
+        "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+        "今日の獲得スター数: 7",
+        "累積スター数: 12,465"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/QuantConnect/Lean"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Kunzisoft/KeePassDX",
+      "title": "Kunzisoft/KeePassDX",
+      "date": null,
+      "executive_summary": [
+        "Lightweight vault and password manager for Android, KeePassDX allows editing encrypted data in a single file in KeePass format and fill in the forms in a secure way.",
+        "今日の獲得スター数: 7",
+        "累積スター数: 5,796"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Kunzisoft/KeePassDX"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "title": "google-ai-edge/LiteRT-LM",
+      "date": null,
+      "executive_summary": [
+        "今日の獲得スター数: 7",
+        "累積スター数: 398"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/google-ai-edge/LiteRT-LM"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/meteor/meteor",
+      "title": "meteor/meteor",
+      "date": null,
+      "executive_summary": [
+        "Meteor, the JavaScript App Platform",
+        "今日の獲得スター数: 6",
+        "累積スター数: 44,723"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/meteor/meteor"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/libuv/libuv",
+      "title": "libuv/libuv",
+      "date": null,
+      "executive_summary": [
+        "Cross-platform asynchronous I/O",
+        "今日の獲得スター数: 6",
+        "累積スター数: 25,889"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/libuv/libuv"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/Morganamilo/paru",
+      "title": "Morganamilo/paru",
+      "date": null,
+      "executive_summary": [
+        "Feature packed AUR helper",
+        "今日の獲得スター数: 6",
+        "累積スター数: 7,418"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/Morganamilo/paru"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "title": "modelcontextprotocol/csharp-sdk",
+      "date": null,
+      "executive_summary": [
+        "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+        "今日の獲得スター数: 6",
+        "累積スター数: 3,366"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/modelcontextprotocol/csharp-sdk"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/go-playground/validator",
+      "title": "go-playground/validator",
+      "date": null,
+      "executive_summary": [
+        "💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving",
+        "今日の獲得スター数: 5",
+        "累積スター数: 19,108"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/go-playground/validator"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/mautic/mautic",
+      "title": "mautic/mautic",
+      "date": null,
+      "executive_summary": [
+        "Mautic: Open Source Marketing Automation Software.",
+        "今日の獲得スター数: 5",
+        "累積スター数: 8,766"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/mautic/mautic"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/BasedHardware/omi",
+      "title": "BasedHardware/omi",
+      "date": null,
+      "executive_summary": [
+        "AI wearables. Put it on, speak, transcribe, automatically",
+        "今日の獲得スター数: 5",
+        "累積スター数: 7,041"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/BasedHardware/omi"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/NotHarshhaa/DevOps-Projects",
+      "title": "NotHarshhaa/DevOps-Projects",
+      "date": null,
+      "executive_summary": [
+        "𝑫𝒆𝒗𝑶𝒑𝒔 𝑹𝒆𝒂𝒍 𝑾𝒐𝒓𝒍𝒅 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔 𝒇𝒐𝒓 𝑨𝒔𝒑𝒊𝒓𝒊𝒏𝒈 𝑫𝒆𝒗𝑶𝒑𝒔 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒔 [𝑩𝒆𝒈𝒊𝒏𝒏𝒆𝒓 𝒕𝒐 𝑨𝒅𝒗𝒂𝒏𝒄𝒆𝒅]",
+        "今日の獲得スター数: 5",
+        "累積スター数: 2,592"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/NotHarshhaa/DevOps-Projects"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/php/php-src",
+      "title": "php/php-src",
+      "date": null,
+      "executive_summary": [
+        "The PHP Interpreter",
+        "今日の獲得スター数: 4",
+        "累積スター数: 39,517"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/php/php-src"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/jenkinsci/jenkins",
+      "title": "jenkinsci/jenkins",
+      "date": null,
+      "executive_summary": [
+        "Jenkins automation server",
+        "今日の獲得スター数: 4",
+        "累積スター数: 24,505"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/jenkinsci/jenkins"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/coturn/coturn",
+      "title": "coturn/coturn",
+      "date": null,
+      "executive_summary": [
+        "coturn TURN server project",
+        "今日の獲得スター数: 4",
+        "累積スター数: 13,019"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/coturn/coturn"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml",
+      "title": "plantuml/plantuml",
+      "date": null,
+      "executive_summary": [
+        "Generate diagrams from textual description",
+        "今日の獲得スター数: 4",
+        "累積スター数: 12,150"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/plantuml/plantuml"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/meshtastic/Meshtastic-Android",
+      "title": "meshtastic/Meshtastic-Android",
+      "date": null,
+      "executive_summary": [
+        "Android application for Meshtastic",
+        "今日の獲得スター数: 4",
+        "累積スター数: 1,121"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/meshtastic/Meshtastic-Android"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/spree/spree",
+      "title": "spree/spree",
+      "date": null,
+      "executive_summary": [
+        "An open source eCommerce platform giving you full control and customizability. Modular and API-first. Multi-vendor, multi-tenant, multi-store, multi-currency, multi-language. Built using Ruby on Rails. Developed by @vendo-dev",
+        "今日の獲得スター数: 3",
+        "累積スター数: 14,970"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/spree/spree"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/pointfreeco/swift-composable-architecture",
+      "title": "pointfreeco/swift-composable-architecture",
+      "date": null,
+      "executive_summary": [
+        "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.",
+        "今日の獲得スター数: 3",
+        "累積スター数: 13,959"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/pointfreeco/swift-composable-architecture"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/grokability/snipe-it",
+      "title": "grokability/snipe-it",
+      "date": null,
+      "executive_summary": [
+        "A free open source IT asset/license management system",
+        "今日の獲得スター数: 3",
+        "累積スター数: 12,813"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/grokability/snipe-it"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/opf/openproject",
+      "title": "opf/openproject",
+      "date": null,
+      "executive_summary": [
+        "OpenProject is the leading open source project management software.",
+        "今日の獲得スター数: 3",
+        "累積スター数: 12,773"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/opf/openproject"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/firebase/flutterfire",
+      "title": "firebase/flutterfire",
+      "date": null,
+      "executive_summary": [
+        "🔥 A collection of Firebase plugins for Flutter apps.",
+        "今日の獲得スター数: 3",
+        "累積スター数: 9,061"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/firebase/flutterfire"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "title": "eclipse-mosquitto/mosquitto",
+      "date": null,
+      "executive_summary": [
+        "Eclipse Mosquitto - An open source MQTT broker",
+        "今日の獲得スター数: 2",
+        "累積スター数: 10,180"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/eclipse-mosquitto/mosquitto"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/signalapp/Signal-Server",
+      "title": "signalapp/Signal-Server",
+      "date": null,
+      "executive_summary": [
+        "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
+        "今日の獲得スター数: 2",
+        "累積スター数: 10,118"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/signalapp/Signal-Server"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/wgh136/PicaComic",
+      "title": "wgh136/PicaComic",
+      "date": null,
+      "executive_summary": [
+        "A comic app built with Flutter, supporting multiple comic sources.",
+        "今日の獲得スター数: 2",
+        "累積スター数: 8,404"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/wgh136/PicaComic"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/prometheus-operator/prometheus-operator",
+      "title": "prometheus-operator/prometheus-operator",
+      "date": null,
+      "executive_summary": [
+        "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes",
+        "今日の獲得スター数: 1",
+        "累積スター数: 9,675"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/prometheus-operator/prometheus-operator"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/DPDK/dpdk",
+      "title": "DPDK/dpdk",
+      "date": null,
+      "executive_summary": [
+        "Data Plane Development Kit",
+        "今日の獲得スター数: 1",
+        "累積スター数: 3,932"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/DPDK/dpdk"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/SciML/OrdinaryDiffEq.jl",
+      "title": "SciML/OrdinaryDiffEq.jl",
+      "date": null,
+      "executive_summary": [
+        "High performance ordinary differential equation (ODE) and differential-algebraic equation (DAE) solvers, including neural ordinary differential equations (neural ODEs) and scientific machine learning (SciML)",
+        "今日の獲得スター数: 1",
+        "累積スター数: 606"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/SciML/OrdinaryDiffEq.jl"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/gatsbyjs/gatsby",
+      "title": "gatsbyjs/gatsby",
+      "date": null,
+      "executive_summary": [
+        "The best React-based framework with performance, scalability and security built in.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 55,931"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/gatsbyjs/gatsby"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/realm/SwiftLint",
+      "title": "realm/SwiftLint",
+      "date": null,
+      "executive_summary": [
+        "A tool to enforce Swift style and conventions.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 19,223"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/realm/SwiftLint"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/rubocop/rubocop",
+      "title": "rubocop/rubocop",
+      "date": null,
+      "executive_summary": [
+        "A Ruby static code analyzer and formatter, based on the community Ruby style guide.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 12,793"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/rubocop/rubocop"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/microsoft/garnet",
+      "title": "microsoft/garnet",
+      "date": null,
+      "executive_summary": [
+        "Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 11,514"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/microsoft/garnet"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/apple/swift-nio",
+      "title": "apple/swift-nio",
+      "date": null,
+      "executive_summary": [
+        "Event-driven network application framework for high performance protocol servers & clients, non-blocking.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 8,270"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/apple/swift-nio"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/JuliaRegistries/General",
+      "title": "JuliaRegistries/General",
+      "date": null,
+      "executive_summary": [
+        "The official registry of general Julia packages",
+        "今日の獲得スター数: 0",
+        "累積スター数: 665"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/JuliaRegistries/General"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/CliMA/ClimaAtmos.jl",
+      "title": "CliMA/ClimaAtmos.jl",
+      "date": null,
+      "executive_summary": [
+        "ClimaAtmos.jl is an atmosphere model that is designed to leverage data assimilation and machine learning tools for modeling and calibrating subgrid-scale processes.",
+        "今日の獲得スター数: 0",
+        "累積スター数: 108"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/CliMA/ClimaAtmos.jl"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    },
+    {
+      "url": "https://github.com/CliMA/ClimaLand.jl",
+      "title": "CliMA/ClimaLand.jl",
+      "date": null,
+      "executive_summary": [
+        "Clima's Land Model",
+        "今日の獲得スター数: 0",
+        "累積スター数: 52"
+      ],
+      "key_findings": null,
+      "references": [
+        "https://github.com/CliMA/ClimaLand.jl"
+      ],
+      "retrieved_at": "2025-10-08T02:05:53Z"
+    }
+  ]
+}

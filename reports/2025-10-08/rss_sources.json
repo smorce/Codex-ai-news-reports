@@ -1,0 +1,39 @@
+{
+  "generated_at": "2025-10-08T02:06:05Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "sources": [
+    {
+      "feed_name": "Developers",
+      "category": "tech_blogs",
+      "title": "Expanding access to Opal, our no-code AI mini-app builder",
+      "url": "https://blog.google/technology/google-labs/opal-expansion/",
+      "date": "2025-10-07T18:00:00",
+      "text": "Video introducing Opal"
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "OpenAI Agent Builderを触ってみた：Difyとの違いと実践Tips #ChatGPT - Qiita",
+      "url": "https://qiita.com/akira_papa_AI/items/7344e21b9204526e5127",
+      "date": "2025-10-08T01:21:51",
+      "text": "ビジュアルでエージェントのワークフローを組める。 Design→Publish→Deployの3ステップですぐ動作確認。 公式統合と最新モデルアクセスが強み。 qiita.com/akira_papa_AI/items/7344e21b9204526e5127 🖊️約3,500文字, 💖🚀✨"
+    },
+    {
+      "feed_name": "Zennの「Model Context Protocol」のフィード",
+      "category": "zenn",
+      "title": "AIエージェント時代の助走戦略：MCP × AWS × Copilotで“移行コストゼロ”を狙う",
+      "url": "https://zenn.dev/hatyibei/articles/96cbcb51832dd6",
+      "date": "2025-10-07T22:47:33",
+      "text": "AIエージェント時代の助走戦略：MCP × AWS × Copilotで“移行コストゼロ”を狙う\n\nAIがコードを書き、デプロイし、テストまで自動で回す——。\nその時代は、もう「来てから考える」では遅い。\n今こそ、AIエージェント時代への“助走期”として、現場の基盤を整えておくタイミングだ。\n\n\n\n 1. AIエージェント時代への序章\n2024年以降、AIエージェント（自律型AI開発者）の潮流が一気に現実味を帯びてきた。\n代表例を挙げると：\n\n\nDevin（Cognition）：GitHub上のタスクを自律実行。テストからPR作成まで自動化。\n\nWindsurf（Cursor開発チー..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qiita",
+      "title": "Dowork.ai でカスタマーサービスを自動化: AI を活用したサポートの未来を探求",
+      "url": "https://qiita.com/Intel_Developer/items/501e17ea293a5a63b0d6",
+      "date": "2025-10-08T01:49:28",
+      "text": "本記事では、Dowork.ai の共同創設者 Mushegh Gevorgyan 氏が、中小規模企業 (SME) のカスタマーサービスを大きく変えている革新的なエージェント型 AI オーケストレーション・プラットフォームについて詳しく解説している動画を紹介します。\nInt..."
+    }
+  ]
+}
