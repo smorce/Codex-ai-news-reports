@@ -187,6 +187,7 @@ class CodexDailyRunner:
                     languages_file=languages_file,
                     general_limit=10,
                     specific_limit=5,
+                    min_stars_today=30,  # 今日のスターが30未満のリポジトリは除外
                 )
 
                 # 生データを一時保存（Codexが読み込む用）
@@ -199,6 +200,7 @@ class CodexDailyRunner:
                 raise
 
             # 5) 処理が重たいので、GitHub Trending は Codex による要約を行わない
+            # このコメントは残しておいてください。
             # self.log("Processing GitHub Trending with Codex → report_github_trending.json / report_github_trending.md ...")
             # trending_report_obj, trending_md_content = self.process_agents(
             #     agents_path=self.agents_github_trending_file,
@@ -217,15 +219,19 @@ class CodexDailyRunner:
                 self.log(f"ERROR: Failed to save final GitHub Trending JSON: {e}")
                 raise
 
-            # GitHub Trending の Markdown レポートを生成
+            # GitHub Trending の Markdown レポートを生成し、Turso へ PUSH
             try:
-                self.log("Generating GitHub Trending Markdown report ...")
+                self.log("Generating GitHub Trending Markdown report and pushing to Turso...")
                 md_content = self._convert_report_json_to_markdown(trending_raw_obj)
                 final_md_path = output_dir / "report_github_trending.md"
                 final_md_path.write_text(md_content, encoding='utf-8')
-                self.log(f"Markdown report saved to {final_md_path}")
+                self.log(f"Markdown report for GitHub Trending saved to {final_md_path}")
+
+                # Turso へ PUSH（JSON + Markdown）
+                report_id = push_daily_report(trending_raw_obj, md_content, date_dir)
+                self.log(f"Pushed GitHub Trending report to Turso: {report_id}")
             except Exception as e:
-                self.log(f"ERROR: Failed to save GitHub Trending Markdown: {e}")
+                self.log(f"ERROR: Failed to generate or push GitHub Trending report: {e}")
                 raise
 
             # 7) RSS ソースを機械的に収集・保存（LLMなし）

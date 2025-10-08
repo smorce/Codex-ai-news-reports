@@ -168,6 +168,7 @@ def collect_github_trending_report(
     languages_file: Path,
     general_limit: int = 10,
     specific_limit: int = 5,
+    min_stars_today: int = 0,  # フィルタ条件
 ) -> Dict[str, object]:
     """GitHub Trending をクロールし、プロジェクト用レポートJSONを返す。"""
     config = _read_languages_config(languages_file)
@@ -181,6 +182,11 @@ def collect_github_trending_report(
         repos_by_language.append((language, _retrieve_repositories(language, specific_limit)))
 
     deduped = _dedupe_repositories(repos_by_language)
+
+    # Filter by minimum stars today (今日のスター数でフィルタ)
+    if min_stars_today > 0:
+        deduped = [r for r in deduped if r.stars_today >= min_stars_today]
+
     # Sort by stars_today desc (今日のスター数でソート - これが重要！)
     # 次に累積スター数でソート
     deduped.sort(key=lambda r: (r.stars_today, r.stars), reverse=True)
