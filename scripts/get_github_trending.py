@@ -125,7 +125,19 @@ def _retrieve_repositories(language: str, limit: int) -> List[Repository]:
             repo_resp = requests.get(link, headers=headers, timeout=15)
             repo_resp.raise_for_status()
             repo_soup = BeautifulSoup(repo_resp.text, "html.parser")
-            readme_el = repo_soup.select_one("#readme article")
+
+            # README のセレクタを複数試す（GitHubのHTML構造変更に対応）
+            readme_el = None
+            selectors = [
+                "div[data-testid='readme-blob']",  # 新しい test-id
+                "#readme article",                 # 従来のセレクタ
+                "article.markdown-body",           # Markdown 本文
+            ]
+            for s in selectors:
+                readme_el = repo_soup.select_one(s)
+                if readme_el:
+                    break
+            
             if readme_el:
                 readme_content = readme_el.get_text("\n", strip=True)
         except Exception as e:
