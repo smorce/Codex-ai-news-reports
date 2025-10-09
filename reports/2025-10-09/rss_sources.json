@@ -1,0 +1,39 @@
+{
+  "generated_at": "2025-10-09T02:06:16Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "sources": [
+    {
+      "feed_name": "AWS News Blog",
+      "category": "tech_blogs",
+      "title": "New general-purpose Amazon EC2 M8a instances are now available",
+      "url": "https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8a-instances-are-now-available/",
+      "date": "2025-10-08T19:03:27",
+      "text": "Amazon EC2 has launched new M8a instances powered by 5th Generation AMD EPYC processors, offering up to 30% better performance and 19% better price performance compared to M7a instances, along with improved memory bandwidth, networking, and storage capabilities for various general-purpose workloads."
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "【号外・速報！】最強の動画生成AI & 打倒TikTokアプリSora2がOpenAIから発表された！ #AI - Qiita",
+      "url": "https://qiita.com/hikarun_videoai/items/a98afadb15b2b1652d2c",
+      "date": "2025-10-09T01:21:57",
+      "text": "動画生成AIのSora2が公開され、音声- 音楽生成も可能だ。 Sora2単独で動画作成を完結できるケースが今後増える見込みだ。 初期は米加限定、今後は日本拡大と広告活用- 専用プラットフォーム- 素材活用の三方向展開を想定。 qiita.com/hikarun_videoai/items/a98afadb15b2b1652d2c 🖊️約3,000文字, 🔥🚀🎬"
+    },
+    {
+      "feed_name": "Zennの「Model Context Protocol」のフィード",
+      "category": "zenn",
+      "title": "CodexのTool使用量を可視化するCLIツール cxstat",
+      "url": "https://zenn.dev/tkcd/articles/cxstat_promotion",
+      "date": "2025-10-08T13:21:17",
+      "text": "cxstat\nhttps://github.com/takeshiD/cxstat\n\ncxstatはcodex-cliのツール使用量を可視化するCLIツールです。\ncodexが利用したshellコマンド、MCPサーバーの使用トークン量を分析・表示します。\n\n プロジェクト毎の使用量分析\nデフォルトでは全プロジェクトの合計を表示しますがプロジェクトごとの使用量も分析出来ます。\ncxstat <project_path>\n\nもちろんカレントディレクトリも指定出来ます\ncxstat .\n\n プロジェクト一覧表示\nどこで何したか忘れるのでプロジェクト一覧も出来ます\ncxstat ..."
+    },
+    {
+      "feed_name": "cursorタグが付けられた新着記事 - Qiita",
+      "category": "qiita",
+      "title": "【コピペOK】AIエージェントで良いコードを書く！誰でも使える品質向上ルールの設定方法",
+      "url": "https://qiita.com/tomada/items/df5d3e0f611860bc2740",
+      "date": "2025-10-09T01:40:30",
+      "text": "こんにちは、とまだです。\nAIエージェントを使い始めたけど、「動くコードは作ってくれるけど、品質が心配...」と感じたことはありませんか？\n私も最初はそうでした。\nClaude CodeやCursor、Codexを使っていると、確かに素早くコードを生成してくれます。\nですが..."
+    }
+  ]
+}
