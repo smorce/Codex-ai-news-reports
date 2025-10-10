@@ -1,0 +1,163 @@
+{
+  "generated_at": "2025-10-10T02:10:08Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "articles": [
+    {
+      "url": "https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4",
+      "title": "From Static Rate Limiting to Adaptive Traffic Management in Airbnb's Key-Value Store",
+      "date": "2025-10-09T16:01:55",
+      "executive_summary": [
+        "Airbnbの派生データ向けKVS「Mussel」で静的レート制御から適応型トラフィック管理へ移行した経緯を解説。",
+        "リクエスト負荷を行数・バイト・遅延で測るResource-aware Rate Controlを導入し、真のコストに応じて制御。",
+        "重要度レベルごとのロードシェディングで顧客支援などの高優先トラフィックを保護。",
+        "ホットキー検知とDDoS緩和でピークトラフィック時のQoSと可用性を維持。"
+      ],
+      "key_findings": [
+        {
+          "point": "MusselはAirbnbの検索やサポートなど全主要リクエストが経由する多テナントKVSで日常的に数百万件を処理する。",
+          "footnote": "Airbnb Tech Blog「From Static Rate Limiting to Adaptive Traffic Management in Airbnb's Key-Value Store」: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        },
+        {
+          "point": "Redisベースの固定クォータ制限はリクエストごとのコスト差やホットキーによる偏りに対応できず限界があった。",
+          "footnote": "同記事・Background節: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        },
+        {
+          "point": "Resource-aware Rate Controlが行数・バイト・レイテンシを反映したリクエストユニット課金で公平なバックプレッシャーを実現した。",
+          "footnote": "同記事・Resource-aware Rate Control節: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        },
+        {
+          "point": "クリティカリティ階層によるロードシェディングでサポートや信頼安全などの高優先チャネルを守れるようにした。",
+          "footnote": "同記事・Load shedding with criticality tiers節: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        },
+        {
+          "point": "ホットキー検知とDDoS緩和により偏ったアクセスをリアルタイムでキャッシュやリクエスト集合に変換してバックエンドを防御する。",
+          "footnote": "同記事・Hot-key detection & DDoS mitigation節: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        },
+        {
+          "point": "複数のQoSレイヤーを連携させることでピーク時でも有効処理量を最大化し運用の信頼性を高めた。",
+          "footnote": "同記事・まとめ: https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+        }
+      ],
+      "references": [
+        "https://medium.com/airbnb-engineering/from-static-rate-limiting-to-adaptive-traffic-management-in-airbnbs-key-value-store-29362764e5c2?source=rss----53c7c27702d5---4"
+      ],
+      "retrieved_at": "2025-10-10T02:10:08Z"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2025/10/10/4649.html",
+      "title": "「なぜLLMは“掛け算”ができないのか」解明、ニューロンやシナプスっぽく動く脳を真似した新言語AI「Dragon Hatchling」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
+      "date": "2025-10-10T01:21:49",
+      "executive_summary": [
+        "週間連載が生成AI分野の注目研究・製品5件を一挙に整理。",
+        "ニューロンとシナプスの挙動を模倣する新LLM「Dragon Hatchling」を取り上げる。",
+        "指示変更に応じる長時間動画生成技術や、LLMが掛け算を苦手とする理由の分析を紹介。",
+        "世界モデル型AIなど実運用の広がりを概観し、開発者への示唆を示す。"
+      ],
+      "key_findings": [
+        {
+          "point": "Dragon Hatchlingは脳型アーキテクチャを模倣し推論過程を可視化する新言語AIとして紹介されている。",
+          "footnote": "テクノエッジ生成AIウィークリー同記事: https://www.techno-edge.net/article/2025/10/10/4649.html"
+        },
+        {
+          "point": "LLMが掛け算を不得手とする内部表現の制約を探る研究が解説され、演算能力向上策が議論された。",
+          "footnote": "同記事・掛け算研究の紹介: https://www.techno-edge.net/article/2025/10/10/4649.html"
+        },
+        {
+          "point": "長尺動画生成を中間指示で修正できる技術が創作ワークフローの柔軟化につながるとまとめている。",
+          "footnote": "同記事・動画生成技術の項: https://www.techno-edge.net/article/2025/10/10/4649.html"
+        },
+        {
+          "point": "世界モデルAIの進展が環境理解と計画能力を底上げするとの分析が示された。",
+          "footnote": "同記事・世界モデル解説: https://www.techno-edge.net/article/2025/10/10/4649.html"
+        },
+        {
+          "point": "週次で5件の生成AIトピックを追うことが開発者や企業の最新動向把握に有益だと提案している。",
+          "footnote": "同記事・総括: https://www.techno-edge.net/article/2025/10/10/4649.html"
+        }
+      ],
+      "references": [
+        "https://www.techno-edge.net/article/2025/10/10/4649.html"
+      ],
+      "retrieved_at": "2025-10-10T02:10:08Z"
+    },
+    {
+      "url": "https://zenn.dev/mk668a/articles/bf6be73d9e8fb1",
+      "title": "AI駆動開発における「境界線」の引き方 ~UIは自由に、ロジックは不変に~",
+      "date": "2025-10-09T22:00:06",
+      "executive_summary": [
+        "AI駆動開発でコードの境界線を明確にし維持する手法を提案する。",
+        "UI層はLLMに任せつつドメインロジックは保護する設計指針を示す。",
+        "コンポーネント再利用と命名規則でLLMの重複生成を防ぐプロセスを解説。",
+        "プロンプト設計とレビュー体制の組合せで品質と速度の両立を狙う。"
+      ],
+      "key_findings": [
+        {
+          "point": "LLMがUI変更のたびに重複関数や独自コンポーネントを生成しコードの整合性が崩れる課題を整理している。",
+          "footnote": "Zenn記事同本文: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        },
+        {
+          "point": "変更してよい領域と守るべき領域を事前に明文化し境界線を設ける重要性を強調する。",
+          "footnote": "同記事・境界線の考え方: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        },
+        {
+          "point": "UI専用レイヤーやコンポーネントライブラリを整備してLLMに再利用させる方法を紹介している。",
+          "footnote": "同記事・コンポーネント戦略: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        },
+        {
+          "point": "ロジック層はテストやドキュメントで守り、LLMの変更をレビューで弾くワークフローを推奨している。",
+          "footnote": "同記事・ロジック保護の章: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        },
+        {
+          "point": "プロンプトに境界ルールと既存コードを明示することで生成の逸脱を防ぐテクニックを提示している。",
+          "footnote": "同記事・プロンプト設計: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        },
+        {
+          "point": "レビュー時に境界逸脱をチェックする運用でスケール後も品質を維持できると結論づける。",
+          "footnote": "同記事・まとめ: https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+        }
+      ],
+      "references": [
+        "https://zenn.dev/mk668a/articles/bf6be73d9e8fb1"
+      ],
+      "retrieved_at": "2025-10-10T02:10:08Z"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e",
+      "title": "今日のQiitaトレンド記事をポッドキャストで聴こう！ 2025/10/10",
+      "date": "2025-10-10T01:05:55",
+      "executive_summary": [
+        "Qiitaトレンド記事を音声配信する日次ポッドキャストの取り組みを紹介。",
+        "前夜の人気記事を毎朝7時にアップロードし通勤中のながら聴きを想定。",
+        "リスナーのフィードバック募集でコンテンツ改善を図る。",
+        "番組ページから引用元リンクを案内し詳細確認を促す。"
+      ],
+      "key_findings": [
+        {
+          "point": "ポッドキャストは前日夜のQiitaトレンドを毎朝要約して音声で提供する。",
+          "footnote": "Qiita記事本文: https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+        },
+        {
+          "point": "更新時刻を午前7時に設定し朝のルーティン活用を意識している。",
+          "footnote": "同記事・更新スケジュール案内: https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+        },
+        {
+          "point": "通勤中などのながら聴きを想定した設計で時間効率の良い情報収集を狙う。",
+          "footnote": "同記事・利用シーン説明: https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+        },
+        {
+          "point": "リスナーからのフィードバックを歓迎し改善に活用したいと呼びかけている。",
+          "footnote": "同記事・フィードバック要請: https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+        },
+        {
+          "point": "番組では具体例として『[スペック駆動開発] 品質を担保した AI 駆...』など引用元へのリンクを示している。",
+          "footnote": "同記事・出典紹介: https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+        }
+      ],
+      "references": [
+        "https://qiita.com/ennagara128/items/cfbeacfa55d239bdd88e"
+      ],
+      "retrieved_at": "2025-10-10T02:10:08Z"
+    }
+  ]
+}
