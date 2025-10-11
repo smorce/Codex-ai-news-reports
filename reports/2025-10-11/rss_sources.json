@@ -1,0 +1,39 @@
+{
+  "generated_at": "2025-10-11T02:07:44Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "sources": [
+    {
+      "feed_name": "English (US)",
+      "category": "tech_blogs",
+      "title": "Twitter's Recommendation Algorithm",
+      "url": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+      "date": null,
+      "text": "Twitter aims to deliver you the best of what’s happening in the world right now. This blog is an introduction to how the algorithm selects Tweets for your timeline."
+    },
+    {
+      "feed_name": "AI News",
+      "category": "ai_ml",
+      "title": "GitHub - itrummer/thalamusdb: ThalamusDB: semantic query processing on multimodal data",
+      "url": "https://github.com/itrummer/thalamusdb",
+      "date": "2025-10-11T00:21:48",
+      "text": "近似処理エンジンがSQLにセマンティック演算子を追加する。 テキスト- 画像- 音声のマルチモーダルデータを扱う。 DuckDB上で動作し、OpenAIやGoogle等のモデル利用やpip/Colab試用、config/models.json設定が可能。 github.com/itrummer/thalamusdb 🖊️英語約7,000文字, ✨🔎💬"
+    },
+    {
+      "feed_name": "Zennの「Cursor」のフィード",
+      "category": "zenn",
+      "title": "【コード全文公開】LINEの2秒応答ルールに対応するために四苦八苦した結果の doPost",
+      "url": "https://zenn.dev/sh102/articles/ef54872fe80014",
+      "date": "2025-10-10T19:28:52",
+      "text": "経緯は下記記事見てください\nhttps://zenn.dev/sh102/articles/49f8fa556910d1\n\n/**\n * スクリプトID：1XXXXXXXXXXXXXX\n *\n * LINE 公式アカウントで、グループIDやユーザーIDを取得してスプレッドシートに溜めていくモジュール\n * - 公式アカウントがグループか複数人ルームに招待されたら groupか room ID を自動取得、登録\n * - メンバーが発言したらそのユーザーIDをスプレッドシートに登録。（重複確認して、登録済みなら終了）\n * - メンバーが退出したらそのユーザーIDをスプレッドシートから..."
+    },
+    {
+      "feed_name": "AIタグが付けられた新着記事 - Qiita",
+      "category": "qiita",
+      "title": "今日のQiitaトレンド記事をポッドキャストで聴こう！ 2025/10/11",
+      "url": "https://qiita.com/ennagara128/items/269984476f3cbad47aff",
+      "date": "2025-10-11T00:49:34",
+      "text": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。\n通勤中などにながら聴きしよう！\n（Qiita投稿は通勤には間に合わないと思われますが）\nフィードバックとか助かりますのでください\n↓こちらから\n\n出典\n[スペック駆動開発] 品質を担保した AI 駆..."
+    }
+  ]
+}

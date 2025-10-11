@@ -1,0 +1,151 @@
+{
+  "generated_at": "2025-10-11T02:07:44Z",
+  "site": "tech-blogs/rss-sources",
+  "num_articles": 4,
+  "articles": [
+    {
+      "url": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+      "title": "Twitter's Recommendation Algorithm",
+      "date": null,
+      "executive_summary": [
+        "Twitterの推薦アルゴリズムは、リアルタイムで価値の高い投稿をタイムラインに届けることを目指している。",
+        "ブログ記事はアルゴリズムの選別プロセスの概要を紹介している。",
+        "ユーザーに関連性の高いツイートを提示するための主要シグナルを整理している。"
+      ],
+      "key_findings": [
+        {
+          "point": "アルゴリズムの目的は世界で起きている注目トピックを利用者へ迅速に届ける点にある。",
+          "footnote": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+        },
+        {
+          "point": "ブログは推薦タイムラインを生成する処理の流れを概説している。",
+          "footnote": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+        },
+        {
+          "point": "ツイート選別の判断基準がどのように機能するかの概要を説明している。",
+          "footnote": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+        },
+        {
+          "point": "利用者がタイムライン構成の背景を理解できるようにする意図で公開されている。",
+          "footnote": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+        },
+        {
+          "point": "Open Sourceカテゴリでアルゴリズムを紹介する公式ブログ記事である。",
+          "footnote": "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+        }
+      ],
+      "references": [
+        "https://blog.x.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+      ],
+      "retrieved_at": "2025-10-11T02:07:44Z"
+    },
+    {
+      "url": "https://github.com/itrummer/thalamusdb",
+      "title": "GitHub - itrummer/thalamusdb: ThalamusDB: semantic query processing on multimodal data",
+      "date": "2025-10-11T00:21:48",
+      "executive_summary": [
+        "ThalamusDBはマルチモーダルデータ向けのセマンティッククエリ処理エンジンとしてDuckDB上で動作する。",
+        "SQLにセマンティック演算子を追加し、テキスト・画像・音声の推論を統合する。",
+        "OpenAIやGoogleモデルと連携しpipやColabでの試用手順が提供されている。"
+      ],
+      "key_findings": [
+        {
+          "point": "プロジェクトは近似推論を組み込んでSQLクエリから意味的検索を実現する設計を掲げる。",
+          "footnote": "https://github.com/itrummer/thalamusdb"
+        },
+        {
+          "point": "テキスト・画像・音声のマルチモーダルデータを統一的に扱う仕様を説明している。",
+          "footnote": "https://github.com/itrummer/thalamusdb"
+        },
+        {
+          "point": "DuckDBをベースに軽量なデータベースとして動作することを強調している。",
+          "footnote": "https://github.com/itrummer/thalamusdb"
+        },
+        {
+          "point": "config/models.jsonでOpenAIやGoogleなど外部モデルの設定を管理できる。",
+          "footnote": "https://github.com/itrummer/thalamusdb"
+        },
+        {
+          "point": "pipインストールやGoogle Colab手順が案内され迅速に試せる。",
+          "footnote": "https://github.com/itrummer/thalamusdb"
+        }
+      ],
+      "references": [
+        "https://github.com/itrummer/thalamusdb"
+      ],
+      "retrieved_at": "2025-10-11T02:07:44Z"
+    },
+    {
+      "url": "https://zenn.dev/sh102/articles/ef54872fe80014",
+      "title": "【コード全文公開】LINEの2秒応答ルールに対応するために四苦八苦した結果の doPost",
+      "date": "2025-10-10T19:28:52",
+      "executive_summary": [
+        "LINE公式アカウントの2秒応答ルールに対応するApps Script実装手順を共有している。",
+        "グループやルームIDを自動取得してスプレッドシートに蓄積する処理を紹介する。",
+        "ユーザーの発言や退出イベントからIDを管理する運用上の工夫を解説する。"
+      ],
+      "key_findings": [
+        {
+          "point": "doPostで2秒以内に応答するための課題と対応方針を詳述している。",
+          "footnote": "https://zenn.dev/sh102/articles/ef54872fe80014"
+        },
+        {
+          "point": "グループまたはルームIDを検知して自動登録するロジックが示されている。",
+          "footnote": "https://zenn.dev/sh102/articles/ef54872fe80014"
+        },
+        {
+          "point": "ユーザー発言をトリガーにスプレッドシートへユーザーIDを重複チェックしつつ保存する。",
+          "footnote": "https://zenn.dev/sh102/articles/ef54872fe80014"
+        },
+        {
+          "point": "退出イベントで該当ユーザーIDを除去する手順を組み込んでいる。",
+          "footnote": "https://zenn.dev/sh102/articles/ef54872fe80014"
+        },
+        {
+          "point": "関連する過去記事の参照を通じて改善の経緯を説明している。",
+          "footnote": "https://zenn.dev/sh102/articles/ef54872fe80014"
+        }
+      ],
+      "references": [
+        "https://zenn.dev/sh102/articles/ef54872fe80014"
+      ],
+      "retrieved_at": "2025-10-11T02:07:44Z"
+    },
+    {
+      "url": "https://qiita.com/ennagara128/items/269984476f3cbad47aff",
+      "title": "今日のQiitaトレンド記事をポッドキャストで聴こう！ 2025/10/11",
+      "date": "2025-10-11T00:49:34",
+      "executive_summary": [
+        "Qiitaのトレンド記事を音声ポッドキャストとして配信する取り組みを紹介している。",
+        "毎朝7時に最新トレンドの解説音声を更新し通勤中の利用を想定している。",
+        "フィードバック提供を呼びかけ関連するAI活用記事を参照している。"
+      ],
+      "key_findings": [
+        {
+          "point": "トレンド記事の要点をポッドキャストで聴けるようにする狙いを説明している。",
+          "footnote": "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+        },
+        {
+          "point": "配信更新は毎朝7時で利用者の通勤時間帯をターゲットにしている。",
+          "footnote": "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+        },
+        {
+          "point": "前日夜に収集したトレンド情報を素材として活用すると述べている。",
+          "footnote": "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+        },
+        {
+          "point": "リスナーからのフィードバック提供を積極的に求めている。",
+          "footnote": "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+        },
+        {
+          "point": "参照欄で品質保証を扱うAI関連記事を紹介している。",
+          "footnote": "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+        }
+      ],
+      "references": [
+        "https://qiita.com/ennagara128/items/269984476f3cbad47aff"
+      ],
+      "retrieved_at": "2025-10-11T02:07:44Z"
+    }
+  ]
+}
